@@ -1,13 +1,13 @@
 # Path of Exile 2 Campaign Guides for Exile-UI
 
-These JSON files are custom campaign guides for the **Act-Tracker** included with Exile-UI. Each guide combines a fast campaign route with build-specific skill, support-gem, equipment, boss, and ascendancy instructions.
+These JSON files are custom POE2 campaign guides Update **0.5** used for **Act-Tracker** with Exile-UI. Each guide combines a fast campaign route with build-specific skill, support-gem, equipment, boss, and ascendancy instructions.
 
 ## Available guides
 
-| File                                           | Build                                           |
-| ---------------------------------------------- | ----------------------------------------------- |
+| File                                           | Build                                  |
+| ---------------------------------------------- | -------------------------------------- |
 | `Campaign Guide Grenade Build.json`            | Mercenary Grenade — **GuyThatDies**    |
-| `Campaign Guide Ice Shot Build.json`           | Ice Shot Deadeye — **FubGun**     |
+| `Campaign Guide Ice Shot Build.json`           | Ice Shot Deadeye — **FubGun**          |
 | `Campaign Guide Mercenary Twisters Build.json` | Mercenary Twisters — **GuyThatDies**   |
 | `Campaign Guide Huntress Twisters Build.json`  | Huntress Twisters — **GuyThatDies**    |
 | `Campaign Guide Varashta Build.json`           | Disciple of Varashta — **GuyThatDies** |
@@ -23,10 +23,9 @@ Thank you to **GuyThatDies** and **FubGun** for sharing your work with the commu
 
 ## Requirements
 
-* Path of Exile 2
-* Exile-UI with the Act-Tracker enabled
-* A text editor such as Notepad, Notepad++, or Visual Studio Code
-
+- Path of Exile 2
+- Exile-UI with the Act-Tracker enabled
+- A text editor such as Notepad, Notepad++, or Visual Studio Code
 
 ## Importing a guide
 
