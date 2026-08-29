@@ -1,0 +1,763 @@
+[
+    [
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) start ranger with lightning_arrow + lightning_rod; ice_shot unlocks at lvl 31",
+            "(hint)_ boss loop: place 4 rods, frost bomb, then spam lightning arrow through rods",
+            "(color:aqua)GENERAL",
+            "fight the_bloated_miller opposite the entrance",
+            "(img:in-out2) enter areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) take lightning_rod first; campsite gem becomes frost_bomb",
+            "(img:craft) prioritize flat damage to attacks on bow, quiver, gloves and rings",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg1_2 ;; clearfell"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "optional: (img:support) smoother start: do mud_burrow devourer for rapid_attacks_I",
+            "(hint)_ speed route skips it; normal players gain about 20% more early damage",
+            "(img:skill) rapid_attacks_I goes on lightning_arrow",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill (img:checkpoint) beira for +10% cold resistance",
+            "(img:skip) skip areaidg1_3 ;; mud burrow",
+            "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:support) hut rare: take elemental_armament_I for lightning_arrow",
+            "(hint)_ swap elemental armament to lightning rod for bosses if only one copy",
+            "(color:aqua)GENERAL",
+            "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
+            "follow river upstream: areaidg1_5 ;; red vale"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) refined arms: farm a shortbow; reset nearby checkpoint if necessary",
+            "(img:craft) reach lvl 5, transmute + augment bow and quiver; seek flat damage",
+            "(img:support) support order next: concentrated_area for lightning_rod",
+            "(color:aqua)GENERAL",
+            "kill the_rust_king",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) vendor check: flat-damage gloves/rings/quiver and movement-speed boots",
+            "(hint)_ flat attack damage can nearly double act-1 damage",
+            "(color:aqua)GENERAL",
+            "identify rares, sell, clear inventory",
+            "(img:waypoint) to areaidg1_4 ;; the grelwood"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) una",
+            "(img:waypoint) to areaidg1_6 ;; grim tangle"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) keep lightning_arrow + lightning_rod; use frost_bomb for exposure (increases damage) and chilled ground on bosses",
+            "(img:support) second elemental_armament_I goes on lightning_rod",
+            "(color:aqua)GENERAL",
+            "talk to una again; stand beside checkpoint to pass blockage",
+            "avoid exploding fungal-zombie corpses",
+            "(color:yellow)LEVEL: reach lvl 5+",
+            "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) salvage quality weapons for whetstones and socketed items for artificers",
+            "(color:aqua)GENERAL",
+            "cemetery tasks: tomb, mausoleum, sarcophagus ring, league regal",
+            "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "kill asinia after her teleport",
+            "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(color:yellow)LEVEL: reach lvl 7 before draven",
+            "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) at lvl 11 buy/drop a warden_bow; transmute + augment only",
+            "(hint)_ save regal, exalts, alchemy, artificers, runes and whetstones for lvl 16",
+            "(color:aqua)GENERAL",
+            "open gate; respawn checkpoint to spawn lachlann immediately",
+            "kill lachlann || leave his ring to skip long cutscene",
+            "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) engrave pounce only if desired; requires low-strength talisman in set 2",
+            "(hint)_ pounce is optional mobility and may be dropped in act 2/3",
+            "(color:aqua)GENERAL",
+            "find tasks: crowbell, una\u0027s lute, league exalt, optional dryadic ritual",
+            "kill crowbell for (quest:(book)); attack while moving to arena 2",
+            "(color:yellow)LEVEL: reach lvl 8",
+            "(img:in-out2) enter areaidg1_12 ;; freythorn"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) use herald_of_thunder until the lvl-31 ice-shot swap",
+            "(color:aqua)GENERAL",
+            "complete all 3 rituals; dark streams point to missing rituals",
+            "kill king_in_the_mists for +30 spirit and spirit gem",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:waypoint) to areaidg1_11 ;; hunting grounds"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "enter (img:checkpoint) areaidg1_13_1 ;; ogham farmlands"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) at lvl 14 add barrage + ice_tipped_arrows",
+            "(hint)_ use both on cooldown; barrage rapidly triggers lightning rods",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) find una\u0027s_lute for 2 passives",
+            "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "get smithing_tools for salvage bench",
+            "kill executioner; pull lever while loot drops; talk to npc",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) save every lvl-6 and lvl-7 uncut gem for the lvl-24 swap",
+            "(img:craft) keep flasks current: upgrade around lvls 10, 16, 23, 30, 40, 50, 60",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) turn in una\u0027s_lute for 2 passives",
+            "(img:waypoint) to areaidg1_13_2 ;; ogham village"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg1_14 ;; manor ramparts"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(color:yellow)LEVEL: reach lvl 13+",
+            "(img:in-out2) enter areaidg1_15 ;; ogham manor"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) target gear: movement boots; life/resists/evasion; attributes on belt/helm/amulet",
+            "(color:aqua)GENERAL",
+            "do league mechanic for alchemy; kill candlemass for +20 max life",
+            "kill count_geonor; dodge and wait during half-life transition",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) act-1 setup: LA + rapid_attacks + elemental_armament; rod + concentrated_area + elemental_armament",
+            "(hint)_ take needed attributes; default remaining attribute nodes to dexterity",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) check every vendor reset for a recurve_bow; best prefix is increased physical damage",
+            "(img:skill) frost_bomb lvl 3 works through monster lvl 25; drop it afterward",
+            "(color:aqua)GENERAL",
+            "optional: league exalt if currency is low",
+            "kill rathbreaker: stay close and behind",
+            "(img:portal) to areaidg2_town ;; ardura caravan"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "talk to asala; use desert map toward blocked halani gates",
+            "trigger quest state and teleport out",
+            "(img:in-out2) travel to areaidg2_10_1 ;; mawdun quarry"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) lvl-16 major upgrade: fully invest in a good item-level recurve_bow",
+            "(hint)_ regal + exalts or alchemy + exalts; 20% quality; 2 artificers; 2 damage runes",
+            "(img:craft) use lesser glacial/storm runes; bow should last to lvl 33",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg2_10_2 ;; mawdun mine"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "respawn checkpoint immediately to skip elevator",
+            "kill rudja: stay close and behind",
+            "talk to risu; place portal while loot drops",
+            "(img:portal) to areaidg2_town ;; ardura caravan"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "talk to risu and asala; quick vendor check",
+            "(img:in-out2) travel to areaidg2_2 ;; traitor\u0027s passage"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) before lvl 24 continue lightning_arrow + lightning_rod boss rotation",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill balbala and take her trial relic",
+            "(img:portal) portal caravan; talk to zarka to unlock trial_of_the_sekhemas",
+            "(img:craft) augment the relic; dodge-roll distance is an excellent modifier",
+            "(img:quest_2) complete the trial; choose your build\u0027s ascendancy and spend the first 2 points",
+            "loot the lvl-6 skill chest before leaving traitor\u0027s passage",
+            "(img:in-out2) enter areaidg2_3 ;; halani gates"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) prepare lvl-24 swap: snipe, freezing_mark, freezing_salvo",
+            "(hint)_ reserve 1 lvl-7 + 2 lvl-5/6 skill gems and 4-5 support gems",
+            "(color:aqua)GENERAL",
+            "wait for asala at bridges; do not outrun her at first bridge",
+            "(hint)_ if stuck, respawn at checkpoint before bridge 2",
+            "(color:yellow)LEVEL: reach lvl 18",
+            "pre-place 2 gas + frost bomb + explosive before jamanra",
+            "kill jamanra: hug wall and throw toward it",
+            "descend and follow wind; portal to town for lvl-7 skill",
+            "(img:in-out2) travel to areaidg2_5_1 ;; mastodon badlands"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg2_5_2 ;; bone pits"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) after monster lvl 25 drop frost_bomb; exposure no longer applies",
+            "(color:aqua)GENERAL",
+            "kill hyenas until relic drops; do not reset checkpoint",
+            "follow entrance direction to boss; stop using lvl-1 frost bomb",
+            "kill boss pair: 2 gas + 1 explosive, roll behind caster",
+            "(img:portal) to areaidg2_town ;; ardura caravan"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "take support reward",
+            "(img:in-out2) travel to areaidg2_4_1 ;; keth"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill kabala for 2 passives; loot guaranteed amulet",
+            "kill snakes until +1 charm relic drops",
+            "(img:in-out2) enter areaidg2_4_2 ;; lost city"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:jeweller) do guaranteed lesser jeweller mechanic; make snipe a 4-link",
+            "(img:support) snipe: concentrated_area + window_of_opportunity + elemental_armament_II",
+            "(hint)_ replace window_of_opportunity with unerring_focus if perfect timing is uncomfortable",
+            "(color:aqua)GENERAL",
+            "(img:skip) skip giant beetle jewel; keep killing snakes for relic",
+            "(img:in-out2) enter areaidg2_4_3 ;; buried shrines"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) lvl-24 clear: ice_tipped_arrows + freezing_mark + lightning_arrow",
+            "(img:skill) pre-ice-shot freeze: ice-tipped arrows, 3-4 LA shots, freezing_salvo",
+            "(color:aqua)GENERAL",
+            "kill azarian; start water animation before collecting loot",
+            "(img:in-out2) travel to areaidg2_6 ;; valley of the titans"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) boss rotation: freezing_mark -\u003e ice-tipped arrows -\u003e LA -\u003e freezing_salvo",
+            "(hint)_ once frozen: barrage, then hold snipe and release when character flashes",
+            "(color:aqua)GENERAL",
+            "(color:yellow)LEVEL: reach lvl 23; activate 3 seals and place relics",
+            "choose +1 charm and increased charge generation",
+            "optional: abyss if behind on xp",
+            "activate (img:checkpoint) areaidg2_7 ;; titan grotto"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) practice perfect_snipe timing; charge speed changes with attack speed",
+            "(hint)_ optional escape_shot can add freeze buildup if bow damage is poor",
+            "(color:aqua)GENERAL",
+            "collect support + horn; portal town and sound horn",
+            "(img:in-out2) travel to areaidg2_8 ;; deshar"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) jeweller priority: snipe first, then future ice_shot",
+            "(img:craft) quality freezing_mark for up to 20% more freeze buildup",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) (color:yellow)LEVEL: reach lvl 24.5; take letter for 2 passives later",
+            "(img:in-out2) enter areaidg2_9_2 ;; spires of deshar"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill sisters_of_garukhan for +10% lightning resistance",
+            "(color:yellow)LEVEL: reach lvl 26 before tor_gul; keep gems current",
+            "(img:portal) to areaidg2_town ;; ardura caravan"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) shambrin: exchange letter for 2 passives",
+            "(img:in-out2) travel to areaidg2_12 ;; the dreadnought"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) ascendancy order: point_blank -\u003e endless_munitions -\u003e gathering_winds",
+            "(img:craft) keep the lvl-16 recurve until an item-level 33 bow",
+            "(color:aqua)GENERAL",
+            "take both dreadnought zones carefully",
+            "(color:yellow)LEVEL: reach lvl 28.5 before jamanra; farm if needed",
+            "kill jamanra: stay close; time rolls with slams and slashes",
+            "talk hooded one; logout/login; talk asala",
+            "(color:yellow)LEVEL: reach lvl 29; optional rootdred for lvl-9 skill",
+            "(img:in-out2) enter areaidg3_1 ;; sandswept marsh"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) lvl 31 swap: replace lightning_arrow with ice_shot",
+            "(img:skill) replace herald_of_thunder with herald_of_ice",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) check oswald/gambling for item-level 33 cultist or dualstring bow",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) after silverfist, use 10 weapon-set points for mark specialization",
+            "(hint)_ set 2: all mark-effect/duration/cast-speed nodes; set 1: damage nodes",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill mighty_silverfist for 2 passives",
+            "loot guaranteed rare gloves; optional league alchemy",
+            "jungle grave: click ravaged corpse; take servi\u0027s rare belt",
+            "(img:in-out2) enter areaidg3_4 ;; venom crypts"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) skill assignment: ice_shot + snipe set 1; freezing_mark set 2",
+            "(hint)_ herald_of_ice and combat_frenzy stay enabled on both sets",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(hint)_ route recommends stun threshold",
+            "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) lock the same bow and quiver to all weapon sets before assigning skills",
+            "(hint)_ freezing mark set 2 gains effect, freeze buildup, duration and lower mana cost",
+            "(color:aqua)GENERAL",
+            "activate waypoint; optional side cave for xp",
+            "loot guaranteed rare boots",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) lvl-33 major bow: item-level 33 cultist_bow or dualstring_bow",
+            "(hint)_ seek high % physical or very high flat; fully quality/socket/rune it to lvl 46",
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) clear: keep ice_tipped_arrows buff active, cast mark, fire ice_shot",
+            "(hint)_ hail adds cold damage; herald_of_ice chains shatters through packs",
+            "(color:aqua)GENERAL",
+            "collect soul core; follow main corridor",
+            "(img:quest_2) kill blackjaw for +10% fire resistance",
+            "(img:in-out2) enter areaidg3_6_2 ;; jiquani\u0027s sanctum"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "run one direction to checkpoint; reset and explore the other",
+            "place second core; reset to start and kill large boss",
+            "return large soul core to infested barrens",
+            "(img:in-out2) enter areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "pull levers and move through zone",
+            "place portal before final lever; click it as interaction ends",
+            "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) boss: set-2 freezing_mark -\u003e ice shot/salvo to freeze -\u003e barrage -\u003e perfect snipe",
+            "(color:aqua)GENERAL",
+            "go downstairs and talk to alva",
+            "(img:in-out2) enter areaidg3_8 ;; drowned city"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "activate waypoint for later",
+            "(img:in-out2) enter areaidg3_9 ;; molten vault"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "follow linear route and kill boss; optional league unique",
+            "(img:portal) portal town: oswald unlocks reforging bench",
+            "return to areaidg3_8 ;; drowned city"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg3_11 ;; apex of filth"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) prioritize flat attack damage on gloves/rings/quiver; bow physical DPS dominates",
+            "(color:aqua)GENERAL",
+            "run straight to boss; skip mushrooms and cauldron keeper",
+            "dodge rolling slam as boss lands; take quest item",
+            "checkpoint to drowned-city waypoint and enter town",
+            "(img:in-out2) enter areaidg3_12 ;; temple of kopec"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "upgrade/gamble gloves if needed; flat elemental damage is valuable",
+            "floor 1: check far corner past central sun first",
+            "kill ketzuli; summon alva; portal when she says offering",
+            "vendor and prepare while gateway forms",
+            "(img:in-out2) enter areaidg3_14 ;; utzaal"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) if freeze fails, refresh mark and repeat ice-shot + freezing-salvo cycle",
+            "(hint)_ do not fire snipe before freeze; frozen window supplies the burst setup",
+            "(color:aqua)GENERAL",
+            "upgrade defenses; kill every goliath for sacrificial_heart",
+            "(img:in-out2) enter areaidg3_16 ;; aggorat"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "keep killing goliaths, especially in second half, until heart drops",
+            "(img:quest_2) use sacrificial_heart at altar for 2 passives",
+            "respawn checkpoint",
+            "(img:in-out2) enter areaidg3_17 ;; black chambers"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) act-3 check: ice_shot, snipe, freezing_mark, freezing_salvo, barrage, ice-tipped arrows",
+            "(img:craft) maintain evasion, life, resistances and movement-speed boots",
+            "(color:aqua)GENERAL",
+            "doryani opener: oil, gas, explosive timed for spawn; flash stun",
+            "push 50% before lasers or focus on avoiding them",
+            "phase 2: circle while repeating combo",
+            "portal town; talk doryani and alva",
+            "(img:in-out2) enter areaidg4_town ;; kingsmarch"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) begin searching for item-level 46 artillery_bow; do not commit to ilvl 45",
+            "(hint)_ ilvl 46 unlocks the next physical-affix tier",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) sail to areaidg4_2_1 ;; kedge bay"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "run directly to areaidg4_2_2 ;; journey\u0027s end"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) keep herald_of_ice + combat_frenzy on both weapon sets",
+            "(color:aqua)GENERAL",
+            "find captain_hartlin; collect verisium",
+            "(img:portal) portal town: exchange with dannig for verisium_spikes",
+            "waypoint back; start delirium; kill omniphobia",
+            "(img:quest_2) collect 2 passives + delirium currency; save currency",
+            "(img:in-out2) return ship and sail to areaidg4_1_1 ;; isle of kin"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg4_1_2 ;; volcanic warrens"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) resistance ring is valuable; do not replace movement-speed boots",
+            "(color:aqua)GENERAL",
+            "kill both golems: fire last for ruby, lightning last for topaz ring",
+            "choose the resistance you need; kill krutog",
+            "(img:in-out2) return ship and sail to areaidg4_3_1 ;; whakapanu island"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:skip) skip shark pit; run directly onward",
+            "(img:in-out2) enter areaidg4_3_2 ;; singing caverns"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) freeze is defense: keep moving and shatter packs before they act",
+            "(color:aqua)GENERAL",
+            "find beckoning_clam; take humming_pearl",
+            "kill boss; ignore layout-dependent underwater cheese",
+            "(img:in-out2) return ship and sail to areaidg4_5_1 ;; abandoned prison"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "kill necromancers until chapel_key drops",
+            "(img:in-out2) enter areaidg4_5_2 ;; solitary confinement"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) use freezing-mark set 2 for tanky rares; return to set 1 automatically via ice_shot",
+            "(color:aqua)GENERAL",
+            "instill back_in_action with red/pink/yellow delirium currency",
+            "(img:in-out2) sail to areaidg4_7 ;; shrike island"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:skip) skip shrine; activate boss checkpoint; return for shrine buff",
+            "kill boss; speak to npc to unlock eye of hinekora",
+            "return ship and travel to areaidg4_4_1 ;; eye of hinekora"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) lvl-46 artillery bow: high % physical/flat, 20% quality, 2 sockets, 2 runes",
+            "(hint)_ this is the final campaign bow and can carry early maps",
+            "(color:aqua)GENERAL",
+            "defeat warriors of ngamahu, tawhoa, tasalio",
+            "(img:quest_2) use well for +5% maximum mana; respawn checkpoint",
+            "(img:in-out2) enter areaidg4_4_2 ;; halls of the dead"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "clear wave totems; choose +5 resistance tattoos",
+            "(img:in-out2) enter areaidg4_4_3 ;; trial of the ancestors"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "kill yama_the_white; take silver coin",
+            "(img:quest_2) exchange with navali for 2 passives",
+            "(img:in-out2) return ship and sail to areaidg4_8a ;; arastas"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "talk npc; enter then exit; wait for cutscene",
+            "(img:in-out2) enter areaidg4_8b ;; arastas hostile"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) phased boss: save barrage + perfect_snipe for each vulnerable window",
+            "(color:aqua)GENERAL",
+            "shoot bubble to break barrier; kill all monsters before resetting",
+            "collect bells: 3 exalts + 3 regals",
+            "tujen: make lifted rock hit buffing priests; prioritize sides",
+            "(img:in-out2) enter areaidg4_10 ;; the excavation"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "activate boss checkpoint, respawn to skip dialogue; use shrine trick",
+            "when speak-to-hooded-one appears, respawn and portal town",
+            "(img:in-out2) sail to areaidg4_11_1a ;; ngakanu"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:jeweller) ngakanu greater jeweller: prioritize snipe, then ice_shot",
+            "(color:aqua)GENERAL",
+            "hug right wall to find heart of tribe",
+            "(img:in-out2) enter areaidg4_11_1b ;; ngakanu hostile"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg4_11_2 ;; heart of the tribe"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "kill tavakai: oil, gas, explosive timed for spawn; flash stun",
+            "phase 2: hold corner; roll out/back during airborne spikes",
+            "(img:portal) portal to areaidg4_town ;; kingsmarch"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) act-4 boss loop: mark -\u003e build freeze -\u003e salvo -\u003e barrage -\u003e perfect snipe",
+            "(color:aqua)GENERAL",
+            "guide recommends doing interlude 2 first because it is hardest",
+            "use act-tracker page controls to select desired interlude",
+            "(img:in-out2) enter areaidp1_town ;; the refuge"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) interlude check: artillery bow ilvl 46+, capped resists, current flasks",
+            "(color:aqua)GENERAL",
+            "final-route interlude: take checkpoint beside darkness",
+            "(img:in-out2) enter areaidp1_1 ;; scorched farmlands"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "checkpoint back to darkness; kill 2 bosses to unlock stones",
+            "(img:in-out2) enter areaidp1_2 ;; stones of serle"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) mobile bosses: apply freezing_mark first, then use salvo to secure freeze",
+            "(color:aqua)GENERAL",
+            "wait for una dialogue and quest update",
+            "(img:in-out2) enter areaidp1_1 ;; scorched farmlands"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "checkpoint back to darkness",
+            "(img:in-out2) enter areaidp1_3 ;; the blackwood"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:skip) skip omen chests; head left",
+            "(img:in-out2) enter areaidp1_4 ;; holten"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) greater runes go into the artillery bow only if it will survive into maps",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidp1_5 ;; wolvenhold"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill oswin for 2 passives; checkpoint back to holten",
+            "(img:in-out2) enter areaidp1_4 ;; holten"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidp1_6 ;; holten estate"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) before maps: practice perfect_snipe timing for one minute in a safe area",
+            "(color:aqua)GENERAL",
+            "floor 1: loop to left stairs; use similar path on floor 2",
+            "kill lady_elswyth first, then remaining enemies",
+            "return town; talk renly; waypoint act 4; claim hooded-one passives",
+            "travel oriath and talk alva to unlock maps",
+            "(img:in-out2) enter areaidp2_town ;; khari bazaar"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) keep ice_tipped_arrows active while clearing; herald shatters finish packs",
+            "(color:aqua)GENERAL",
+            "recommended first interlude: hardest, so lower zone level helps",
+            "(img:in-out2) enter areaidp2_1 ;; khari crossing"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "take right path; kill both bosses",
+            "(img:portal) portal town and claim 2 passives from risu",
+            "take top-right path; run north; turn left if wall blocks objective",
+            "collect +5% maximum life; respawn checkpoint; hug left wall",
+            "activate galai gates waypoint",
+            "(img:in-out2) enter areaidp2_2 ;; pools of khatal"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidp2_3 ;; sel khari sanctuary"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) third ascendancy goal: gathering_winds after point_blank + endless_munitions",
+            "(color:aqua)GENERAL",
+            "find 2 baryas; place in outer-wall pedestals",
+            "choose an amulet and ring; kill azarian for lvl-60 barya",
+            "talk asala; return town; waypoint galai gates",
+            "(img:in-out2) enter areaidp2_5 ;; galai gates"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidp2_6 ;; qimah"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) choose the interlude reward your gear lacks: resist, movement speed or defense",
+            "(color:aqua)GENERAL",
+            "pour water; choose all-resistance passive",
+            "(img:in-out2) enter areaidp2_7 ;; qimah reservoir"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) map-ready goal: strong artillery bow, movement boots, life/resist/evasion gear",
+            "(color:aqua)GENERAL",
+            "optional: vials in wells for high-tier currency",
+            "kill asmadi",
+            "(img:in-out2) enter areaidp3_town ;; the glade"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) lvl 42+: keep adding links to snipe first and ice_shot second",
+            "(color:aqua)GENERAL",
+            "mount-kriar route",
+            "(img:in-out2) enter areaidp3_1 ;; ashen forest"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "continue through forest",
+            "(img:in-out2) enter areaidp3_2 ;; kriar village"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) freezing-mark set 2 should last about 20 seconds with duration nodes/support",
+            "(color:aqua)GENERAL",
+            "kill lythara: stun around 50% and burst",
+            "take gemcrust_skull for +40 spirit and tier-14 spirit gem",
+            "(img:in-out2) enter areaidp3_3 ;; glacial tarn"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "hug right wall",
+            "(img:in-out2) enter areaidp3_4 ;; howling caves"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:craft) salvage quality weapons and socketed drops until final bow is complete",
+            "(color:aqua)GENERAL",
+            "kill abominable_yeti; take tusks",
+            "(img:quest_2) return tusks to hilda for 2 passives",
+            "(img:in-out2) enter areaidp3_5 ;; kriar peaks"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "continue route; kill rakkaus and stormgore",
+            "(img:in-out2) enter areaidp3_6 ;; etched ravine"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "at paired boss, focus bleed claw enemy first",
+            "equip staunching charm",
+            "(img:in-out2) enter areaidp3_7 ;; cuachic vault"
+        ],
+        [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) campaign handoff: use Fubgun endgame Ice Shot guide after entering maps",
+            "(hint)_ keep snipe until gear is strong enough for one-button ice-shot bossing",
+            "(color:aqua)GENERAL",
+            "finish encounter; return town and talk hooded one",
+            "campaign complete ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â continue remaining interlude pages if needed",
+            "act-tracker"
+        ]
+    ]
+]

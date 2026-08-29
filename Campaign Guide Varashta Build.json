@@ -1,0 +1,729 @@
+[
+    [
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) start sorceress: use firebolt or spark for single target; frost_bomb on bosses",
+            "(hint)_ spark performs best when the boss is trapped near a wall",
+            "(color:aqua)GENERAL",
+            "fight the_bloated_miller opposite the entrance",
+            "(img:in-out2) enter areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) renly gem: take frost_bomb; clearfell gem: take contagion",
+            "(img:skill) early clear: contagion a pack, then kill the infected target with spark",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg1_2 ;; clearfell"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) vendor check: +spell levels, movement-speed boots, life and resistances",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill (img:checkpoint) beira for +10% cold resistance",
+            "(img:skip) skip areaidg1_3 ;; mud burrow",
+            "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:support) grelwood hut rare: take unleash for spark or firebolt",
+            "(color:aqua)GENERAL",
+            "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
+            "follow river upstream: areaidg1_5 ;; red vale"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) after rust king buy a withered_wand if no +level weapon dropped",
+            "(hint)_ chaos_bolt weapon level matters and supports the upcoming essence-drain setup",
+            "(color:aqua)GENERAL",
+            "kill the_rust_king",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) gear before ascend: +spell skills/damage/cast speed; later switch priority to +minion skills",
+            "(color:aqua)GENERAL",
+            "identify rares, sell, clear inventory",
+            "(img:waypoint) to areaidg1_4 ;; the grelwood"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) una",
+            "(img:waypoint) to areaidg1_6 ;; grim tangle"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) at lvl 6 take essence_drain; clear with contagion -\u003e essence drain",
+            "(hint)_ cast contagion first so the death spreads both effects through the pack",
+            "(color:aqua)GENERAL",
+            "talk to una again; stand beside checkpoint to pass blockage",
+            "avoid exploding fungal-zombie corpses",
+            "(color:yellow)LEVEL: reach lvl 5+",
+            "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:support) tomb haunted treasure: take zenith_I for essence_drain",
+            "(color:aqua)GENERAL",
+            "cemetery tasks: tomb, mausoleum, sarcophagus ring, league regal",
+            "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "kill asinia after her teleport",
+            "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) lvl 6-13 boss: essence_drain -\u003e chaos_bolt 2-3 times until ED expires -\u003e repeat",
+            "(color:aqua)GENERAL",
+            "(color:yellow)LEVEL: reach lvl 7 before draven",
+            "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) lachlann gem: keep essence_drain current; save suitable gems for lvl-14 setup",
+            "(color:aqua)GENERAL",
+            "open gate; respawn checkpoint to spawn lachlann immediately",
+            "kill lachlann || leave his ring to skip long cutscene",
+            "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "optional: (img:support) hunting-grounds dryadic ritual gives chain_I for essence_drain",
+            "(color:aqua)GENERAL",
+            "find tasks: crowbell, una\u0027s lute, league exalt, optional dryadic ritual",
+            "kill crowbell for (quest:(book)); attack while moving to arena 2",
+            "(color:yellow)LEVEL: reach lvl 8",
+            "(img:in-out2) enter areaidg1_12 ;; freythorn"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "complete all 3 rituals; dark streams point to missing rituals",
+            "kill king_in_the_mists for +30 spirit and spirit gem",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:waypoint) to areaidg1_11 ;; hunting grounds"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "enter (img:checkpoint) areaidg1_13_1 ;; ogham farmlands"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) lvl 14: take orb_of_storms + ember_fusillade",
+            "(hint)_ orb of storms supplies infusions that greatly improve ember fusillade boss damage",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) find una\u0027s_lute for 2 passives",
+            "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:support) executioner support: overabundance_I for orb_of_storms",
+            "(color:aqua)GENERAL",
+            "get smithing_tools for salvage bench",
+            "kill executioner; pull lever while loot drops; talk to npc",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) turn in una\u0027s_lute for 2 passives",
+            "(img:waypoint) to areaidg1_13_2 ;; ogham village"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:support) gallows support: controlled_destruction for ember_fusillade",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg1_14 ;; manor ramparts"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(color:yellow)LEVEL: reach lvl 13+",
+            "(img:in-out2) enter areaidg1_15 ;; ogham manor"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) geonor: frost_bomb -\u003e orb_of_storms -\u003e ember_fusillade x7 -\u003e frost_bomb -\u003e repeat",
+            "(hint)_ enter act 2 with enough cold resistance and current life/mana flasks",
+            "(color:aqua)GENERAL",
+            "do league mechanic for alchemy; kill candlemass for +20 max life",
+            "kill count_geonor; dodge and wait during half-life transition",
+            "(img:portal) to areaidg1_town ;; clearfell encampment"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) begin checking every vendor for +1 all_minion_skills on sceptre and helmet",
+            "(hint)_ +minion levels become the largest damage upgrade immediately after ascendancy",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) until lvl 19 keep ED/contagion for clear and orb + ember_fusillade for bosses",
+            "(color:aqua)GENERAL",
+            "optional: league exalt if currency is low",
+            "kill rathbreaker: stay close and behind",
+            "(img:portal) to areaidg2_town ;; ardura caravan"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "talk to asala; use desert map toward blocked halani gates",
+            "trigger quest state and teleport out",
+            "(img:in-out2) travel to areaidg2_10_1 ;; mawdun quarry"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg2_10_2 ;; mawdun mine"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "respawn checkpoint immediately to skip elevator",
+            "kill rudja: stay close and behind",
+            "talk to risu; place portal while loot drops",
+            "(img:portal) to areaidg2_town ;; ardura caravan"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:quest_2) do balbala and obtain the trial barya; this build must complete first ascendancy",
+            "(img:portal) portal caravan; talk to zarka to unlock trial_of_the_sekhemas",
+            "(img:craft) augment the relic; dodge-roll distance is an excellent modifier",
+            "(color:aqua)GENERAL",
+            "talk to risu and asala; quick vendor check",
+            "(img:in-out2) travel to areaidg2_2 ;; traitor\u0027s passage"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) around lvl 19 complete trial_of_the_sekhemas and choose disciple_of_varashta",
+            "(img:skill) first ascendancy target: kelari_deception",
+            "(color:aqua)GENERAL",
+            "loot the lvl-6 skill chest before leaving traitor\u0027s passage",
+            "(img:in-out2) enter areaidg2_3 ;; halani gates"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) pre-swap boss loop remains frost bomb -\u003e orb -\u003e 7 ember fusillades -\u003e repeat",
+            "(color:aqua)GENERAL",
+            "wait for asala at bridges; do not outrun her at first bridge",
+            "(hint)_ if stuck, respawn at checkpoint before bridge 2",
+            "(color:yellow)LEVEL: reach lvl 18",
+            "kill jamanra: hug wall and throw toward it",
+            "descend and follow wind; portal to town for lvl-7 skill",
+            "(img:in-out2) travel to areaidg2_5_1 ;; mastodon badlands"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) varashta swap: clear with kelari_deception; use kelari_brutality while deception cools down",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg2_5_2 ;; bone pits"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) after ascend, prioritize +1 minion skills on sceptre/helmet over ordinary spell damage",
+            "(hint)_ if still missing +1, a lvl-5 alt can gamble cheaper sceptres and helmets from finn",
+            "(color:aqua)GENERAL",
+            "kill hyenas until relic drops; do not reset checkpoint",
+            "follow entrance direction to boss; stop using lvl-1 frost bomb",
+            "(img:portal) to areaidg2_town ;; ardura caravan"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "take support reward",
+            "(img:in-out2) travel to areaidg2_4_1 ;; keth"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) boss setup: pounce applies mark_for_death and grants 3% more damage per minion",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill kabala for 2 passives; loot guaranteed amulet",
+            "kill snakes until +1 charm relic drops",
+            "(img:in-out2) enter areaidg2_4_2 ;; lost city"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:jeweller) varashta command skills add sockets naturally; save scarce jewellers when possible",
+            "(color:aqua)GENERAL",
+            "(img:skip) skip giant beetle jewel; keep killing snakes for relic",
+            "(img:in-out2) enter areaidg2_4_3 ;; buried shrines"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) full boss loop: pounce -\u003e thunderstorm -\u003e brutality x2 -\u003e deception x3 -\u003e repeat",
+            "(color:aqua)GENERAL",
+            "kill azarian; start water animation before collecting loot",
+            "(img:in-out2) travel to areaidg2_6 ;; valley of the titans"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) titan relic choice: +1 charm slot and increased charm-charge generation",
+            "(color:aqua)GENERAL",
+            "(color:yellow)LEVEL: reach lvl 23; activate 3 seals and place relics",
+            "choose +1 charm and increased charge generation",
+            "optional: abyss if behind on xp",
+            "activate (img:checkpoint) areaidg2_7 ;; titan grotto"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "collect support + horn; portal town and sound horn",
+            "(img:in-out2) travel to areaidg2_8 ;; deshar"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) play around cooldowns: deception one-shots packs; brutality fills every gap",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) (color:yellow)LEVEL: reach lvl 24.5; take letter for 2 passives later",
+            "(img:in-out2) enter areaidg2_9_2 ;; spires of deshar"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill sisters_of_garukhan for +10% lightning resistance",
+            "(color:yellow)LEVEL: reach lvl 26 before tor_gul; keep gems current",
+            "(img:portal) to areaidg2_town ;; ardura caravan"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) shambrin: exchange letter for 2 passives",
+            "(img:in-out2) travel to areaidg2_12 ;; the dreadnought"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) jamanra: pounce mark -\u003e thunderstorm minions -\u003e brutality x2 -\u003e deception x3",
+            "(hint)_ keep moving during cooldowns; command again only when the safe opening returns",
+            "(color:aqua)GENERAL",
+            "take both dreadnought zones carefully",
+            "(color:yellow)LEVEL: reach lvl 28.5 before jamanra; farm if needed",
+            "kill jamanra: stay close; time rolls with slams and slashes",
+            "talk hooded one; logout/login; talk asala",
+            "(color:yellow)LEVEL: reach lvl 29; optional rootdred for lvl-9 skill",
+            "(img:in-out2) enter areaidg3_1 ;; sandswept marsh"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) act-3 gear: +minion skill sceptre/helmet/amulet; movement boots; life/resists/armour elsewhere",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) silverfist weapon-set points: follow minion/command-skill damage path from the build tree",
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill mighty_silverfist for 2 passives",
+            "loot guaranteed rare gloves; optional league alchemy",
+            "jungle grave: click ravaged corpse; take servi\u0027s rare belt",
+            "(img:in-out2) enter areaidg3_4 ;; venom crypts"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(hint)_ route recommends stun threshold",
+            "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) clear ahead with kelari_deception; do not stand still waiting for packs to die",
+            "(color:aqua)GENERAL",
+            "activate waypoint; optional side cave for xp",
+            "loot guaranteed rare boots",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) first ascendancy is the main campaign power spike; later points continue kelari branch",
+            "(color:aqua)GENERAL",
+            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) thunderstorm creates living_lightning minions, increasing the pounce mark damage bonus",
+            "(color:aqua)GENERAL",
+            "collect soul core; follow main corridor",
+            "(img:quest_2) kill blackjaw for +10% fire resistance",
+            "(img:in-out2) enter areaidg3_6_2 ;; jiquani\u0027s sanctum"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "run one direction to checkpoint; reset and explore the other",
+            "place second core; reset to start and kill large boss",
+            "return large soul core to infested barrens",
+            "(img:in-out2) enter areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "pull levers and move through zone",
+            "place portal before final lever; click it as interaction ends",
+            "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) vendor regex targets: minion skills, spell skills and movement",
+            "(color:aqua)GENERAL",
+            "go downstairs and talk to alva",
+            "(img:in-out2) enter areaidg3_8 ;; drowned city"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "activate waypoint for later",
+            "(img:in-out2) enter areaidg3_9 ;; molten vault"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) weapon/focus priority: +skills \u003e damage gained as \u003e increased damage \u003e cast speed \u003e crit",
+            "(color:aqua)GENERAL",
+            "follow linear route and kill boss; optional league unique",
+            "(img:portal) portal town: oswald unlocks reforging bench",
+            "return to areaidg3_8 ;; drowned city"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg3_11 ;; apex of filth"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "run straight to boss; skip mushrooms and cauldron keeper",
+            "dodge rolling slam as boss lands; take quest item",
+            "checkpoint to drowned-city waypoint and enter town",
+            "(img:in-out2) enter areaidg3_12 ;; temple of kopec"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) maintain intelligence for gems; armour/life/resists protect this cooldown-based build",
+            "(color:aqua)GENERAL",
+            "upgrade/gamble gloves if needed; flat elemental damage is valuable",
+            "floor 1: check far corner past central sun first",
+            "kill ketzuli; summon alva; portal when she says offering",
+            "vendor and prepare while gateway forms",
+            "(img:in-out2) enter areaidg3_14 ;; utzaal"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "upgrade defenses; kill every goliath for sacrificial_heart",
+            "(img:in-out2) enter areaidg3_16 ;; aggorat"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "keep killing goliaths, especially in second half, until heart drops",
+            "(img:quest_2) use sacrificial_heart at altar for 2 passives",
+            "respawn checkpoint",
+            "(img:in-out2) enter areaidg3_17 ;; black chambers"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) doryani: pounce -\u003e thunderstorm -\u003e brutality x2 -\u003e deception x3; circle during cooldowns",
+            "(color:aqua)GENERAL",
+            "push 50% before lasers or focus on avoiding them",
+            "portal town; talk doryani and alva",
+            "(img:in-out2) enter areaidg4_town ;; kingsmarch"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) act-4 check: +minion levels, movement boots, capped elemental resists and current flasks",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) sail to areaidg4_2_1 ;; kedge bay"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "run directly to areaidg4_2_2 ;; journey\u0027s end"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) reserve deception charges for dense packs and omniphobia; brutality handles stragglers",
+            "(color:aqua)GENERAL",
+            "find captain_hartlin; collect verisium",
+            "(img:portal) portal town: exchange with dannig for verisium_spikes",
+            "waypoint back; start delirium; kill omniphobia",
+            "(img:quest_2) collect 2 passives + delirium currency; save currency",
+            "(img:in-out2) return ship and sail to areaidg4_1_1 ;; isle of kin"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg4_1_2 ;; volcanic warrens"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) use the golem ring reward to patch whichever resistance is lower",
+            "(color:aqua)GENERAL",
+            "kill both golems: fire last for ruby, lightning last for topaz ring",
+            "choose the resistance you need; kill krutog",
+            "(img:in-out2) return ship and sail to areaidg4_3_1 ;; whakapanu island"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:skip) skip shark pit; run directly onward",
+            "(img:in-out2) enter areaidg4_3_2 ;; singing caverns"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "find beckoning_clam; take humming_pearl",
+            "kill boss; ignore layout-dependent underwater cheese",
+            "(img:in-out2) return ship and sail to areaidg4_5_1 ;; abandoned prison"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "kill necromancers until chapel_key drops",
+            "(img:in-out2) enter areaidg4_5_2 ;; solitary confinement"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) cooldown discipline: command, reposition, then command again; avoid face-tanking",
+            "(color:aqua)GENERAL",
+            "instill back_in_action with red/pink/yellow delirium currency",
+            "(img:in-out2) sail to areaidg4_7 ;; shrike island"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:skip) skip shrine; activate boss checkpoint; return for shrine buff",
+            "kill boss; speak to npc to unlock eye of hinekora",
+            "return ship and travel to areaidg4_4_1 ;; eye of hinekora"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) halls waves: deception clears groups immediately; brutality finishes survivors",
+            "(color:aqua)GENERAL",
+            "defeat warriors of ngamahu, tawhoa, tasalio",
+            "(img:quest_2) use well for +5% maximum mana; respawn checkpoint",
+            "(img:in-out2) enter areaidg4_4_2 ;; halls of the dead"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "clear wave totems; choose +5 resistance tattoos",
+            "(img:in-out2) enter areaidg4_4_3 ;; trial of the ancestors"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "kill yama_the_white; take silver coin",
+            "(img:quest_2) exchange with navali for 2 passives",
+            "(img:in-out2) return ship and sail to areaidg4_8a ;; arastas"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "talk npc; enter then exit; wait for cutscene",
+            "(img:in-out2) enter areaidg4_8b ;; arastas hostile"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) phased boss: prepare pounce mark and thunderstorm before spending deception charges",
+            "(color:aqua)GENERAL",
+            "shoot bubble to break barrier; kill all monsters before resetting",
+            "collect bells: 3 exalts + 3 regals",
+            "tujen: make lifted rock hit buffing priests; prioritize sides",
+            "(img:in-out2) enter areaidg4_10 ;; the excavation"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "activate boss checkpoint, respawn to skip dialogue; use shrine trick",
+            "when speak-to-hooded-one appears, respawn and portal town",
+            "(img:in-out2) sail to areaidg4_11_1a ;; ngakanu"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) greater jeweller is not urgent for command skills; keep it for your maps transition",
+            "(color:aqua)GENERAL",
+            "hug right wall to find heart of tribe",
+            "(img:in-out2) enter areaidg4_11_1b ;; ngakanu hostile"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidg4_11_2 ;; heart of the tribe"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) tavakai: pounce -\u003e thunderstorm -\u003e brutality x2 -\u003e deception x3; move during airborne phase",
+            "(color:aqua)GENERAL",
+            "phase 2: hold corner; roll out/back during airborne spikes",
+            "(img:portal) portal to areaidg4_town ;; kingsmarch"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(hint)_ varashta is strong but cooldown-based; enter interludes with capped resists and defensive gear",
+            "(color:aqua)GENERAL",
+            "guide recommends doing interlude 2 first because it is hardest",
+            "use act-tracker page controls to select desired interlude",
+            "(img:in-out2) enter areaidp1_town ;; the refuge"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) interlude goal: +minion levels, strong defenses and upgraded life/mana flasks",
+            "(color:aqua)GENERAL",
+            "final-route interlude: take checkpoint beside darkness",
+            "(img:in-out2) enter areaidp1_1 ;; scorched farmlands"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "checkpoint back to darkness; kill 2 bosses to unlock stones",
+            "(img:in-out2) enter areaidp1_2 ;; stones of serle"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "wait for una dialogue and quest update",
+            "(img:in-out2) enter areaidp1_1 ;; scorched farmlands"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "checkpoint back to darkness",
+            "(img:in-out2) enter areaidp1_3 ;; the blackwood"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:skip) skip omen chests; head left",
+            "(img:in-out2) enter areaidp1_4 ;; holten"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) wolvenhold rooms: deception for packs; save pounce/thunderstorm setup for oswin",
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidp1_5 ;; wolvenhold"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) kill oswin for 2 passives; checkpoint back to holten",
+            "(img:in-out2) enter areaidp1_4 ;; holten"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidp1_6 ;; holten estate"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) map-unlock check: kelari commands current, pounce and thunderstorm available for bosses",
+            "(color:aqua)GENERAL",
+            "floor 1: loop to left stairs; use similar path on floor 2",
+            "kill lady_elswyth first, then remaining enemies",
+            "return town; talk renly; waypoint act 4; claim hooded-one passives",
+            "travel oriath and talk alva to unlock maps",
+            "(img:in-out2) enter areaidp2_town ;; khari bazaar"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) dangerous interlude: cast deception ahead, keep moving, use brutality during cooldown",
+            "(color:aqua)GENERAL",
+            "recommended first interlude: hardest, so lower zone level helps",
+            "(img:in-out2) enter areaidp2_1 ;; khari crossing"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "take right path; kill both bosses",
+            "(img:portal) portal town and claim 2 passives from risu",
+            "take top-right path; run north; turn left if wall blocks objective",
+            "collect +5% maximum life; respawn checkpoint; hug left wall",
+            "activate galai gates waypoint",
+            "(img:in-out2) enter areaidp2_2 ;; pools of khatal"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidp2_3 ;; sel khari sanctuary"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) later ascendancy points continue the kelari path according to GuyThatDies tree",
+            "(color:aqua)GENERAL",
+            "find 2 baryas; place in outer-wall pedestals",
+            "choose an amulet and ring; kill azarian for lvl-60 barya",
+            "talk asala; return town; waypoint galai gates",
+            "(img:in-out2) enter areaidp2_5 ;; galai gates"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:in-out2) enter areaidp2_6 ;; qimah"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) take the all-elemental-resistance reward and patch remaining gaps before maps",
+            "(color:aqua)GENERAL",
+            "pour water; choose all-resistance passive",
+            "(img:in-out2) enter areaidp2_7 ;; qimah reservoir"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:craft) map-ready goal: multiple +minion levels, movement boots, capped resists, life/armour gear",
+            "(color:aqua)GENERAL",
+            "optional: vials in wells for high-tier currency",
+            "kill asmadi",
+            "(img:in-out2) enter areaidp3_town ;; the glade"
+        ]
+    ],
+    [
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) mount-kriar clear: deception deletes packs; do not waste the boss setup on trash",
+            "(color:aqua)GENERAL",
+            "mount-kriar route",
+            "(img:in-out2) enter areaidp3_1 ;; ashen forest"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "continue through forest",
+            "(img:in-out2) enter areaidp3_2 ;; kriar village"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) lythara: pounce mark -\u003e thunderstorm -\u003e brutality x2 -\u003e deception x3",
+            "(color:aqua)GENERAL",
+            "kill lythara: stun around 50% and burst",
+            "take gemcrust_skull for +40 spirit and tier-14 spirit gem",
+            "(img:in-out2) enter areaidp3_3 ;; glacial tarn"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "hug right wall",
+            "(img:in-out2) enter areaidp3_4 ;; howling caves"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) yeti: keep distance during cooldown; command after each safe attack window",
+            "(color:aqua)GENERAL",
+            "kill abominable_yeti; take tusks",
+            "(img:quest_2) return tusks to hilda for 2 passives",
+            "(img:in-out2) enter areaidp3_5 ;; kriar peaks"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "continue route; kill rakkaus and stormgore",
+            "(img:in-out2) enter areaidp3_6 ;; etched ravine"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "at paired boss, focus bleed claw enemy first",
+            "equip staunching charm",
+            "(img:in-out2) enter areaidp3_7 ;; cuachic vault"
+        ],
+        [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) maps handoff: continue GuyThatDies varashta setup; deception clear + full boss rotation",
+            "(hint)_ final checklist: +minion skills, kelari branch, capped resists and current command skills",
+            "(color:aqua)GENERAL",
+            "finish encounter; return town and talk hooded one",
+            "campaign complete - continue remaining interlude pages if needed",
+            "act-tracker"
+        ]
+    ]
+]
