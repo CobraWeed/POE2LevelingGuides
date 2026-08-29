@@ -21,6 +21,16 @@ All credit for the original build concepts, recommendations, and source material
 
 Thank you to **GuyThatDies** and **FubGun** for sharing your work with the community!
 
+## Exile-UI
+
+These campaign guides are designed to be used with **Exile-UI** and its **Act-Tracker**.
+
+You can download Exile-UI from its official GitHub repository:
+
+**[Download Exile-UI](https://github.com/Lailloken/Exile-UI)**
+
+For installation instructions, updates, and the latest version, please refer to the official Exile-UI repository.
+
 ## Requirements
 
 - Path of Exile 2
