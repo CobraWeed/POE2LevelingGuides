@@ -114,11 +114,18 @@
 
     .status.error { color: #f0a0a0; }
 
+    .guide-selection-title {
+      margin: 18px 0 0;
+      color: var(--gold);
+      font-size: 20px;
+      font-weight: 600;
+    }
+
     .guide-grid {
       display: grid;
       grid-template-columns: repeat(6, minmax(130px, 1fr));
       gap: 8px;
-      margin: 18px 0 0;
+      margin: 10px 0 0;
     }
 
     .guide-button {
@@ -416,6 +423,7 @@
       </div>
     </header>
 
+    <h2 class="guide-selection-title">Choose your build guide:</h2>
     <nav id="guideGrid" class="guide-grid" aria-label="Available build guides"></nav>
     <p id="status" class="status">Loading campaign guide…</p>
     <nav id="actGrid" class="act-grid" aria-label="Campaign sections"></nav>
