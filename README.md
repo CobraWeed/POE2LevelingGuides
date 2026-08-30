@@ -2,10 +2,17 @@
 
 These JSON files are custom POE2 campaign guides Update **0.5** used for **Act-Tracker** with Exile-UI. Each guide combines a fast campaign route with build-specific skill, support-gem, equipment, boss, and ascendancy instructions.
 
+## Web viewer
+
+The `website/` folder is ready for static hosting. Its `index.html` loads the bundled guides from `guide-data.js` and marker icons from `img/`. Upload the contents of `website/` to a static host; no server-side runtime or build step is required.
+
+After editing a guide, run `generate_guide_data.ps1` before deployment to refresh the browser bundle.
+
 ## Available guides
 
 | File                                           | Build                                  |
 | ---------------------------------------------- | -------------------------------------- |
+| `Campaign Guide Generic.json`                  | Class-neutral campaign route           |
 | `Campaign Guide Grenade Build.json`            | Mercenary Grenade — **GuyThatDies**    |
 | `Campaign Guide Ice Shot Build.json`           | Ice Shot Deadeye — **FubGun**          |
 | `Campaign Guide Mercenary Twisters Build.json` | Mercenary Twisters — **GuyThatDies**   |

@@ -5,7 +5,7 @@
             "(img:skill) start huntress: spear throw + whirling_slash; parry miller, then throw through the whirlwind",
             "(hint)_ simple option: spear-stab while circling; the full combo is faster but less forgiving",
             "(color:aqua)GENERAL",
-            "fight the_bloated_miller opposite the entrance",
+            "fight the_bloated_miller across from the entrance",
             "(img:in-out2) enter areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -18,10 +18,10 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) clearfell gem: take frost_bomb; use for for exposure (increases damage) and chilled ground on bosses",
-            "(img:craft) check vendors for movement boots, flat attack damage and better spears",
+                            "(img:skill) clearfell gem: take frost_bomb; use it for exposure and chilled ground on bosses",
+                            "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
             "(color:aqua)GENERAL",
-            "(img:quest_2) kill (img:checkpoint) beira for +10% cold resistance",
+            "(img:quest_2) kill (img:checkpoint) beira for a permanent +10% cold resistance buff",
             "(img:skip) skip areaidg1_3 ;; mud burrow",
             "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
         ],
@@ -30,7 +30,7 @@
             "(img:support) grelwood hut rare: take retreat_I for twister",
             "(color:aqua)GENERAL",
             "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
-            "follow river upstream: areaidg1_5 ;; red vale"
+            "find areaidg1_5 ;; red vale entrance"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
@@ -45,7 +45,8 @@
             "(img:craft) gear: set-1 spear = highest attack speed; set-2 spear = %phys/flat damage, then +projectile skills",
             "(img:craft) rings/gloves: flat damage; boots: movement speed; other armour: life/resists/evasion",
             "(color:aqua)GENERAL",
-            "identify rares, sell, clear inventory",
+            "check vendors for life, +skills, and stronger weapons",
+            "identify rares, sell items, and clear inventory",
             "(img:waypoint) to areaidg1_4 ;; the grelwood"
         ],
         [
@@ -54,12 +55,12 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) una",
+            "(img:quest_2) talk to una",
             "(img:waypoint) to areaidg1_6 ;; grim tangle"
         ],
         [
             "(color:aqua)GENERAL",
-            "talk to una again; stand beside checkpoint to pass blockage",
+            "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
             "(color:yellow)LEVEL: reach lvl 5+",
             "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
@@ -68,7 +69,6 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:support) tomb haunted treasure: take rage_I for whirling_slash",
             "(color:aqua)GENERAL",
-            "cemetery tasks: tomb, mausoleum, sarcophagus ring, league regal",
             "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
         ],
         [
@@ -92,23 +92,22 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) lachlann gem: upgrade twister again; twister is always first gem-upgrade priority",
             "(color:aqua)GENERAL",
-            "open gate; respawn checkpoint to spawn lachlann immediately",
-            "kill lachlann || leave his ring to skip long cutscene",
+            "open the gates; respawn at the checkpoint to spawn lachlann and skip the animation",
+            "kill lachlann",
             "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
         ],
         [
             "(color:aqua)GENERAL",
-            "find tasks: crowbell, una\u0027s lute, league exalt, optional dryadic ritual",
-            "kill crowbell for (quest:(book)); attack while moving to arena 2",
+            "kill crowbell for (quest:(book)); keep attacking while it moves between arenas",
             "(color:yellow)LEVEL: reach lvl 8",
             "(img:in-out2) enter areaidg1_12 ;; freythorn"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) king in mists spirit gem: take war_banner",
+                            "(img:skill) king in the mists spirit gem: take war_banner",
             "(hint)_ use war banner on rares/bosses for more attack damage and attack speed",
             "(color:aqua)GENERAL",
-            "complete all 3 rituals; dark streams point to missing rituals",
+            "complete all 3 rituals; follow the purple trails to find them",
             "kill king_in_the_mists for +30 spirit and spirit gem",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
@@ -123,7 +122,7 @@
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) lvl 14: take ice_tipped_arrows + barrage; remove fangs_of_frost",
-            "(img:support) put frost_nexus on twister; chilled ground grants twisters extra cold damage",
+                            "(img:support) put frost_nexus on twister; chilled ground grants twisters extra cold damage",
             "(color:aqua)GENERAL",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
@@ -132,8 +131,8 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:support) executioner support: rapid_attacks_I for whirling_slash",
             "(color:aqua)GENERAL",
-            "get smithing_tools for salvage bench",
-            "kill executioner; pull lever while loot drops; talk to npc",
+            "get smithing_tools for the salvage bench",
+            "kill executioner; pull the lever while loot drops; talk to the npc",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -142,6 +141,7 @@
             "(hint)_ lock the spear/buckler to both sets until a dedicated fast set-1 spear is equipped",
             "(color:aqua)GENERAL",
             "(img:quest_2) turn in una\u0027s_lute for 2 passives",
+            "(img:quest_2) give renly the smithing_tools to unlock the bench",
             "(img:waypoint) to areaidg1_13_2 ;; ogham village"
         ],
         [
@@ -160,8 +160,8 @@
             "(img:skill) geonor burst: build rage/glory; 3 slashes -\u003e ice-tipped -\u003e barrage -\u003e banner -\u003e twister",
             "(hint)_ freezing lets twisters repeatedly hit while the boss cannot move",
             "(color:aqua)GENERAL",
-            "do league mechanic for alchemy; kill candlemass for +20 max life",
-            "kill count_geonor; dodge and wait during half-life transition",
+            "kill candlemass for +20 max life",
+            "kill count_geonor; dodge and wait during the half-life transition",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -178,13 +178,12 @@
             "(img:skill) lvl 15-28 setup: slash 2-3x -\u003e ice_tipped_arrows -\u003e barrage as needed -\u003e twister",
             "(hint)_ ice-tipped arrows must share weapon set 2 with twister or conversion will fail",
             "(color:aqua)GENERAL",
-            "optional: league exalt if currency is low",
-            "kill rathbreaker: stay close and behind",
+            "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
         [
             "(color:aqua)GENERAL",
-            "talk to asala; use desert map toward blocked halani gates",
+            "talk to asala; use the desert map toward the blocked halani gates",
             "trigger quest state and teleport out",
             "(img:in-out2) travel to areaidg2_10_1 ;; mawdun quarry"
         ],
@@ -194,7 +193,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "respawn checkpoint immediately to skip elevator",
+            "respawn at the checkpoint to skip the elevator",
             "kill rudja: stay close and behind",
             "talk to risu; place portal while loot drops",
             "(img:portal) to areaidg2_town ;; ardura caravan"
@@ -209,7 +208,7 @@
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) kill balbala and take her trial relic",
-            "(img:portal) portal caravan; talk to zarka to unlock trial_of_the_sekhemas",
+            "(img:portal) portal to the caravan; talk to zarka to unlock trial_of_the_sekhemas",
             "(img:craft) augment the relic; dodge-roll distance is an excellent modifier",
             "(img:quest_2) complete the trial; choose your build\u0027s ascendancy and spend the first 2 points",
             "loot the lvl-6 skill chest before leaving traitor\u0027s passage",
@@ -218,12 +217,13 @@
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) halani reward: take freezing_mark; set it to weapon set 2",
-            "(hint)_ mark bosses before freeze for buildup and 30% damage gained as cold after activation",
+                            "(hint)_ mark bosses before freezing for buildup and 30% damage gained as cold after activation",
             "(color:aqua)GENERAL",
-            "wait for asala at bridges; do not outrun her at first bridge",
+            "wait for asala at the bridges; do not outrun her at the first bridge",
             "(hint)_ if stuck, respawn at checkpoint before bridge 2",
             "(color:yellow)LEVEL: reach lvl 18",
-            "kill jamanra: hug wall and throw toward it",
+            "pre-place 2 gas + frost bomb + explosive before jamanra",
+            "kill jamanra: hug the wall and throw toward it",
             "descend and follow wind; portal to town for lvl-7 skill",
             "(img:in-out2) travel to areaidg2_5_1 ;; mastodon badlands"
         ],
@@ -235,8 +235,9 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) if chilled ground cannot be created, temporarily use retreat instead of frost_nexus",
             "(color:aqua)GENERAL",
-            "kill hyenas until relic drops; do not reset checkpoint",
-            "follow entrance direction to boss; stop using lvl-1 frost bomb",
+            "kill hyenas until the relic drops; do not reset the checkpoint",
+            "follow the entrance direction to the boss; stop using lvl-1 frost bomb",
+            "kill the boss pair: 2 gas + 1 explosive; roll behind the caster",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
         [
@@ -280,7 +281,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "collect support + horn; portal town and sound horn",
+            "collect the support + horn; portal to town and sound the horn",
             "(img:in-out2) travel to areaidg2_8 ;; deshar"
         ],
         [
@@ -309,7 +310,7 @@
             "take both dreadnought zones carefully",
             "(color:yellow)LEVEL: reach lvl 28.5 before jamanra; farm if needed",
             "kill jamanra: stay close; time rolls with slams and slashes",
-            "talk hooded one; logout/login; talk asala",
+            "talk to the hooded one; log out and back in; talk to asala",
             "(color:yellow)LEVEL: reach lvl 29; optional rootdred for lvl-9 skill",
             "(img:in-out2) enter areaidg3_1 ;; sandswept marsh"
         ]
@@ -332,7 +333,7 @@
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
             "loot guaranteed rare gloves; optional league alchemy",
-            "jungle grave: click ravaged corpse; take servi\u0027s rare belt",
+            "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
@@ -359,7 +360,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) ascendancy: amazon take predatory_instinct; spirit_walker take vivid_stampede",
+                            "(img:skill) ascendancy: amazon takes predatory_instinct; spirit_walker takes vivid_stampede",
             "(hint)_ the guide supports either; spirit walker is the league-start alternative",
             "(color:aqua)GENERAL",
             "(img:skip) skip trial_of_chaos and off-route rare rewards",
@@ -368,7 +369,7 @@
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) after dance_with_death, keep sceptre/offhand on set 2 only",
-            "(hint)_ set 1 must have no offhand for dance with death to speed whirling slash and barrage",
+                            "(hint)_ set 1 needs no offhand so dance with death speeds up whirling slash and barrage",
             "(color:aqua)GENERAL",
             "collect soul core; follow main corridor",
             "(img:quest_2) kill blackjaw for +10% fire resistance",
@@ -377,14 +378,14 @@
         [
             "(color:aqua)GENERAL",
             "run one direction to checkpoint; reset and explore the other",
-            "place second core; reset to start and kill large boss",
-            "return large soul core to infested barrens",
+            "place the second core; reset to the start and kill the large boss",
+            "return the large soul core to infested barrens",
             "(img:in-out2) enter areaidg3_2_2 ;; matlan waterways"
         ],
         [
             "(color:aqua)GENERAL",
-            "pull levers and move through zone",
-            "place portal before final lever; click it as interaction ends",
+            "pull the levers and cross the zone",
+            "place a portal before the final lever; click it as the interaction ends",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -403,7 +404,7 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:craft) spear priority remains % increased physical / flat damage, then +projectile skill levels",
             "(color:aqua)GENERAL",
-            "follow linear route and kill boss; optional league unique",
+            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -413,8 +414,8 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "run straight to boss; skip mushrooms and cauldron keeper",
-            "dodge rolling slam as boss lands; take quest item",
+            "run straight to the boss; skip mushrooms and the cauldron keeper",
+            "dodge the rolling slam as the boss lands; take the quest item",
             "checkpoint to drowned-city waypoint and enter town",
             "(img:in-out2) enter areaidg3_12 ;; temple of kopec"
         ],
@@ -424,7 +425,7 @@
             "(color:aqua)GENERAL",
             "upgrade/gamble gloves if needed; flat elemental damage is valuable",
             "floor 1: check far corner past central sun first",
-            "kill ketzuli; summon alva; portal when she says offering",
+            "kill ketzuli; summon alva; portal when she mentions the offering",
             "vendor and prepare while gateway forms",
             "(img:in-out2) enter areaidg3_14 ;; utzaal"
         ],
@@ -435,7 +436,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "keep killing goliaths, especially in second half, until heart drops",
+            "keep killing goliaths, especially in the second half, until the heart drops",
             "(img:quest_2) use sacrificial_heart at altar for 2 passives",
             "respawn checkpoint",
             "(img:in-out2) enter areaidg3_17 ;; black chambers"
@@ -445,8 +446,10 @@
             "(img:skill) doryani: mark + banner, build stage-3 whirlwind, ice-tipped/barrage, then release twisters",
             "(hint)_ aim along arena edges so projectiles bounce through the boss repeatedly",
             "(color:aqua)GENERAL",
+            "doryani opener: oil, gas, explosive timed for spawn; flash stun",
             "push 50% before lasers or focus on avoiding them",
-            "portal town; talk doryani and alva",
+            "phase 2: circle while repeating combo",
+            "portal to town; talk to doryani and alva",
             "(img:in-out2) enter areaidg4_town ;; kingsmarch"
         ]
     ],
@@ -466,7 +469,7 @@
             "(img:jeweller) delirium currency is reserved for back_in_action as the route instructs; twister gets jewellers first",
             "(color:aqua)GENERAL",
             "find captain_hartlin; collect verisium",
-            "(img:portal) portal town: exchange with dannig for verisium_spikes",
+            "(img:portal) portal to town; exchange with dannig for verisium_spikes",
             "waypoint back; start delirium; kill omniphobia",
             "(img:quest_2) collect 2 passives + delirium currency; save currency",
             "(img:in-out2) return ship and sail to areaidg4_1_1 ;; isle of kin"
@@ -490,8 +493,8 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "find beckoning_clam; take humming_pearl",
-            "kill boss; ignore layout-dependent underwater cheese",
+            "find beckoning_clam; take the humming_pearl",
+            "kill the boss; ignore layout-dependent underwater shortcuts",
             "(img:in-out2) return ship and sail to areaidg4_5_1 ;; abandoned prison"
         ],
         [
@@ -510,7 +513,7 @@
             "(color:aqua)GENERAL",
             "(img:skip) skip shrine; activate boss checkpoint; return for shrine buff",
             "kill boss; speak to npc to unlock eye of hinekora",
-            "return ship and travel to areaidg4_4_1 ;; eye of hinekora"
+            "return to the ship and travel to areaidg4_4_1 ;; eye of hinekora"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
@@ -533,7 +536,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "talk npc; enter then exit; wait for cutscene",
+            "talk to the npc; enter, exit, and wait for the cutscene",
             "(img:in-out2) enter areaidg4_8b ;; arastas hostile"
         ],
         [
@@ -555,7 +558,7 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:jeweller) ngakanu greater jeweller: twister is first priority",
             "(color:aqua)GENERAL",
-            "hug right wall to find heart of tribe",
+            "hug the right wall to find the heart of the tribe",
             "(img:in-out2) enter areaidg4_11_1b ;; ngakanu hostile"
         ],
         [
@@ -566,6 +569,7 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) tavakai: freezing_mark -\u003e banner -\u003e 3 slashes -\u003e ice-tipped + barrage -\u003e twister burst",
             "(color:aqua)GENERAL",
+            "kill tavakai: oil, gas, explosive timed for spawn; flash stun",
             "phase 2: hold corner; roll out/back during airborne spikes",
             "(img:portal) portal to areaidg4_town ;; kingsmarch"
         ],
@@ -573,8 +577,8 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(hint)_ build is very squishy: keep moving and let long-duration twisters kill behind you",
             "(color:aqua)GENERAL",
-            "guide recommends doing interlude 2 first because it is hardest",
-            "use act-tracker page controls to select desired interlude",
+            "do interlude 2 first; it is the hardest",
+            "use the act-tracker controls to select an interlude",
             "(img:in-out2) enter areaidp1_town ;; the refuge"
         ]
     ],
@@ -583,7 +587,7 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:craft) interlude gear: movement speed, life/resists/evasion; upgrade flasks and set-2 physical spear",
             "(color:aqua)GENERAL",
-            "final-route interlude: take checkpoint beside darkness",
+            "final interlude: take the checkpoint beside the darkness",
             "(img:in-out2) enter areaidp1_1 ;; scorched farmlands"
         ],
         [
@@ -593,7 +597,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "wait for una dialogue and quest update",
+            "wait for una\u0027s dialogue and the quest update",
             "(img:in-out2) enter areaidp1_1 ;; scorched farmlands"
         ],
         [
@@ -627,8 +631,8 @@
             "(color:aqua)GENERAL",
             "floor 1: loop to left stairs; use similar path on floor 2",
             "kill lady_elswyth first, then remaining enemies",
-            "return town; talk renly; waypoint act 4; claim hooded-one passives",
-            "travel oriath and talk alva to unlock maps",
+            "return to town; talk to renly; waypoint to act 4; claim the hooded-one passives",
+            "travel to oriath and talk to alva to unlock maps",
             "(img:in-out2) enter areaidp2_town ;; khari bazaar"
         ]
     ],
@@ -637,14 +641,14 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) dangerous interlude: cast twisters ahead, keep moving, and avoid standing inside packs",
             "(color:aqua)GENERAL",
-            "recommended first interlude: hardest, so lower zone level helps",
+            "recommended first: the lower zone level makes this hard interlude easier",
             "(img:in-out2) enter areaidp2_1 ;; khari crossing"
         ],
         [
             "(color:aqua)GENERAL",
             "take right path; kill both bosses",
-            "(img:portal) portal town and claim 2 passives from risu",
-            "take top-right path; run north; turn left if wall blocks objective",
+            "(img:portal) portal to town and claim 2 passives from risu",
+            "take the top-right path; run north; turn left if a wall blocks the objective",
             "collect +5% maximum life; respawn checkpoint; hug left wall",
             "activate galai gates waypoint",
             "(img:in-out2) enter areaidp2_2 ;; pools of khatal"
@@ -660,7 +664,7 @@
             "(color:aqua)GENERAL",
             "find 2 baryas; place in outer-wall pedestals",
             "choose an amulet and ring; kill azarian for lvl-60 barya",
-            "talk asala; return town; waypoint galai gates",
+            "talk to asala; return to town; waypoint to galai gates",
             "(img:in-out2) enter areaidp2_5 ;; galai gates"
         ],
         [
@@ -701,12 +705,12 @@
             "(img:support) charged_mark gives shocked ground when freezing_mark activates; twisters gain lightning damage",
             "(color:aqua)GENERAL",
             "kill lythara: stun around 50% and burst",
-            "take gemcrust_skull for +40 spirit and tier-14 spirit gem",
+            "take gemcrust_skull for +40 spirit and a tier-14 spirit gem",
             "(img:in-out2) enter areaidp3_3 ;; glacial tarn"
         ],
         [
             "(color:aqua)GENERAL",
-            "hug right wall",
+            "hug the right wall",
             "(img:in-out2) enter areaidp3_4 ;; howling caves"
         ],
         [
@@ -724,17 +728,17 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "at paired boss, focus bleed claw enemy first",
-            "equip staunching charm",
+            "at the boss pair, focus the bleed-claw enemy first",
+            "equip a staunching charm",
             "(img:in-out2) enter areaidp3_7 ;; cuachic vault"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) maps handoff: continue GuyThatDies twister huntress setup; keep whirling_slash lvl 1",
+                            "(img:skill) maps handoff: continue GuyThatDies' twister huntress setup; keep whirling_slash lvl 1",
             "(hint)_ final checklist: damage spear set 2, fast spear-only set 1, correct skill-set assignments",
             "(color:aqua)GENERAL",
-            "finish encounter; return town and talk hooded one",
-            "campaign complete - continue remaining interlude pages if needed",
+            "finish the encounter; return to town and talk to the hooded one",
+            "campaign complete; finish any remaining interlude pages",
             "act-tracker"
         ]
     ]

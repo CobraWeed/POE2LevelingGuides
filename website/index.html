@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Path of Exile 2 Campaign Guides</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #050607;
+      --panel: #0b0e10;
+      --panel-2: #101417;
+      --line: #30373c;
+      --line-hot: #8c7540;
+      --text: #eee9dc;
+      --muted: #979b9c;
+      --cyan: #5ce6f0;
+      --gold: #d8b96b;
+      --green: #7dff66;
+      --red: #dc6f6f;
+      --build-heading: #99ddff;
+      --build-heading-alt: #ffcc00;
+    }
+
+    :root[data-theme="light"] {
+      color-scheme: light;
+      --bg: #dce9ec;
+      --panel: #f7fbfc;
+      --panel-2: #e4f0f2;
+      --line: #9fb8bd;
+      --line-hot: #168ca2;
+      --text: #172a30;
+      --muted: #5a7076;
+      --cyan: #007f99;
+      --gold: #80631a;
+      --green: #247554;
+      --red: #a13f4b;
+      --build-heading: #176c8b;
+      --build-heading-alt: #8a6610;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 50% -20%, #182026 0, transparent 38rem),
+        linear-gradient(180deg, #07090a 0, var(--bg) 30rem);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    button, input { font: inherit; }
+
+    .shell {
+      width: min(1500px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 34px 0 64px;
+    }
+
+    header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid #24292d;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--gold);
+      font-size: clamp(28px, 4vw, 52px);
+      font-weight: 500;
+      letter-spacing: .035em;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 9px;
+    }
+
+    .control {
+      min-height: 40px;
+      padding: 9px 13px;
+      border: 1px solid var(--line);
+      border-radius: 3px;
+      background: #090b0c;
+      color: var(--text);
+    }
+
+    button.control { cursor: pointer; }
+    button.control:hover { border-color: var(--gold); }
+    #search { width: min(260px, 55vw); }
+
+    .status {
+      min-height: 24px;
+      margin: 13px 0 0;
+      color: var(--muted);
+      font: 13px/1.5 Arial, sans-serif;
+    }
+
+    .status.error { color: #f0a0a0; }
+
+    .guide-grid {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(130px, 1fr));
+      gap: 8px;
+      margin: 18px 0 0;
+    }
+
+    .guide-button {
+      min-height: 48px;
+      padding: 9px 12px;
+      border: 1px solid var(--line);
+      border-radius: 3px;
+      background: #090c0e;
+      color: #c6c9c7;
+      cursor: pointer;
+      font: 12px Arial, sans-serif;
+      letter-spacing: .055em;
+      text-transform: uppercase;
+    }
+
+    .guide-button:hover { border-color: #70633f; color: var(--text); }
+    .guide-button.active { border-color: var(--gold); color: var(--cyan); background: #111719; }
+
+    .act-grid {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(120px, 1fr));
+      gap: 10px;
+      margin: 24px 0;
+    }
+
+    .act-card {
+      position: relative;
+      min-height: 104px;
+      padding: 16px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 3px;
+      background: linear-gradient(145deg, #101416, #080a0b);
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+      transition: border-color .15s, transform .15s, background .15s;
+    }
+
+    .act-card::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 2px;
+      background: transparent;
+    }
+
+    .act-card:hover { transform: translateY(-2px); border-color: #70633f; }
+    .act-card.active { border-color: var(--gold); background: linear-gradient(145deg, #171a18, #0b0d0d); }
+    .act-card.active::after { background: var(--cyan); }
+
+    .act-name {
+      display: block;
+      color: var(--cyan);
+      font-size: 19px;
+      letter-spacing: .045em;
+      text-transform: uppercase;
+    }
+
+    .act-count {
+      display: block;
+      margin-top: 9px;
+      color: var(--muted);
+      font: 12px Arial, sans-serif;
+    }
+
+    .mini-progress {
+      position: absolute;
+      right: 13px;
+      bottom: 13px;
+      color: var(--green);
+      font: 12px Arial, sans-serif;
+    }
+
+    .guide-panel {
+      border: 1px solid var(--line);
+      border-radius: 3px;
+      background: rgba(5, 7, 8, .92);
+      box-shadow: 0 20px 80px rgba(0,0,0,.35);
+    }
+
+    .panel-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 18px 21px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, #0d1316, #080a0b);
+    }
+
+    .panel-heading h2 {
+      margin: 0;
+      color: var(--cyan);
+      font-size: 24px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    .progress-label { color: var(--green); font: 13px Arial, sans-serif; }
+
+    .pages {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      padding: 14px;
+    }
+
+    .page-card {
+      border: 1px solid #282e31;
+      border-radius: 2px;
+      background: var(--panel);
+    }
+
+    .page-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 13px;
+      border-bottom: 1px solid #242a2d;
+      color: var(--gold);
+      background: var(--panel-2);
+      font: 12px Arial, sans-serif;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .area-name {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #d7d9d6;
+      letter-spacing: .055em;
+      text-transform: uppercase;
+    }
+
+    .area-marker {
+      width: 18px;
+      height: 18px;
+      object-fit: contain;
+    }
+
+    .tasks { list-style: none; margin: 0; padding: 8px 12px 11px; }
+
+    .task {
+      display: grid;
+      grid-template-columns: 21px 1fr;
+      gap: 9px;
+      align-items: start;
+      padding: 7px 2px;
+      border-bottom: 1px solid #191e20;
+      line-height: 1.35;
+    }
+
+    .task:last-child { border-bottom: 0; }
+    .task.hidden { display: none; }
+
+    .task.section-heading {
+      display: block;
+      margin: 5px 0 3px;
+      padding: 7px 10px;
+      border: 0;
+      border-left: 3px solid var(--heading-color);
+      background: #0d1113;
+      color: var(--heading-color);
+      font: 700 13px Arial, sans-serif;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      cursor: default;
+      user-select: none;
+    }
+
+    .task input {
+      width: 15px;
+      height: 15px;
+      margin: 2px 0 0;
+      accent-color: #6bcf63;
+    }
+
+    .task label { cursor: pointer; }
+    .task.done label { color: #707878; text-decoration: line-through; }
+    .task.level label { color: #f0d36c; }
+    .task.skip label { color: #c59bcb; }
+    .task.zone label { color: #f0cc82; }
+
+    .inline-marker {
+      width: 17px;
+      height: 17px;
+      margin: 0 5px 0 2px;
+      object-fit: contain;
+      vertical-align: -3px;
+    }
+
+    .boss-name {
+      color: #65dc78;
+      font-weight: 700;
+      letter-spacing: .035em;
+      text-shadow: 0 0 8px rgba(74, 207, 96, .2);
+    }
+
+    .npc-name {
+      color: #f0a34a;
+      font-weight: 700;
+      letter-spacing: .025em;
+      text-shadow: 0 0 8px rgba(232, 139, 45, .18);
+    }
+
+    .empty {
+      grid-column: 1 / -1;
+      padding: 60px 20px;
+      color: var(--muted);
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .credits {
+      margin-top: 26px;
+      color: var(--muted);
+      font: 12px Arial, sans-serif;
+      letter-spacing: .08em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .credits strong {
+      color: var(--gold);
+      font-weight: 600;
+    }
+
+    :root[data-theme="light"] body {
+      background:
+        radial-gradient(circle at 50% -20%, #faffff 0, transparent 38rem),
+        linear-gradient(180deg, #edf7f8 0, var(--bg) 30rem);
+    }
+
+    :root[data-theme="light"] header { border-bottom-color: #abc2c7; }
+    :root[data-theme="light"] .control,
+    :root[data-theme="light"] .guide-button { background: #f8fcfd; }
+    :root[data-theme="light"] .guide-button { color: #3f575d; }
+    :root[data-theme="light"] .guide-button:hover,
+    :root[data-theme="light"] .act-card:hover { border-color: var(--gold); }
+    :root[data-theme="light"] .guide-button.active { background: #d2edf1; }
+    :root[data-theme="light"] .act-card {
+      background: linear-gradient(145deg, #f9fdfe, #d8e7ea);
+    }
+    :root[data-theme="light"] .act-card.active {
+      background: linear-gradient(145deg, #e0f4f6, #c7e1e5);
+    }
+    :root[data-theme="light"] .guide-panel {
+      background: rgba(247, 251, 252, .95);
+      box-shadow: 0 20px 60px rgba(35, 73, 82, .18);
+    }
+    :root[data-theme="light"] .panel-heading {
+      background: linear-gradient(90deg, #d5e9ec, #f4fafb);
+    }
+    :root[data-theme="light"] .page-card { border-color: #abc1c6; }
+    :root[data-theme="light"] .page-title { border-bottom-color: #bfd1d5; }
+    :root[data-theme="light"] .area-name { color: #334c52; }
+    :root[data-theme="light"] .task { border-bottom-color: #d4e2e5; }
+    :root[data-theme="light"] .task.section-heading { background: #dfedef; }
+    :root[data-theme="light"] .task.done label { color: #809399; }
+    :root[data-theme="light"] .task.level label { color: #78600d; }
+    :root[data-theme="light"] .task.skip label { color: #765182; }
+    :root[data-theme="light"] .task.zone label { color: #7d5b18; }
+    :root[data-theme="light"] .boss-name { color: #1e744d; text-shadow: none; }
+    :root[data-theme="light"] .npc-name { color: #a05018; text-shadow: none; }
+
+    @media (max-width: 1100px) {
+      .guide-grid { grid-template-columns: repeat(3, 1fr); }
+      .act-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    @media (max-width: 760px) {
+      .shell { width: min(100% - 20px, 1500px); padding-top: 20px; }
+      header { align-items: stretch; flex-direction: column; }
+      .toolbar { justify-content: flex-start; }
+      .guide-grid { grid-template-columns: repeat(2, 1fr); }
+      .act-grid { grid-template-columns: repeat(2, 1fr); }
+      .pages { grid-template-columns: 1fr; padding: 9px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div>
+        <h1>Path of Exile 2 Campaign Guides</h1>
+        <p class="subtitle">Campaign routes · Acts, objectives and progression</p>
+      </div>
+      <div class="toolbar">
+        <input id="search" class="control" type="search" placeholder="Search current section…">
+        <button id="themeToggle" class="control" type="button" aria-pressed="false">Normal mode</button>
+        <button id="reset" class="control" type="button">Reset progress</button>
+      </div>
+    </header>
+
+    <nav id="guideGrid" class="guide-grid" aria-label="Available build guides"></nav>
+    <p id="status" class="status">Loading campaign guide…</p>
+    <nav id="actGrid" class="act-grid" aria-label="Campaign sections"></nav>
+
+    <section class="guide-panel">
+      <div class="panel-heading">
+        <h2 id="sectionTitle">Campaign guide</h2>
+        <span id="progressLabel" class="progress-label"></span>
+      </div>
+      <div id="pages" class="pages">
+        <div class="empty">Loading guide…</div>
+      </div>
+    </section>
+
+    <footer class="credits">This project is made by <strong>Cobra</strong></footer>
+  </main>
+
+  <script src="guide-data.js"></script>
+  <script>
+    const sectionNames = ["Act 1", "Act 2", "Act 3", "Act 4", "Interlude 1", "Interlude 2", "Interlude 3"];
+    const guideOptions = [
+      { key: "generic", label: "Generic" },
+      { key: "grenade", label: "Grenade" },
+      { key: "iceShot", label: "Ice Shot" },
+      { key: "mercenaryTwisters", label: "Mercenary Twisters" },
+      { key: "huntressTwisters", label: "Huntress Twisters" },
+      { key: "varashta", label: "Varashta" }
+    ];
+    const bossNames = [
+      "the bloated miller", "the rust king", "sisters of garukhan", "king in the mists",
+      "mighty silverfist", "abominable yeti", "lady elswyth", "count geonor",
+      "rakkaus", "stormgore", "omniphobia", "candlemass", "rathbreaker", "blackjaw",
+      "lachlann", "crowbell", "executioner", "balbala", "beira", "rudja", "jamanra", "kabala",
+      "azarian", "tor gul", "ignagduk", "ketzuli", "doryani", "krutog", "yama the white",
+      "tujen", "tavakai", "oswin", "akthi", "anundr", "asmadi", "lythara", "asina",
+      "asinia", "draven"
+    ];
+    const npcNames = [
+      "hooded-one", "hooded one", "shambrin", "oswald", "dannig", "navali", "leitis",
+      "renly", "zarka", "asala", "servi", "alva", "hilda", "risu", "finn", "una"
+    ];
+    const stateKeyPrefix = "poe2-guide-loader-progress-v2-";
+    const themeKey = "poe2-guide-theme";
+    let guide = [];
+    let activeGuideKey = "generic";
+    let activeSection = 0;
+    let completed = new Set();
+
+    const statusEl = document.querySelector("#status");
+    const guideGrid = document.querySelector("#guideGrid");
+    const actGrid = document.querySelector("#actGrid");
+    const pagesEl = document.querySelector("#pages");
+    const titleEl = document.querySelector("#sectionTitle");
+    const progressEl = document.querySelector("#progressLabel");
+    const searchEl = document.querySelector("#search");
+    const themeToggleEl = document.querySelector("#themeToggle");
+
+    function applyTheme(theme) {
+      const isLight = theme === "light";
+      document.documentElement.dataset.theme = isLight ? "light" : "dark";
+      themeToggleEl.textContent = isLight ? "Night mode" : "Normal mode";
+      themeToggleEl.setAttribute("aria-pressed", String(isLight));
+    }
+
+    applyTheme(localStorage.getItem(themeKey) || "dark");
+
+    function cleanLine(line) {
+      line = line.replace(/;;\s*(.+)$/g, (_, mapName) => `;; ${mapName.toUpperCase()}`);
+      return line
+        .replace(/\(color:[^)]+\)/gi, "")
+        .replace(/\(img:[^)]+\)/gi, "")
+        .replace(/\(quest:\(book\)\)/gi, "[passive reward]")
+        .replace(/\(hint\)_?/gi, "[hint]")
+        .replace(/\(act-tracker:[^)]+\)/gi, "")
+        .replace(/areaid[a-z0-9_]+/gi, "")
+        .replace(/;;/g, "")
+        .replaceAll("_", " ")
+        .replace(/\s+/g, " ")
+        .trim()
+        .replace(/[a-z]/, character => character.toUpperCase());
+    }
+
+    function escapeHtml(value) {
+      return value
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function taskContent(raw) {
+      const markers = [];
+      const tokenized = raw.replace(/\(img:([^)]+)\)/gi, (_, marker) => {
+        const safeMarker = marker.toLowerCase().replace(/[^a-z0-9_-]/g, "");
+        const index = markers.push(safeMarker) - 1;
+        return `\uFFF0${index}\uFFF1`;
+      });
+      let output = escapeHtml(cleanLine(tokenized));
+      markers.forEach((marker, index) => {
+        const title = marker.replaceAll("_", " ");
+        const image = `<img class="inline-marker" src="img/${marker}.png" alt="" title="${title}" onerror="this.hidden=true">`;
+        output = output.replace(`\uFFF0${index}\uFFF1`, image);
+      });
+      return beautifyNpcNames(beautifyBossNames(output));
+    }
+
+    function beautifyBossNames(html) {
+      const alternatives = [...bossNames]
+        .sort((a, b) => b.length - a.length)
+        .map(name => name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+        .join("|");
+      const pattern = new RegExp(`\\b(${alternatives})\\b`, "gi");
+      return html.replace(pattern, match => `<span class="boss-name">${match.toUpperCase()}</span>`);
+    }
+
+    function beautifyNpcNames(html) {
+      const alternatives = [...npcNames]
+        .sort((a, b) => b.length - a.length)
+        .map(name => name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+        .join("|");
+      const pattern = new RegExp(`\\b(${alternatives})\\b`, "gi");
+      return html.replace(pattern, match => `<span class="npc-name">${match.toUpperCase()}</span>`);
+    }
+
+    function areaFromPage(page) {
+      const routeLine = [...page].reverse().find(line => /areaid[a-z0-9_]+|act-tracker/i.test(line)) || page.at(-1) || "";
+      const named = routeLine.match(/;;\s*(.+)$/)?.[1];
+      const area = routeLine.match(/areaid([a-z0-9_]+)/i)?.[1];
+      const mapName = (named || (area ? area.replace(/^g\d+_|^p\d+_/, "").replaceAll("_", " ") : "Route step"))
+        .trim()
+        .toUpperCase();
+      const marker = routeLine.match(/\(img:([^)]+)\)/i)?.[1]?.toLowerCase().replace(/[^a-z0-9_-]/g, "");
+      const image = marker
+        ? `<img class="area-marker" src="img/${marker}.png" alt="" onerror="this.hidden=true">`
+        : "";
+      return `${image}<span>${escapeHtml(mapName)}</span>`;
+    }
+
+    function taskClass(raw) {
+      const text = raw.toLowerCase();
+      if (text.includes("level:")) return "level";
+      if (text.includes("skip")) return "skip";
+      if (text.includes("areaid") || text.includes("enter") || text.includes("travel") || text.includes("waypoint") || text.includes("portal")) return "zone";
+      return "";
+    }
+
+    function taskId(sectionIndex, pageIndex, taskIndex) {
+      return `${sectionIndex}-${pageIndex}-${taskIndex}`;
+    }
+
+    function sectionHeading(raw) {
+      const match = raw.match(/^\(color:([^)]+)\)(.+)$/i);
+      if (!match) return null;
+      const text = match[2].trim();
+      if (!/^(GENERAL|.*BUILD|MERCENARY TWISTERS|HUNTRESS TWISTERS)$/i.test(text)) return null;
+      const value = match[1].trim();
+      const normalizedColor = value.toLowerCase();
+      const color = normalizedColor === "aqua"
+        ? "var(--cyan)"
+        : normalizedColor === "99ddff"
+          ? "var(--build-heading)"
+          : normalizedColor === "ffcc00"
+            ? "var(--build-heading-alt)"
+            : /^[0-9a-f]{6}$/i.test(value) ? `#${value}` : value;
+      return { text, color };
+    }
+
+    function usableTasks(page) {
+      return page.filter(line => cleanLine(line));
+    }
+
+    function sectionStats(index) {
+      let total = 0;
+      let done = 0;
+      guide[index].forEach((page, pageIndex) => {
+        usableTasks(page).forEach((raw, taskIndex) => {
+          if (sectionHeading(raw)) return;
+          total++;
+          if (completed.has(taskId(index, pageIndex, taskIndex))) done++;
+        });
+      });
+      return { total, done };
+    }
+
+    function saveProgress() {
+      localStorage.setItem(stateKeyPrefix + activeGuideKey, JSON.stringify([...completed]));
+    }
+
+    function renderGuideButtons() {
+      guideGrid.innerHTML = "";
+      guideOptions.forEach(option => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `guide-button${option.key === activeGuideKey ? " active" : ""}`;
+        button.textContent = option.label;
+        button.addEventListener("click", () => acceptGuide(window.POE2_GUIDES[option.key], option.label, option.key));
+        guideGrid.appendChild(button);
+      });
+    }
+
+    function renderSections() {
+      actGrid.innerHTML = "";
+      guide.forEach((section, index) => {
+        const stats = sectionStats(index);
+        const button = document.createElement("button");
+        button.className = `act-card${index === activeSection ? " active" : ""}`;
+        button.type = "button";
+        button.innerHTML = `
+          <span class="act-name">${sectionNames[index] || `Section ${index + 1}`}</span>
+          <span class="act-count">${section.length} route pages</span>
+          <span class="mini-progress">${stats.done}/${stats.total}</span>`;
+        button.addEventListener("click", () => {
+          activeSection = index;
+          searchEl.value = "";
+          render();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+        actGrid.appendChild(button);
+      });
+    }
+
+    function renderPages() {
+      const query = searchEl.value.trim().toLowerCase();
+      const section = guide[activeSection];
+      const stats = sectionStats(activeSection);
+      titleEl.textContent = sectionNames[activeSection] || `Section ${activeSection + 1}`;
+      progressEl.textContent = `${stats.done} / ${stats.total} completed`;
+      pagesEl.innerHTML = "";
+
+      let visibleCards = 0;
+      section.forEach((page, pageIndex) => {
+        const tasks = usableTasks(page);
+        const visible = tasks.some(raw => !query || cleanLine(raw).toLowerCase().includes(query));
+        if (!visible) return;
+        visibleCards++;
+
+        const card = document.createElement("article");
+        card.className = "page-card";
+        card.innerHTML = `<div class="page-title"><span>Step ${pageIndex + 1}</span><span class="area-name">${areaFromPage(page)}</span></div>`;
+        const list = document.createElement("ul");
+        list.className = "tasks";
+
+        tasks.forEach((raw, taskIndex) => {
+          const text = cleanLine(raw);
+          const id = taskId(activeSection, pageIndex, taskIndex);
+          const item = document.createElement("li");
+          const matches = !query || text.toLowerCase().includes(query);
+          const heading = sectionHeading(raw);
+          if (heading) {
+            item.className = `task section-heading${matches ? "" : " hidden"}`;
+            item.style.setProperty("--heading-color", heading.color);
+            item.textContent = heading.text;
+            list.appendChild(item);
+            return;
+          }
+          item.className = `task ${taskClass(raw)}${completed.has(id) ? " done" : ""}${matches ? "" : " hidden"}`;
+          item.innerHTML = `
+            <input id="task-${id}" type="checkbox" ${completed.has(id) ? "checked" : ""}>
+            <label for="task-${id}">${taskContent(raw)}</label>`;
+          item.querySelector("input").addEventListener("change", event => {
+            event.target.checked ? completed.add(id) : completed.delete(id);
+            saveProgress();
+            render();
+          });
+          list.appendChild(item);
+        });
+        card.appendChild(list);
+        pagesEl.appendChild(card);
+      });
+
+      if (!visibleCards) pagesEl.innerHTML = `<div class="empty">No tasks match “${searchEl.value}”.</div>`;
+    }
+
+    function render() {
+      renderGuideButtons();
+      renderSections();
+      renderPages();
+    }
+
+    function acceptGuide(data, sourceLabel, guideKey) {
+      if (!Array.isArray(data) || data.length !== 7 || data.some(section => !Array.isArray(section))) {
+        throw new Error("Expected a seven-section Exile-UI guide JSON file.");
+      }
+      guide = data;
+      activeGuideKey = guideKey;
+      activeSection = 0;
+      completed = new Set(JSON.parse(localStorage.getItem(stateKeyPrefix + activeGuideKey) || "[]"));
+      searchEl.value = "";
+      statusEl.className = "status";
+      statusEl.textContent = `Loaded ${sourceLabel}: ${guide.reduce((sum, section) => sum + section.length, 0)} route pages.`;
+      render();
+    }
+
+    function loadDefaultGuide() {
+      if (!window.POE2_GUIDES) {
+        statusEl.className = "status error";
+        statusEl.textContent = "guide-data.js could not be loaded.";
+        return;
+      }
+      acceptGuide(window.POE2_GUIDES.generic, "Generic", "generic");
+    }
+
+    searchEl.addEventListener("input", () => guide.length && renderPages());
+    themeToggleEl.addEventListener("click", () => {
+      const nextTheme = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+      localStorage.setItem(themeKey, nextTheme);
+      applyTheme(nextTheme);
+    });
+    document.querySelector("#reset").addEventListener("click", () => {
+      if (!confirm("Reset every completed task?")) return;
+      completed.clear();
+      saveProgress();
+      render();
+    });
+
+    loadDefaultGuide();
+  </script>
+</body>
+</html>
