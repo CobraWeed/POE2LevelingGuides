@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PoE2 Build Tier List</title>
+<style>
+:root{color-scheme:dark;--bg:#080a0c;--panel:#12161a;--line:#363d43;--text:#f0ece2;--muted:#9da4aa;--gold:#d7b86a}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -15%,#252c32 0,var(--bg) 38rem);color:var(--text);font-family:Arial,sans-serif}button,input,select{font:inherit}.shell{width:min(1500px,calc(100% - 28px));margin:auto;padding:30px 0 60px}header,.panel-head{display:flex;align-items:end;justify-content:space-between;gap:20px}header{margin-bottom:24px}h1,h2{margin:0;color:var(--gold);font-family:Georgia,serif;font-weight:500}h1{font-size:clamp(30px,4vw,50px)}.subtitle,.hint{color:var(--muted)}.subtitle{margin:8px 0 0}.hint{margin:4px 0 0;font-size:13px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:9px 14px;border:1px solid var(--line);border-radius:4px;background:#111519;color:var(--text);text-decoration:none;cursor:pointer}.btn:hover{border-color:var(--gold)}.primary{background:#322a18;color:#f5d98b}.danger{color:#faa}.panel{margin-bottom:26px;border:1px solid var(--line);border-radius:6px;background:rgba(17,21,25,.96);overflow:hidden}.panel-head{padding:15px 18px;border-bottom:1px solid var(--line);background:#181d22}.table-wrap{overflow-x:auto}table{width:100%;min-width:1230px;border-collapse:collapse}th,td{padding:9px 7px;border-bottom:1px solid #292f34;text-align:left}th{color:#d2b971;font-size:11px;line-height:1.25;text-transform:uppercase}td input,td select{width:100%;min-height:38px;padding:7px;border:1px solid #3c444b;border-radius:3px;background:#090c0e;color:var(--text)}td select{min-width:60px}.wide{min-width:145px}.image{min-width:165px}.rank{width:76px}.overall{color:var(--gold);font-size:20px;font-weight:bold;text-align:center}.empty-table{padding:28px;color:var(--muted);text-align:center}.tier-board{border:3px solid #030303;background:#151515}.tier-row{display:grid;grid-template-columns:100px 1fr;min-height:110px;border-bottom:4px solid #030303}.tier-row:last-child{border:0}.tier-label{display:grid;place-items:center;border-right:4px solid #030303;color:#111;font-size:26px;font-weight:900}.tier-s .tier-label{background:#ff7474}.tier-a .tier-label{background:#ffc06f}.tier-b .tier-label{background:#ffe47a}.tier-c .tier-label{background:#8eea79}.tier-d .tier-label{background:#80c6f5}.tier-items{display:flex;flex-wrap:wrap;align-content:flex-start;gap:8px;padding:9px}.card{position:relative;width:126px;height:90px;overflow:hidden;border:2px solid #555d63;border-radius:4px;background:linear-gradient(145deg,#303841,#171b1e);cursor:pointer}.card:hover{border-color:var(--gold)}.card img{width:100%;height:100%;object-fit:cover}.portrait{width:100%;height:100%;background-repeat:no-repeat;background-size:200% 200%}.fallback{display:grid;place-items:center;width:100%;height:100%;color:var(--gold);font:700 30px Georgia}.caption{position:absolute;inset:auto 0 0;padding:18px 5px 5px;background:linear-gradient(transparent,rgba(0,0,0,.95));font-size:12px;font-weight:bold;text-align:center}.class-line{display:block;color:#e2c879;font-size:10px;font-weight:normal}.empty-tier{align-self:center;color:#62676b;font-size:13px;font-style:italic}@media(max-width:700px){header,.panel-head{align-items:flex-start;flex-direction:column}.tier-row{grid-template-columns:65px 1fr}.card{width:105px;height:76px}}
+.portrait{background-size:400% 400%}
+/* BUILD RATING SIZE SETTINGS — modify only these values */
+:root {
+  --ratings-table-width: 1180px;
+  --build-name-width: 200px;
+  --ascendancy-width: 164px;
+  --map-clear-width: 140px;
+  --movement-speed-width: 120px;
+  --bossing-width: 120px;
+  --survivability-width: 120px;
+  --leveling-width: 100px;
+  --gearing-width: 100px;
+  --mechanical-ease-width: 160px;
+  --overall-width: 140px;
+}
+
+table {
+  min-width: var(--ratings-table-width);
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: var(--build-name-width);
+  min-width: var(--build-name-width);
+}
+
+td:nth-child(1) input {
+  width: calc(var(--build-name-width) - 10px);
+  min-width: 0;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: var(--ascendancy-width);
+  min-width: var(--ascendancy-width);
+}
+
+td:nth-child(2) select {
+  width: calc(var(--ascendancy-width) - 10px);
+  min-width: 0;
+}
+
+.rank select {
+  width: calc(100% - 10px);
+  min-width: 0;
+  padding: 7px 5px;
+  text-align: left;
+  font-weight: 700;
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: var(--map-clear-width);
+  min-width: var(--map-clear-width);
+}
+
+th:nth-child(4), td:nth-child(4) {
+  width: var(--movement-speed-width);
+  min-width: var(--movement-speed-width);
+}
+
+th:nth-child(5), td:nth-child(5) {
+  width: var(--bossing-width);
+  min-width: var(--bossing-width);
+}
+
+th:nth-child(6), td:nth-child(6) {
+  width: var(--survivability-width);
+  min-width: var(--survivability-width);
+}
+
+th:nth-child(7), td:nth-child(7) {
+  width: var(--leveling-width);
+  min-width: var(--leveling-width);
+}
+
+th:nth-child(8), td:nth-child(8) {
+  width: var(--gearing-width);
+  min-width: var(--gearing-width);
+}
+
+th:nth-child(9), td:nth-child(9) {
+  width: var(--mechanical-ease-width);
+  min-width: var(--mechanical-ease-width);
+}
+
+.overall,
+th:nth-child(10) {
+  width: var(--overall-width);
+  min-width: var(--overall-width);
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+th:nth-child(11),
+td:nth-child(11) {
+  text-align: right;
+  vertical-align: top;
+}
+</style>
+</head>
+<body><main class="shell">
+<header><div><h1>PoE2 Build Tier List</h1><p class="subtitle">Rate every build from D to S. Its tier updates automatically.</p></div><a class="btn" href="index.html">Campaign guides</a></header>
+<section class="panel"><div class="panel-head"><div><h2>Automatic tier list</h2><p class="hint">Overall tier = rounded average of the seven criteria.</p></div><button id="clear" class="btn danger">Clear all</button></div><div id="board" class="tier-board"></div></section>
+<section class="panel"><div class="panel-head"><div><h2>Build ratings</h2><p class="hint">Saved automatically in this browser.</p></div><button id="add" class="btn primary">+ Add build</button></div>
+<div class="table-wrap"><table><thead><tr><th>Build</th><th>Class / Ascendancy</th><th>Map clear</th><th>Movement speed</th><th>Bossing</th><th>Survivability</th><th>Leveling</th><th>Gearing</th><th>Mechanical ease</th><th>Overall</th><th></th></tr></thead><tbody id="rows"></tbody></table><div id="empty" class="empty-table">No builds yet. Select “Add build” to begin.</div></div></section>
+</main>
+<script>
+/* RATING TEXT SETTINGS - edit the descriptions below */
+const RATING_TEXT = {
+  clear: {
+    S: 'S - Screen clear or more',
+    A: 'A - Almost Screen Clear',
+    B: 'B - Good clear',
+    C: 'C - Limited Area clear',
+    D: 'D - Single Target'
+  },
+
+  movement: {
+    S: 'S - Extremely fast no penalty',
+    A: 'A - Fast with some penalty',
+    B: 'B - Average Speed',
+    C: 'C - Slow',
+    D: 'D - Very slow'
+  },
+
+  bossing: {
+    S: 'S - 1 Hit Kill',
+    A: 'A - Under 10 seconds',
+    B: 'B - 10-30 seconds',
+    C: 'C - 1-2 minutes',
+    D: 'D - ZDPS'
+  },
+
+  survivability: {
+    S: 'S - Tanks big hits',
+    A: 'A - Very tanky',
+    B: 'B - Reliable defence',
+    C: 'C - Fragile',
+    D: 'D - Glass cannon'
+  },
+
+  leveling: {
+    S: 'S - 1-2 skills all the way, fast & easy boss kills',
+    A: 'A - Few skills, Okay speed to level',
+    B: 'B - Slow to level',
+    C: 'C - Skills come late lv52+, hard to level early on',
+    D: 'D - Require different build to level up'
+  },
+
+  gearing: {
+    S: 'S - Cheap or no uniques required',
+    A: 'A - Affordable',
+    B: 'B - Moderate cost',
+    C: 'C - Expensive',
+    D: 'D - Requires multiple expensive uniques'
+  },
+
+  mechanics: {
+    S: 'S - 0-1 buttons',
+    A: 'A - 2 buttons',
+    B: 'B - 3 buttons',
+    C: 'C - Timing or setup',
+    D: 'D - Complex rotation'
+  }
+};
+
+(()=>{const KEY='poe2-tier-builds-v1',R=['S','A','B','C','D'],N={S:5,A:4,B:3,C:2,D:1},C=['clear','movement','bossing','survivability','leveling','gearing','mechanics'],ASC={Warrior:['Warbringer','Titan','Smith of Kitava'],Witch:['Infernalist','Blood Mage','Lich'],Ranger:['Deadeye','Pathfinder'],Mercenary:['Witchhunter','Gemling Legionnaire','Tactician'],Monk:['Invoker','Acolyte of Chayula','Martial Artist'],Sorceress:['Stormweaver','Chronomancer','Disciple of Varashta'],Huntress:['Amazon','Ritualist','Spirit Walker'],Druid:['Shaman','Oracle']};let builds=load();const rows=document.querySelector('#rows'),board=document.querySelector('#board'),empty=document.querySelector('#empty');
+function load(){try{const x=JSON.parse(localStorage.getItem(KEY));return Array.isArray(x)?x.map(b=>({...b,rating:{...Object.fromEntries(C.map(key=>[key,'B'])),...b.rating}})):[]}catch{return[]}}
+function fresh(){return{id:crypto.randomUUID?.()||Date.now()+'-'+Math.random(),name:'',className:'',rating:Object.fromEntries(C.map(x=>[x,'B']))}}
+function save(){localStorage.setItem(KEY,JSON.stringify(builds))}
+function tier(b){const avg=C.reduce((s,x)=>s+N[b.rating[x]],0)/C.length;return R[5-Math.round(avg)]}
+function input(b,key,placeholder,type='text'){const x=document.createElement('input');x.type=type;x.value=b[key];x.placeholder=placeholder;x.oninput=()=>{b[key]=x.value;save();renderBoard()};return x}
+function ascendancySelect(b){const x=document.createElement('select');x.setAttribute('aria-label','Class or ascendancy');x.add(new Option('Select ascendancy…',''));const known=Object.values(ASC).flat();if(b.className&&!known.includes(b.className))x.add(new Option(b.className,b.className));Object.entries(ASC).forEach(([base,names])=>{const group=document.createElement('optgroup');group.label=base;names.forEach(name=>group.append(new Option(name,name,false,b.className===name)));x.append(group)});x.value=b.className;x.onchange=()=>{b.className=x.value;save();renderBoard()};return x}
+function select(b,key){const x=document.createElement('select');x.setAttribute('aria-label',key);const current=new Option(b.rating[key],b.rating[key],true,true);current.hidden=true;x.add(current);R.forEach(r=>x.add(new Option(RATING_TEXT[key][r],r)));x.onchange=()=>{b.rating[key]=x.value;save();render()};return x}
+function renderTable(){rows.replaceChildren();empty.hidden=!!builds.length;builds.forEach(b=>{const tr=document.createElement('tr');let td=tr.insertCell();td.className='wide';td.append(input(b,'name','e.g. Lightning Arrow'));td=tr.insertCell();td.className='wide';td.append(ascendancySelect(b));C.forEach(c=>{td=tr.insertCell();td.className='rank';td.append(select(b,c))});td=tr.insertCell();td.className='overall';td.textContent=tier(b);td=tr.insertCell();const del=document.createElement('button');del.className='btn danger';del.textContent='Delete';del.onclick=()=>{builds=builds.filter(x=>x.id!==b.id);save();render()};td.append(del);rows.append(tr)})}
+function initials(b){return(b.name||b.className||'?').split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase()}
+function fallback(b){const x=document.createElement('div');x.className='fallback';x.textContent=initials(b);return x}
+function portrait(b){const known=Object.values(ASC).flat();if(!known.includes(b.className))return fallback(b);const slug=b.className.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');const ext=['martial-artist','disciple-of-varashta','spirit-walker'].includes(slug)?'png':'jpg';const x=document.createElement('img');x.src=`img/ascendancies/${slug}.${ext}`;x.alt=`${b.className} portrait`;x.onerror=()=>x.replaceWith(fallback(b));return x}
+function card(b){const x=document.createElement('article');x.className='card';x.title=`${b.name||'Unnamed build'} — ${b.className||'Class not set'}`;x.append(portrait(b));const cap=document.createElement('div');cap.className='caption';cap.textContent=b.name||'Unnamed build';const cls=document.createElement('span');cls.className='class-line';cls.textContent=b.className||'Class not set';cap.append(cls);x.append(cap);x.onclick=()=>{const i=builds.findIndex(v=>v.id===b.id),tr=rows.children[i];tr?.scrollIntoView({behavior:'smooth',block:'center'});tr?.querySelector('input')?.focus()};return x}
+function renderBoard(){board.replaceChildren();R.forEach(r=>{const row=document.createElement('div');row.className=`tier-row tier-${r.toLowerCase()}`;const label=document.createElement('div');label.className='tier-label';label.textContent=r;const items=document.createElement('div');items.className='tier-items';const group=builds.filter(b=>tier(b)===r);if(group.length)group.forEach(b=>items.append(card(b)));else{const e=document.createElement('span');e.className='empty-tier';e.textContent='No builds in this tier';items.append(e)}row.append(label,items);board.append(row)})}
+function render(){renderTable();renderBoard()}
+document.querySelector('#add').onclick=()=>{builds.push(fresh());save();render();rows.lastElementChild?.querySelector('input')?.focus()};document.querySelector('#clear').onclick=()=>{if(builds.length&&confirm('Delete every build from this tier list?')){builds=[];save();render()}};render()})();
+</script></body></html>
