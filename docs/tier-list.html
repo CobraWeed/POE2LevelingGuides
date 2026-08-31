@@ -103,13 +103,45 @@ td:nth-child(11) {
   text-align: right;
   vertical-align: top;
 }
+
+.criterion-heading {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ignore-criterion {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 2px solid #d84e4e;
+  border-radius: 50%;
+  background: transparent;
+  color: #ff7777;
+  font: 700 13px/1 Arial, sans-serif;
+  cursor: pointer;
+}
+
+.ignore-criterion:hover,
+.ignore-criterion.is-ignored {
+  background: #d84e4e;
+  color: white;
+}
+
+th.is-ignored,
+td.is-ignored {
+  opacity: .38;
+}
 </style>
 </head>
 <body><main class="shell">
 <header><div><h1>PoE2 Build Tier List</h1><p class="subtitle">Rate every build from D to S. Its tier updates automatically.</p></div><a class="btn" href="index.html">Campaign guides</a></header>
 <section class="panel"><div class="panel-head"><div><h2>Automatic tier list</h2><p class="hint">Overall tier uses the configurable weighted score of all seven criteria.</p></div><button id="clear" class="btn danger">Clear all</button></div><div id="board" class="tier-board"></div></section>
-<section class="panel"><div class="panel-head"><div><h2>Build ratings</h2><p class="hint">Saved automatically in this browser.</p></div><button id="add" class="btn primary">+ Add build</button></div>
-<div class="table-wrap"><table><thead><tr><th>Build</th><th>Class / Ascendancy</th><th>Map clear</th><th>Movement speed</th><th>Bossing</th><th>Survivability</th><th>Leveling</th><th>Gearing</th><th>Mechanical ease</th><th>Overall</th><th></th></tr></thead><tbody id="rows"></tbody></table><div id="empty" class="empty-table">No builds yet. Select “Add build” to begin.</div></div></section>
+<section class="panel"><div class="panel-head"><div><h2>Build ratings</h2><p class="hint">Saved automatically. Use a red × to exclude a criterion from the overall score.</p></div><button id="add" class="btn primary">+ Add build</button></div>
+<div class="table-wrap"><table><thead><tr><th>Build</th><th>Class / Ascendancy</th><th><span class="criterion-heading">Map clear <button class="ignore-criterion" data-criterion="clear" type="button" title="Ignore Map Clear">×</button></span></th><th><span class="criterion-heading">Movement speed <button class="ignore-criterion" data-criterion="movement" type="button" title="Ignore Movement Speed">×</button></span></th><th><span class="criterion-heading">Bossing <button class="ignore-criterion" data-criterion="bossing" type="button" title="Ignore Bossing">×</button></span></th><th><span class="criterion-heading">Survivability <button class="ignore-criterion" data-criterion="survivability" type="button" title="Ignore Survivability">×</button></span></th><th><span class="criterion-heading">Leveling <button class="ignore-criterion" data-criterion="leveling" type="button" title="Ignore Leveling">×</button></span></th><th><span class="criterion-heading">Gearing <button class="ignore-criterion" data-criterion="gearing" type="button" title="Ignore Gearing">×</button></span></th><th><span class="criterion-heading">Mechanical ease <button class="ignore-criterion" data-criterion="mechanics" type="button" title="Ignore Mechanical Ease">×</button></span></th><th>Overall</th><th></th></tr></thead><tbody id="rows"></tbody></table><div id="empty" class="empty-table">No builds yet. Select “Add build” to begin.</div></div></section>
 </main>
 <script>
 /* OVERALL SCORE WEIGHTS - values should add up to 100 */
@@ -182,11 +214,12 @@ const RATING_TEXT = {
   }
 };
 
-(()=>{const KEY='poe2-tier-builds-v1',R=['S','A','B','C','D'],N={S:5,A:4,B:3,C:2,D:1},C=['clear','movement','bossing','survivability','leveling','gearing','mechanics'],ASC={Warrior:['Warbringer','Titan','Smith of Kitava'],Witch:['Infernalist','Blood Mage','Lich'],Ranger:['Deadeye','Pathfinder'],Mercenary:['Witchhunter','Gemling Legionnaire','Tactician'],Monk:['Invoker','Acolyte of Chayula','Martial Artist'],Sorceress:['Stormweaver','Chronomancer','Disciple of Varashta'],Huntress:['Amazon','Ritualist','Spirit Walker'],Druid:['Shaman','Oracle']};let builds=load();const rows=document.querySelector('#rows'),board=document.querySelector('#board'),empty=document.querySelector('#empty');
+(()=>{const KEY='poe2-tier-builds-v1',IGNORED_KEY='poe2-tier-ignored-criteria-v1',R=['S','A','B','C','D'],N={S:5,A:4,B:3,C:2,D:1},C=['clear','movement','bossing','survivability','leveling','gearing','mechanics'],ASC={Warrior:['Warbringer','Titan','Smith of Kitava'],Witch:['Infernalist','Blood Mage','Lich'],Ranger:['Deadeye','Pathfinder'],Mercenary:['Witchhunter','Gemling Legionnaire','Tactician'],Monk:['Invoker','Acolyte of Chayula','Martial Artist'],Sorceress:['Stormweaver','Chronomancer','Disciple of Varashta'],Huntress:['Amazon','Ritualist','Spirit Walker'],Druid:['Shaman','Oracle']};let builds=load(),ignored=loadIgnored();const rows=document.querySelector('#rows'),board=document.querySelector('#board'),empty=document.querySelector('#empty');
 function load(){try{const x=JSON.parse(localStorage.getItem(KEY));return Array.isArray(x)?x.map(b=>({...b,rating:{...Object.fromEntries(C.map(key=>[key,'B'])),...b.rating}})):[]}catch{return[]}}
+function loadIgnored(){try{const x=JSON.parse(localStorage.getItem(IGNORED_KEY));return new Set(Array.isArray(x)?x.filter(key=>C.includes(key)):[])}catch{return new Set()}}
 function fresh(){return{id:crypto.randomUUID?.()||Date.now()+'-'+Math.random(),name:'',className:'',rating:Object.fromEntries(C.map(x=>[x,'B']))}}
 function save(){localStorage.setItem(KEY,JSON.stringify(builds))}
-function tier(b){const totalWeight=C.reduce((sum,key)=>sum+RATING_WEIGHTS[key],0);const weightedScore=C.reduce((sum,key)=>sum+N[b.rating[key]]*RATING_WEIGHTS[key],0)/totalWeight;return R[5-Math.round(weightedScore)]}
+function tier(b){const active=C.filter(key=>!ignored.has(key));const totalWeight=active.reduce((sum,key)=>sum+RATING_WEIGHTS[key],0);const weightedScore=active.reduce((sum,key)=>sum+N[b.rating[key]]*RATING_WEIGHTS[key],0)/totalWeight;return R[5-Math.round(weightedScore)]}
 function input(b,key,placeholder,type='text'){const x=document.createElement('input');x.type=type;x.value=b[key];x.placeholder=placeholder;x.oninput=()=>{b[key]=x.value;save();renderBoard()};return x}
 function ascendancySelect(b){const x=document.createElement('select');x.setAttribute('aria-label','Class or ascendancy');x.add(new Option('Select ascendancy…',''));const known=Object.values(ASC).flat();if(b.className&&!known.includes(b.className))x.add(new Option(b.className,b.className));Object.entries(ASC).forEach(([base,names])=>{const group=document.createElement('optgroup');group.label=base;names.forEach(name=>group.append(new Option(name,name,false,b.className===name)));x.append(group)});x.value=b.className;x.onchange=()=>{b.className=x.value;save();renderBoard()};return x}
 function select(b,key){const x=document.createElement('select');x.setAttribute('aria-label',key);const current=new Option(b.rating[key],b.rating[key],true,true);current.hidden=true;x.add(current);R.forEach(r=>x.add(new Option(RATING_TEXT[key][r],r)));x.onchange=()=>{b.rating[key]=x.value;save();render()};return x}
@@ -196,6 +229,8 @@ function fallback(b){const x=document.createElement('div');x.className='fallback
 function portrait(b){const known=Object.values(ASC).flat();if(!known.includes(b.className))return fallback(b);const slug=b.className.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');const ext=['martial-artist','disciple-of-varashta','spirit-walker'].includes(slug)?'png':'jpg';const x=document.createElement('img');x.src=`img/ascendancies/${slug}.${ext}`;x.alt=`${b.className} portrait`;x.onerror=()=>x.replaceWith(fallback(b));return x}
 function card(b){const x=document.createElement('article');x.className='card';x.title=`${b.name||'Unnamed build'} — ${b.className||'Class not set'}`;x.append(portrait(b));const cap=document.createElement('div');cap.className='caption';cap.textContent=b.name||'Unnamed build';const cls=document.createElement('span');cls.className='class-line';cls.textContent=b.className||'Class not set';cap.append(cls);x.append(cap);x.onclick=()=>{const i=builds.findIndex(v=>v.id===b.id),tr=rows.children[i];tr?.scrollIntoView({behavior:'smooth',block:'center'});tr?.querySelector('input')?.focus()};return x}
 function renderBoard(){board.replaceChildren();R.forEach(r=>{const row=document.createElement('div');row.className=`tier-row tier-${r.toLowerCase()}`;const label=document.createElement('div');label.className='tier-label';label.textContent=r;const items=document.createElement('div');items.className='tier-items';const group=builds.filter(b=>tier(b)===r);if(group.length)group.forEach(b=>items.append(card(b)));else{const e=document.createElement('span');e.className='empty-tier';e.textContent='No builds in this tier';items.append(e)}row.append(label,items);board.append(row)})}
-function render(){renderTable();renderBoard()}
+function renderIgnoredState(){document.querySelectorAll('.ignore-criterion').forEach(button=>{const key=button.dataset.criterion,isIgnored=ignored.has(key),column=C.indexOf(key)+3;button.classList.toggle('is-ignored',isIgnored);button.setAttribute('aria-pressed',String(isIgnored));button.title=isIgnored?`Include ${button.parentElement.firstChild.textContent.trim()}`:`Ignore ${button.parentElement.firstChild.textContent.trim()}`;document.querySelectorAll(`th:nth-child(${column}),td:nth-child(${column})`).forEach(cell=>cell.classList.toggle('is-ignored',isIgnored))})}
+function render(){renderTable();renderBoard();renderIgnoredState()}
+document.querySelectorAll('.ignore-criterion').forEach(button=>button.onclick=()=>{const key=button.dataset.criterion;if(ignored.has(key))ignored.delete(key);else{if(ignored.size===C.length-1){alert('At least one criterion must remain active.');return}ignored.add(key)}localStorage.setItem(IGNORED_KEY,JSON.stringify([...ignored]));render()});
 document.querySelector('#add').onclick=()=>{builds.push(fresh());save();render();rows.lastElementChild?.querySelector('input')?.focus()};document.querySelector('#clear').onclick=()=>{if(builds.length&&confirm('Delete every build from this tier list?')){builds=[];save();render()}};render()})();
 </script></body></html>
