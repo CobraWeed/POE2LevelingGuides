@@ -107,11 +107,22 @@ td:nth-child(11) {
 </head>
 <body><main class="shell">
 <header><div><h1>PoE2 Build Tier List</h1><p class="subtitle">Rate every build from D to S. Its tier updates automatically.</p></div><a class="btn" href="index.html">Campaign guides</a></header>
-<section class="panel"><div class="panel-head"><div><h2>Automatic tier list</h2><p class="hint">Overall tier = rounded average of the seven criteria.</p></div><button id="clear" class="btn danger">Clear all</button></div><div id="board" class="tier-board"></div></section>
+<section class="panel"><div class="panel-head"><div><h2>Automatic tier list</h2><p class="hint">Overall tier uses the configurable weighted score of all seven criteria.</p></div><button id="clear" class="btn danger">Clear all</button></div><div id="board" class="tier-board"></div></section>
 <section class="panel"><div class="panel-head"><div><h2>Build ratings</h2><p class="hint">Saved automatically in this browser.</p></div><button id="add" class="btn primary">+ Add build</button></div>
 <div class="table-wrap"><table><thead><tr><th>Build</th><th>Class / Ascendancy</th><th>Map clear</th><th>Movement speed</th><th>Bossing</th><th>Survivability</th><th>Leveling</th><th>Gearing</th><th>Mechanical ease</th><th>Overall</th><th></th></tr></thead><tbody id="rows"></tbody></table><div id="empty" class="empty-table">No builds yet. Select “Add build” to begin.</div></div></section>
 </main>
 <script>
+/* OVERALL SCORE WEIGHTS - values should add up to 100 */
+const RATING_WEIGHTS = {
+  clear: 20,
+  movement: 18,
+  bossing: 22,
+  survivability: 12,
+  leveling: 12,
+  gearing: 6,
+  mechanics: 10
+};
+
 /* RATING TEXT SETTINGS - edit the descriptions below */
 const RATING_TEXT = {
   clear: {
@@ -175,7 +186,7 @@ const RATING_TEXT = {
 function load(){try{const x=JSON.parse(localStorage.getItem(KEY));return Array.isArray(x)?x.map(b=>({...b,rating:{...Object.fromEntries(C.map(key=>[key,'B'])),...b.rating}})):[]}catch{return[]}}
 function fresh(){return{id:crypto.randomUUID?.()||Date.now()+'-'+Math.random(),name:'',className:'',rating:Object.fromEntries(C.map(x=>[x,'B']))}}
 function save(){localStorage.setItem(KEY,JSON.stringify(builds))}
-function tier(b){const avg=C.reduce((s,x)=>s+N[b.rating[x]],0)/C.length;return R[5-Math.round(avg)]}
+function tier(b){const totalWeight=C.reduce((sum,key)=>sum+RATING_WEIGHTS[key],0);const weightedScore=C.reduce((sum,key)=>sum+N[b.rating[key]]*RATING_WEIGHTS[key],0)/totalWeight;return R[5-Math.round(weightedScore)]}
 function input(b,key,placeholder,type='text'){const x=document.createElement('input');x.type=type;x.value=b[key];x.placeholder=placeholder;x.oninput=()=>{b[key]=x.value;save();renderBoard()};return x}
 function ascendancySelect(b){const x=document.createElement('select');x.setAttribute('aria-label','Class or ascendancy');x.add(new Option('Select ascendancy…',''));const known=Object.values(ASC).flat();if(b.className&&!known.includes(b.className))x.add(new Option(b.className,b.className));Object.entries(ASC).forEach(([base,names])=>{const group=document.createElement('optgroup');group.label=base;names.forEach(name=>group.append(new Option(name,name,false,b.className===name)));x.append(group)});x.value=b.className;x.onchange=()=>{b.className=x.value;save();renderBoard()};return x}
 function select(b,key){const x=document.createElement('select');x.setAttribute('aria-label',key);const current=new Option(b.rating[key],b.rating[key],true,true);current.hidden=true;x.add(current);R.forEach(r=>x.add(new Option(RATING_TEXT[key][r],r)));x.onchange=()=>{b.rating[key]=x.value;save();render()};return x}
