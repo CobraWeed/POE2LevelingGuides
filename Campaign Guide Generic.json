@@ -7,32 +7,49 @@
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:quest_2) renly:sell enough to buy talisman 33 gold",
+            "(hint)_ we use wolf form for fast movement",
             "(img:in-out2) enter areaidg1_2 ;; clearfell"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) kill (img:checkpoint) beira for a permanent +10% cold resistance buff",
+            "(hint)_ Use wolf form using dodge spam for fast movement",
+            "(img:quest_2) kill (img:checkpoint) beira",
+            "(img:quest_2) Use permanent +10% cold resistance buff",
             "(img:skip) skip areaidg1_3 ;; mud burrow",
+            "(img:skip) Use (img:checkpoint)",
             "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:aqua)GENERAL",
-            "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
+            "Run around, activate all (img:checkpoint)",
+            "(hint)_ Levelup, keep Lvl-DIFF:-2 max",
+            "(img:skill) kill areagne for (img:support)",
             "find areaidg1_5 ;; red vale entrance"
         ],
         [
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
             "(color:aqua)GENERAL",
-			"check vendors for life, +skills, and stronger weapons",
+            "(img:quest_2) renly: take runed_spikes",
+            "if bag is full, go back to town, sell \u0026 check vendors",
             "identify rares, sell items, and clear inventory",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(img:waypoint) to areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:craft) insert runed_spikes into the tree",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -45,36 +62,48 @@
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
             "(color:yellow)LEVEL: reach lvl 5+",
+            "(img:skill) kill rotten_druid: for (img:support)",
             "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
+            "Run around, activate all (img:checkpoint)",
+            "(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
             "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
         ],
         [
             "(color:aqua)GENERAL",
+            "kill the rare for (img:support); stay close while its shield is raised",
+            "(color:yellow)LEVEL: reach lvl 7",
             "kill asinia after her teleport",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
+            "(color:yellow)LEVEL: reach lvl 7 before draven",
             "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
         ],
         [
             "(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
+            "(img:skill) kill draven: land grenades during ground-stab wave",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
-            "open the gates; respawn at the checkpoint to spawn lachlann and skip the animation",
+            "open the gates; ",
+            "(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
             "kill lachlann",
             "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
         ],
         [
             "(color:aqua)GENERAL",
-            "kill crowbell for (quest:(book)); keep attacking while it moves between arenas",
-            "(color:yellow)LEVEL: reach lvl 8",
+            "(img:skill) engrave pounce",
+            "kill crowbell for (quest:(book));",
+            "(color:yellow)LEVEL: reach lvl 10",
             "(img:in-out2) enter areaidg1_12 ;; freythorn"
         ],
         [
@@ -93,19 +122,20 @@
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:skill) upgrade skills",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
         [
             "(color:aqua)GENERAL",
             "get smithing_tools for the salvage bench",
-            "kill executioner; pull the lever while loot drops; talk to the npc",
+            "kill executioner; Take loot drops; talk to the npc",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) turn in una\u0027s_lute for 2 passives",
-			"(img:quest_2) give renly the smithing_tools to unlock the bench",
+            "(img:quest_2) give renly the smithing_tools to unlock the bench",
             "(img:waypoint) to areaidg1_13_2 ;; ogham village"
         ],
         [
@@ -114,6 +144,7 @@
         ],
         [
             "(color:aqua)GENERAL",
+            "click the corpse and move away; save the lvl-1 (img:support)",
             "(color:yellow)LEVEL: reach lvl 13+",
             "(img:in-out2) enter areaidg1_15 ;; ogham manor"
         ],
@@ -125,6 +156,7 @@
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:skill) act 1 done !",
             "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
         ]
     ],
