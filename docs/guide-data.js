@@ -8,32 +8,49 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:quest_2) renly:sell enough to buy talisman 33 gold",
+            "(hint)_ we use wolf form for fast movement",
             "(img:in-out2) enter areaidg1_2 ;; clearfell"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) kill (img:checkpoint) beira for a permanent +10% cold resistance buff",
+            "(hint)_ Use wolf form using dodge spam for fast movement",
+            "(img:quest_2) kill (img:checkpoint) beira",
+            "(img:quest_2) Use permanent +10% cold resistance buff",
             "(img:skip) skip areaidg1_3 ;; mud burrow",
+            "(img:skip) Use (img:checkpoint)",
             "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:aqua)GENERAL",
-            "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
+            "Run around, activate all (img:checkpoint)",
+            "(hint)_ Levelup, keep Lvl-DIFF:-2 max",
+            "(img:skill) kill areagne for (img:support)",
             "find areaidg1_5 ;; red vale entrance"
         ],
         [
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
             "(color:aqua)GENERAL",
-			"check vendors for life, +skills, and stronger weapons",
+            "(img:quest_2) renly: take runed_spikes",
+            "if bag is full, go back to town, sell \u0026 check vendors",
             "identify rares, sell items, and clear inventory",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(img:waypoint) to areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:craft) insert runed_spikes into the tree",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -46,36 +63,48 @@ window.POE2_GUIDES = {
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
             "(color:yellow)LEVEL: reach lvl 5+",
+            "(img:skill) kill rotten_druid: for (img:support)",
             "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
+            "Run around, activate all (img:checkpoint)",
+            "(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
             "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
         ],
         [
             "(color:aqua)GENERAL",
+            "kill the rare for (img:support); stay close while its shield is raised",
+            "(color:yellow)LEVEL: reach lvl 7",
             "kill asinia after her teleport",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
+            "(color:yellow)LEVEL: reach lvl 7 before draven",
             "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
         ],
         [
             "(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
+            "(img:skill) kill draven: land grenades during ground-stab wave",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
-            "open the gates; respawn at the checkpoint to spawn lachlann and skip the animation",
+            "open the gates; ",
+            "(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
             "kill lachlann",
             "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
         ],
         [
             "(color:aqua)GENERAL",
-            "kill crowbell for (quest:(book)); keep attacking while it moves between arenas",
-            "(color:yellow)LEVEL: reach lvl 8",
+            "(img:skill) engrave pounce",
+            "kill crowbell for (quest:(book));",
+            "(color:yellow)LEVEL: reach lvl 10",
             "(img:in-out2) enter areaidg1_12 ;; freythorn"
         ],
         [
@@ -94,19 +123,20 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:skill) upgrade skills",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
         [
             "(color:aqua)GENERAL",
             "get smithing_tools for the salvage bench",
-            "kill executioner; pull the lever while loot drops; talk to the npc",
+            "kill executioner; Take loot drops; talk to the npc",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) turn in una\u0027s_lute for 2 passives",
-			"(img:quest_2) give renly the smithing_tools to unlock the bench",
+            "(img:quest_2) give renly the smithing_tools to unlock the bench",
             "(img:waypoint) to areaidg1_13_2 ;; ogham village"
         ],
         [
@@ -115,6 +145,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
+            "click the corpse and move away; save the lvl-1 (img:support)",
             "(color:yellow)LEVEL: reach lvl 13+",
             "(img:in-out2) enter areaidg1_15 ;; ogham manor"
         ],
@@ -126,6 +157,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:skill) act 1 done !",
             "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
         ]
     ],
@@ -614,7 +646,8 @@ window.POE2_GUIDES = {
     [
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(hint)_ stay above 35 life for slam; clear zombies with fragmentation rounds",
+			"(hint)_ Get your items, rush to the boss, skip mobs",
+            "(hint)_ you can tank slam if you stay above 35/50 life",
             "(color:aqua)GENERAL",
             "fight the_bloated_miller across from the entrance",
             "(img:in-out2) enter areaidg1_town ;; clearfell encampment"
@@ -623,48 +656,58 @@ window.POE2_GUIDES = {
             "(color:ffcc00)GRENADE BUILD",
             "(img:quest_2) renly: take explosive_grenade",
             "(color:aqua)GENERAL",
+			"(img:quest_2) renly:sell enough to buy talisman 33 gold",
+			"(hint)_ we use wolf form for fast movement",
             "(img:in-out2) enter areaidg1_2 ;; clearfell"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "get (img:skill) frost_bomb at the campsite",
-                            "(hint)_ use frost bomb, then 1-2 grenades; save the rest for the next frost bomb",
+			"get (img:skill) frost_bomb at the campsite",
+			"(hint)_ rotation: frost bomb(exposure), then 1-2 grenades",
             "(color:aqua)GENERAL",
-            "(img:quest_2) kill (img:checkpoint) beira for a permanent +10% cold resistance buff",
+			"(hint)_ Use wolf form using dodge spam for fast movement",
+            "(img:quest_2) kill (img:checkpoint) beira",
+			"(img:quest_2) Use permanent +10% cold resistance buff",
             "(img:skip) skip areaidg1_3 ;; mud burrow",
+			"(img:skip) Use (img:checkpoint)",
             "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(img:skill) kill areagne; put (img:support) multishot_I on explosive_grenade",
-                            "(hint)_ respawn at the checkpoint; pre-place frost bomb + 2 grenades",
+			"Use (img:support) multishot_I on explosive_grenade",
+			"(hint)_ respawn at the checkpoint; pre-place frost bomb + 2 grenades",
             "(color:aqua)GENERAL",
-            "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
+			"Run around, activate all (img:checkpoint)",
+			"(hint)_ Levelup, keep Lvl-DIFF:-2 max",
+			"(img:skill) kill areagne for (img:support)",
             "find areaidg1_5 ;; red vale entrance"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:craft) click every refined_arm for a better crossbow base",
-            "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
-                            "do the league mechanic for a lvl-2 (img:skill); upgrade explosive_grenade",
-            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks; transmute a tense_crossbow",
+            "(img:craft) click every refined_arm for Tense Crossbow base",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4, transmute and a tense_crossbow",
             "(color:aqua)GENERAL",
+			"if bag is full, go back to town, sell & check vendors",
+			"(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+			"(hint)_ Buy more scrolls of wisdoms if needed",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:quest_2) renly: take runed_spikes",
-                            "(img:craft) check vendors for flat-damage gloves, a crossbow, and movement speed",
             "(color:aqua)GENERAL",
-            "check vendors for life, +skills, and stronger weapons",
+			"(img:quest_2) renly: take runed_spikes",
+			"if bag is full, go back to town, sell & check vendors",
             "identify rares, sell items, and clear inventory",
+			"(hint)_ Buy more scrolls of wisdoms if needed",
+			"(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(img:waypoint) to areaidg1_4 ;; the grelwood"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:craft) insert runed_spikes into the tree",
             "(color:aqua)GENERAL",
+            "(img:craft) insert runed_spikes into the tree",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -674,57 +717,65 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(img:skill) kill rotten_druid: use 1 grenade, wait for its teleport, then unload",
-            "(img:skill) take (img:support) elemental_armament_I for explosive_grenade",
+            "(img:skill) use shots, wait for its teleport, Ice Bomb then unload",
+			"(img:skill) take flash_grenade",
+            "Use (img:support) multishot_I on flash_grenade",
             "(color:aqua)GENERAL",
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
             "(color:yellow)LEVEL: reach lvl 5+",
+			"(img:skill) kill rotten_druid: for (img:support)",
             "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-                            "(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
-            "(color:aqua)GENERAL",
+			"(color:aqua)GENERAL",
+			"Run around, activate all (img:checkpoint)",
+			"(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
             "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "kill the rare for (img:support); stay close while its shield is raised",
-            "(img:craft) move multishot to crossbow_shot; upgrade explosive_grenade lvl 3",
+            "(img:craft) Use multishot_I to crossbow_shot;",
             "(color:aqua)GENERAL",
+			"kill the rare for (img:support); stay close while its shield is raised",
+			"(color:yellow)LEVEL: reach lvl 7",
             "kill asinia after her teleport",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
+			"if bag is full, go back to town, sell & check vendors",
+			"(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
+			"(color:yellow)LEVEL: reach lvl 7 before draven",
             "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) kill draven: land grenades during ground-stab wave",
-            "(color:aqua)GENERAL",
+			"(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
+			"(img:skill) kill draven: land grenades during ground-stab wave",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
+			"(color:ffcc00)GRENADE BUILD",
+			"Look for Sturdy Crossbow - very strong Crossbow",
             "(color:aqua)GENERAL",
-            "open the gates; respawn at the checkpoint to spawn lachlann and skip the animation",
+            "open the gates; ",
+			"(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
             "kill lachlann",
             "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) engrave flash_grenade; move multishot to it; drop fragmentation_rounds",
-            "(img:skill) engrave pounce and equip a talisman",
+			"(color:ffcc00)GRENADE BUILD",
+			"Equip Sturdy Crossbow - very strong Crossbow",
             "(color:aqua)GENERAL",
-            "kill crowbell for (quest:(book)); keep attacking while it moves between arenas",
-            "(color:yellow)LEVEL: reach lvl 8",
+			"(img:skill) engrave pounce",
+            "kill crowbell for (quest:(book));",
+            "(color:yellow)LEVEL: reach lvl 10",
             "(img:in-out2) enter areaidg1_12 ;; freythorn"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(hint)_ save grenades until it teleports; account for stun knockback in phase 2",
             "(img:skill) take attrition for convenience or war_banner for damage",
             "(color:aqua)GENERAL",
             "complete all 3 rituals; follow the purple trails to find them",
@@ -734,7 +785,7 @@ window.POE2_GUIDES = {
         [
             "(color:ffcc00)GRENADE BUILD",
             "(img:craft) finn: charm; una: greater flasks; renly: upgrades",
-            "(img:craft) (color:yellow)LEVEL: at lvl 10 look for sturdy_crossbow",
+            "(img:craft) look for sturdy_crossbow if you dont have",
             "(color:aqua)GENERAL",
             "(img:waypoint) to areaidg1_11 ;; hunting grounds"
         ],
@@ -743,10 +794,8 @@ window.POE2_GUIDES = {
             "enter (img:checkpoint) areaidg1_13_1 ;; ogham farmlands"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-                            "get a lvl-4 (img:skill) from the league mechanic or crop-circle rare",
-            "(img:skill) upgrade explosive_grenade",
             "(color:aqua)GENERAL",
+            "(img:skill) upgrade skills",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
@@ -755,13 +804,13 @@ window.POE2_GUIDES = {
             "(img:craft) open blacksmith_chest: blank rune + (img:artificer); save both",
             "(color:aqua)GENERAL",
             "get smithing_tools for the salvage bench",
-            "kill executioner; pull the lever while loot drops; talk to the npc",
+            "kill executioner; Take loot drops; talk to the npc",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
             "(img:craft) renly: exchange blank rune for lesser_storm_rune; save it",
-                            "(img:craft) buy a greater life flask; check crossbows; take a lvl-5 gem",
+            "(img:craft) buy a greater life flask; check crossbows; take a lvl-5 gem",
             "(color:aqua)GENERAL",
             "(img:quest_2) turn in una\u0027s_lute for 2 passives",
             "(img:quest_2) give renly the smithing_tools to unlock the bench",
@@ -772,9 +821,8 @@ window.POE2_GUIDES = {
             "(img:in-out2) enter areaidg1_14 ;; manor ramparts"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-                            "click the corpse and move away; save the lvl-1 (img:support)",
             "(color:aqua)GENERAL",
+            "click the corpse and move away; save the lvl-1 (img:support)",
             "(color:yellow)LEVEL: reach lvl 13+",
             "(img:in-out2) enter areaidg1_15 ;; ogham manor"
         ],
@@ -782,23 +830,24 @@ window.POE2_GUIDES = {
             "(color:ffcc00)GRENADE BUILD",
             "(img:skill) (color:yellow)LEVEL: reach lvl 14; engrave gas_grenade",
             "(img:skill) link gas_grenade: multishot_I + elemental_armament_I",
+			"(img:skill) equip (img:support) elemental_armament_I on everything else",
+			"(hint)_ before boss, explosive + gas grenades, flash, pounce, frost bomb, attrition",
             "(color:aqua)GENERAL",
             "kill candlemass for +20 max life",
             "kill count_geonor; dodge and wait during the half-life transition",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) act 1 done: explosive + gas grenades, flash, pounce, frost bomb, attrition",
             "(color:aqua)GENERAL",
+            "(img:skill) act 1 done !",
             "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
         ]
     ],
     [
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) raided camp: take tier-2 support; multishot_II on explosive, I on flash",
-                            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) raided camp: take tier-2 support; multishot_II on explosive_grenade",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
             "(color:aqua)GENERAL",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
@@ -814,7 +863,7 @@ window.POE2_GUIDES = {
             "(img:craft) look for lvl-16 crossbow, damage gloves, 15% movement boots",
             "optional: (img:craft) wall-side (img:artificer); collect scraps and whetstones",
             "(img:craft) (color:yellow)LEVEL: at lvl 16 craft varnished_crossbow from best magic base",
-                            "(hint)_ regal/exalt only good prefixes; add storm + damage runes and quality",
+            "(hint)_ regal/exalt only good prefixes; add storm + damage runes and quality",
             "(color:aqua)GENERAL",
             "(img:in-out2) enter areaidg2_10_2 ;; mawdun mine"
         ],
@@ -1358,6 +1407,8 @@ window.POE2_GUIDES = {
             "(img:skill) take lightning_rod first; campsite gem becomes frost_bomb",
             "(img:craft) prioritize flat damage to attacks on bow, quiver, gloves and rings",
             "(color:aqua)GENERAL",
+            "(img:quest_2) renly:sell enough to buy talisman 33 gold",
+            "(hint)_ we use wolf form for fast movement",
             "(img:in-out2) enter areaidg1_2 ;; clearfell"
         ],
         [
@@ -1366,8 +1417,11 @@ window.POE2_GUIDES = {
             "(hint)_ speed route skips it; normal players gain about 20% more early damage",
             "(img:skill) rapid_attacks_I goes on lightning_arrow",
             "(color:aqua)GENERAL",
-            "(img:quest_2) kill (img:checkpoint) beira for a permanent +10% cold resistance buff",
+            "(hint)_ Use wolf form using dodge spam for fast movement",
+            "(img:quest_2) kill (img:checkpoint) beira",
+            "(img:quest_2) Use permanent +10% cold resistance buff",
             "(img:skip) skip areaidg1_3 ;; mud burrow",
+            "(img:skip) Use (img:checkpoint)",
             "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
         ],
         [
@@ -1375,7 +1429,9 @@ window.POE2_GUIDES = {
             "(img:support) hut rare: take elemental_armament_I for lightning_arrow",
                             "(hint)_ if you have one copy, move elemental armament to lightning rod for bosses",
             "(color:aqua)GENERAL",
-            "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
+            "Run around, activate all (img:checkpoint)",
+            "(hint)_ Levelup, keep Lvl-DIFF:-2 max",
+            "(img:skill) kill areagne for (img:support)",
             "find areaidg1_5 ;; red vale entrance"
         ],
         [
@@ -1384,6 +1440,11 @@ window.POE2_GUIDES = {
             "(img:craft) reach lvl 5, transmute + augment bow and quiver; seek flat damage",
             "(img:support) support order next: concentrated_area for lightning_rod",
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
@@ -1392,12 +1453,17 @@ window.POE2_GUIDES = {
             "(img:craft) vendor check: flat-damage gloves/rings/quiver and movement-speed boots",
             "(hint)_ flat attack damage can nearly double act-1 damage",
             "(color:aqua)GENERAL",
-            "check vendors for life, +skills, and stronger weapons",
+            "(img:quest_2) renly: take runed_spikes",
+            "if bag is full, go back to town, sell \u0026 check vendors",
             "identify rares, sell items, and clear inventory",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(img:waypoint) to areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:craft) insert runed_spikes into the tree",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -1413,26 +1479,36 @@ window.POE2_GUIDES = {
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
             "(color:yellow)LEVEL: reach lvl 5+",
+            "(img:skill) kill rotten_druid: for (img:support)",
             "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:99ddff)ICE SHOT BUILD",
             "(img:craft) salvage quality weapons for whetstones and socketed items for artificers",
             "(color:aqua)GENERAL",
+            "Run around, activate all (img:checkpoint)",
+            "(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
             "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
         ],
         [
             "(color:aqua)GENERAL",
+            "kill the rare for (img:support); stay close while its shield is raised",
+            "(color:yellow)LEVEL: reach lvl 7",
             "kill asinia after her teleport",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
+            "(color:yellow)LEVEL: reach lvl 7 before draven",
             "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
         ],
         [
             "(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
+            "(img:skill) kill draven: land grenades during ground-stab wave",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
@@ -1440,7 +1516,8 @@ window.POE2_GUIDES = {
             "(img:craft) at lvl 11 buy/drop a warden_bow; transmute + augment only",
             "(hint)_ save regal, exalts, alchemy, artificers, runes and whetstones for lvl 16",
             "(color:aqua)GENERAL",
-            "open the gates; respawn at the checkpoint to spawn lachlann and skip the animation",
+            "open the gates; ",
+            "(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
             "kill lachlann",
             "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
         ],
@@ -1449,8 +1526,9 @@ window.POE2_GUIDES = {
             "(img:skill) engrave pounce only if desired; requires low-strength talisman in set 2",
             "(hint)_ pounce is optional mobility and may be dropped in act 2/3",
             "(color:aqua)GENERAL",
-            "kill crowbell for (quest:(book)); keep attacking while it moves between arenas",
-            "(color:yellow)LEVEL: reach lvl 8",
+            "(img:skill) engrave pounce",
+            "kill crowbell for (quest:(book));",
+            "(color:yellow)LEVEL: reach lvl 10",
             "(img:in-out2) enter areaidg1_12 ;; freythorn"
         ],
         [
@@ -1474,13 +1552,14 @@ window.POE2_GUIDES = {
                             "(img:skill) at lvl 14, add barrage + ice_tipped_arrows",
             "(hint)_ use both on cooldown; barrage rapidly triggers lightning rods",
             "(color:aqua)GENERAL",
+            "(img:skill) upgrade skills",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
         [
             "(color:aqua)GENERAL",
             "get smithing_tools for the salvage bench",
-            "kill executioner; pull the lever while loot drops; talk to the npc",
+            "kill executioner; Take loot drops; talk to the npc",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -1498,6 +1577,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
+            "click the corpse and move away; save the lvl-1 (img:support)",
             "(color:yellow)LEVEL: reach lvl 13+",
             "(img:in-out2) enter areaidg1_15 ;; ogham manor"
         ],
@@ -1514,6 +1594,7 @@ window.POE2_GUIDES = {
             "(img:skill) act-1 setup: LA + rapid_attacks + elemental_armament; rod + concentrated_area + elemental_armament",
             "(hint)_ take needed attributes; default remaining attribute nodes to dexterity",
             "(color:aqua)GENERAL",
+            "(img:skill) act 1 done !",
             "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
         ]
     ],
@@ -2123,6 +2204,8 @@ window.POE2_GUIDES = {
             "(img:skill) clear/boss: whirling_slash 2-3 times, then fire twister through the whirlwind",
             "(hint)_ aim twisters along walls and bridges for repeated bounces",
             "(color:aqua)GENERAL",
+            "(img:quest_2) renly:sell enough to buy talisman 33 gold",
+            "(hint)_ we use wolf form for fast movement",
             "(img:in-out2) enter areaidg1_2 ;; clearfell"
         ],
         [
@@ -2130,15 +2213,20 @@ window.POE2_GUIDES = {
             "(img:skill) clearfell gem: take frost_bomb; use for exposure (increases damage) and chilled ground on bosses",
                             "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
             "(color:aqua)GENERAL",
-            "(img:quest_2) kill (img:checkpoint) beira for a permanent +10% cold resistance buff",
+            "(hint)_ Use wolf form using dodge spam for fast movement",
+            "(img:quest_2) kill (img:checkpoint) beira",
+            "(img:quest_2) Use permanent +10% cold resistance buff",
             "(img:skip) skip areaidg1_3 ;; mud burrow",
+            "(img:skip) Use (img:checkpoint)",
             "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:99ddff)MERCENARY TWISTERS",
             "(img:support) grelwood hut rare: take retreat_I for twister",
             "(color:aqua)GENERAL",
-            "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
+            "Run around, activate all (img:checkpoint)",
+            "(hint)_ Levelup, keep Lvl-DIFF:-2 max",
+            "(img:skill) kill areagne for (img:support)",
             "find areaidg1_5 ;; red vale entrance"
         ],
         [
@@ -2146,6 +2234,11 @@ window.POE2_GUIDES = {
             "(img:skill) rust king gem: take fangs_of_frost",
             "(hint)_ early boss setup: parry + fangs of frost for chilled ground, then whirlwind + twister",
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
@@ -2154,12 +2247,17 @@ window.POE2_GUIDES = {
             "(img:craft) gear: set-1 spear = highest attack speed; set-2 spear = %phys/flat damage, then +projectile skills",
             "(img:craft) rings/gloves: flat damage; boots: movement speed; other armour: life/resists/evasion",
             "(color:aqua)GENERAL",
-            "check vendors for life, +skills, and stronger weapons",
+            "(img:quest_2) renly: take runed_spikes",
+            "if bag is full, go back to town, sell \u0026 check vendors",
             "identify rares, sell items, and clear inventory",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(img:waypoint) to areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:craft) insert runed_spikes into the tree",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -2172,21 +2270,30 @@ window.POE2_GUIDES = {
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
             "(color:yellow)LEVEL: reach lvl 5+",
+            "(img:skill) kill rotten_druid: for (img:support)",
             "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:99ddff)MERCENARY TWISTERS",
             "(img:support) tomb haunted treasure: take rage_I for whirling_slash",
             "(color:aqua)GENERAL",
+            "Run around, activate all (img:checkpoint)",
+            "(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
             "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
         ],
         [
             "(color:aqua)GENERAL",
+            "kill the rare for (img:support); stay close while its shield is raised",
+            "(color:yellow)LEVEL: reach lvl 7",
             "kill asinia after her teleport",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
+            "(color:yellow)LEVEL: reach lvl 7 before draven",
             "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
         ],
         [
@@ -2195,20 +2302,23 @@ window.POE2_GUIDES = {
             "(hint)_ levelling whirling slash raises mana cost; its job is making stage-3 whirlwinds",
             "(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
+            "(img:skill) kill draven: land grenades during ground-stab wave",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:99ddff)MERCENARY TWISTERS",
             "(img:skill) lachlann gem: upgrade twister again; twister is always first gem-upgrade priority",
             "(color:aqua)GENERAL",
-            "open the gates; respawn at the checkpoint to spawn lachlann and skip the animation",
+            "open the gates; ",
+            "(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
             "kill lachlann",
             "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
         ],
         [
             "(color:aqua)GENERAL",
-            "kill crowbell for (quest:(book)); keep attacking while it moves between arenas",
-            "(color:yellow)LEVEL: reach lvl 8",
+            "(img:skill) engrave pounce",
+            "kill crowbell for (quest:(book));",
+            "(color:yellow)LEVEL: reach lvl 10",
             "(img:in-out2) enter areaidg1_12 ;; freythorn"
         ],
         [
@@ -2233,6 +2343,7 @@ window.POE2_GUIDES = {
             "(img:skill) lvl 14: take ice_tipped_arrows + barrage; remove fangs_of_frost",
             "(img:support) put frost_nexus on twister; chilled ground grants twisters extra cold damage",
             "(color:aqua)GENERAL",
+            "(img:skill) upgrade skills",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
@@ -2241,7 +2352,7 @@ window.POE2_GUIDES = {
             "(img:support) executioner support: rapid_attacks_I for whirling_slash",
             "(color:aqua)GENERAL",
             "get smithing_tools for the salvage bench",
-            "kill executioner; pull the lever while loot drops; talk to the npc",
+            "kill executioner; Take loot drops; talk to the npc",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -2261,6 +2372,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
+            "click the corpse and move away; save the lvl-1 (img:support)",
             "(color:yellow)LEVEL: reach lvl 13+",
             "(img:in-out2) enter areaidg1_15 ;; ogham manor"
         ],
@@ -2278,6 +2390,7 @@ window.POE2_GUIDES = {
             "(img:craft) act-2 goal: fast winged_spear in set 1; strongest physical spear in set 2",
             "(hint)_ twister can feel weak before lvl 6; act 2 becomes much smoother",
             "(color:aqua)GENERAL",
+            "(img:skill) act 1 done !",
             "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
         ]
     ],
@@ -2868,6 +2981,8 @@ window.POE2_GUIDES = {
             "(img:skill) clear/boss: whirling_slash 2-3 times, then fire twister through the whirlwind",
             "(hint)_ aim twisters along walls and bridges for repeated bounces",
             "(color:aqua)GENERAL",
+            "(img:quest_2) renly:sell enough to buy talisman 33 gold",
+            "(hint)_ we use wolf form for fast movement",
             "(img:in-out2) enter areaidg1_2 ;; clearfell"
         ],
         [
@@ -2875,15 +2990,20 @@ window.POE2_GUIDES = {
                             "(img:skill) clearfell gem: take frost_bomb; use it for exposure and chilled ground on bosses",
                             "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
             "(color:aqua)GENERAL",
-            "(img:quest_2) kill (img:checkpoint) beira for a permanent +10% cold resistance buff",
+            "(hint)_ Use wolf form using dodge spam for fast movement",
+            "(img:quest_2) kill (img:checkpoint) beira",
+            "(img:quest_2) Use permanent +10% cold resistance buff",
             "(img:skip) skip areaidg1_3 ;; mud burrow",
+            "(img:skip) Use (img:checkpoint)",
             "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:support) grelwood hut rare: take retreat_I for twister",
             "(color:aqua)GENERAL",
-            "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
+            "Run around, activate all (img:checkpoint)",
+            "(hint)_ Levelup, keep Lvl-DIFF:-2 max",
+            "(img:skill) kill areagne for (img:support)",
             "find areaidg1_5 ;; red vale entrance"
         ],
         [
@@ -2891,6 +3011,11 @@ window.POE2_GUIDES = {
             "(img:skill) rust king gem: take fangs_of_frost",
             "(hint)_ early boss setup: parry + fangs of frost for chilled ground, then whirlwind + twister",
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
@@ -2899,12 +3024,17 @@ window.POE2_GUIDES = {
             "(img:craft) gear: set-1 spear = highest attack speed; set-2 spear = %phys/flat damage, then +projectile skills",
             "(img:craft) rings/gloves: flat damage; boots: movement speed; other armour: life/resists/evasion",
             "(color:aqua)GENERAL",
-            "check vendors for life, +skills, and stronger weapons",
+            "(img:quest_2) renly: take runed_spikes",
+            "if bag is full, go back to town, sell \u0026 check vendors",
             "identify rares, sell items, and clear inventory",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(img:waypoint) to areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:craft) insert runed_spikes into the tree",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -2917,21 +3047,30 @@ window.POE2_GUIDES = {
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
             "(color:yellow)LEVEL: reach lvl 5+",
+            "(img:skill) kill rotten_druid: for (img:support)",
             "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:support) tomb haunted treasure: take rage_I for whirling_slash",
             "(color:aqua)GENERAL",
+            "Run around, activate all (img:checkpoint)",
+            "(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
             "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
         ],
         [
             "(color:aqua)GENERAL",
+            "kill the rare for (img:support); stay close while its shield is raised",
+            "(color:yellow)LEVEL: reach lvl 7",
             "kill asinia after her teleport",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
+            "(color:yellow)LEVEL: reach lvl 7 before draven",
             "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
         ],
         [
@@ -2940,20 +3079,23 @@ window.POE2_GUIDES = {
             "(hint)_ levelling whirling slash raises mana cost; its job is making stage-3 whirlwinds",
             "(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
+            "(img:skill) kill draven: land grenades during ground-stab wave",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) lachlann gem: upgrade twister again; twister is always first gem-upgrade priority",
             "(color:aqua)GENERAL",
-            "open the gates; respawn at the checkpoint to spawn lachlann and skip the animation",
+            "open the gates; ",
+            "(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
             "kill lachlann",
             "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
         ],
         [
             "(color:aqua)GENERAL",
-            "kill crowbell for (quest:(book)); keep attacking while it moves between arenas",
-            "(color:yellow)LEVEL: reach lvl 8",
+            "(img:skill) engrave pounce",
+            "kill crowbell for (quest:(book));",
+            "(color:yellow)LEVEL: reach lvl 10",
             "(img:in-out2) enter areaidg1_12 ;; freythorn"
         ],
         [
@@ -2978,6 +3120,7 @@ window.POE2_GUIDES = {
             "(img:skill) lvl 14: take ice_tipped_arrows + barrage; remove fangs_of_frost",
                             "(img:support) put frost_nexus on twister; chilled ground grants twisters extra cold damage",
             "(color:aqua)GENERAL",
+            "(img:skill) upgrade skills",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
@@ -2986,7 +3129,7 @@ window.POE2_GUIDES = {
             "(img:support) executioner support: rapid_attacks_I for whirling_slash",
             "(color:aqua)GENERAL",
             "get smithing_tools for the salvage bench",
-            "kill executioner; pull the lever while loot drops; talk to the npc",
+            "kill executioner; Take loot drops; talk to the npc",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -3006,6 +3149,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
+            "click the corpse and move away; save the lvl-1 (img:support)",
             "(color:yellow)LEVEL: reach lvl 13+",
             "(img:in-out2) enter areaidg1_15 ;; ogham manor"
         ],
@@ -3023,6 +3167,7 @@ window.POE2_GUIDES = {
             "(img:craft) act-2 goal: fast winged_spear in set 1; strongest physical spear in set 2",
             "(hint)_ twister can feel weak before lvl 6; act 2 becomes much smoother",
             "(color:aqua)GENERAL",
+            "(img:skill) act 1 done !",
             "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
         ]
     ],
@@ -3613,21 +3758,28 @@ window.POE2_GUIDES = {
             "(img:skill) renly gem: take frost_bomb; clearfell gem: take contagion",
             "(img:skill) early clear: contagion a pack, then kill the infected target with spark",
             "(color:aqua)GENERAL",
+            "(img:quest_2) renly:sell enough to buy talisman 33 gold",
+            "(hint)_ we use wolf form for fast movement",
             "(img:in-out2) enter areaidg1_2 ;; clearfell"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
             "(img:craft) vendor check: +spell levels, movement-speed boots, life and resistances",
             "(color:aqua)GENERAL",
-            "(img:quest_2) kill (img:checkpoint) beira for a permanent +10% cold resistance buff",
+            "(hint)_ Use wolf form using dodge spam for fast movement",
+            "(img:quest_2) kill (img:checkpoint) beira",
+            "(img:quest_2) Use permanent +10% cold resistance buff",
             "(img:skip) skip areaidg1_3 ;; mud burrow",
+            "(img:skip) Use (img:checkpoint)",
             "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
             "(img:support) grelwood hut rare: take unleash for spark or firebolt",
             "(color:aqua)GENERAL",
-            "activate (img:checkpoint) areaidg1_6 ;; grim tangle",
+            "Run around, activate all (img:checkpoint)",
+            "(hint)_ Levelup, keep Lvl-DIFF:-2 max",
+            "(img:skill) kill areagne for (img:support)",
             "find areaidg1_5 ;; red vale entrance"
         ],
         [
@@ -3635,6 +3787,11 @@ window.POE2_GUIDES = {
                             "(img:craft) after rust king, buy a withered_wand if no +level weapon dropped",
             "(hint)_ chaos_bolt weapon level matters and supports the upcoming essence-drain setup",
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
@@ -3642,12 +3799,17 @@ window.POE2_GUIDES = {
             "(color:99ddff)VARASHTA BUILD",
                             "(img:craft) before ascending: prioritize +spell skills/damage/cast speed; then +minion skills",
             "(color:aqua)GENERAL",
-            "check vendors for life, +skills, and stronger weapons",
+            "(img:quest_2) renly: take runed_spikes",
+            "if bag is full, go back to town, sell \u0026 check vendors",
             "identify rares, sell items, and clear inventory",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(img:waypoint) to areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:aqua)GENERAL",
+            "(img:craft) insert runed_spikes into the tree",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -3663,21 +3825,30 @@ window.POE2_GUIDES = {
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
             "(color:yellow)LEVEL: reach lvl 5+",
+            "(img:skill) kill rotten_druid: for (img:support)",
             "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
             "(img:support) tomb haunted treasure: take zenith_I for essence_drain",
             "(color:aqua)GENERAL",
+            "Run around, activate all (img:checkpoint)",
+            "(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
             "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
         ],
         [
             "(color:aqua)GENERAL",
+            "kill the rare for (img:support); stay close while its shield is raised",
+            "(color:yellow)LEVEL: reach lvl 7",
             "kill asinia after her teleport",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
+            "if bag is full, go back to town, sell \u0026 check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ check vendors for life, +skills, and stronger weapons",
+            "(color:yellow)LEVEL: reach lvl 7 before draven",
             "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
         ],
         [
@@ -3685,13 +3856,15 @@ window.POE2_GUIDES = {
             "(img:skill) lvl 6-13 boss: essence_drain -\u003e chaos_bolt 2-3 times until ED expires -\u003e repeat",
             "(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
+            "(img:skill) kill draven: land grenades during ground-stab wave",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
             "(img:skill) lachlann gem: keep essence_drain current; save suitable gems for lvl-14 setup",
             "(color:aqua)GENERAL",
-            "open the gates; respawn at the checkpoint to spawn lachlann and skip the animation",
+            "open the gates; ",
+            "(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
             "kill lachlann",
             "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
         ],
@@ -3699,8 +3872,9 @@ window.POE2_GUIDES = {
             "(color:99ddff)VARASHTA BUILD",
             "optional: (img:support) hunting-grounds dryadic ritual gives chain_I for essence_drain",
             "(color:aqua)GENERAL",
-            "kill crowbell for (quest:(book)); keep attacking while it moves between arenas",
-            "(color:yellow)LEVEL: reach lvl 8",
+            "(img:skill) engrave pounce",
+            "kill crowbell for (quest:(book));",
+            "(color:yellow)LEVEL: reach lvl 10",
             "(img:in-out2) enter areaidg1_12 ;; freythorn"
         ],
         [
@@ -3722,6 +3896,7 @@ window.POE2_GUIDES = {
             "(img:skill) lvl 14: take orb_of_storms + ember_fusillade",
             "(hint)_ orb of storms supplies infusions that greatly improve ember fusillade boss damage",
             "(color:aqua)GENERAL",
+            "(img:skill) upgrade skills",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
@@ -3730,7 +3905,7 @@ window.POE2_GUIDES = {
             "(img:support) executioner support: overabundance_I for orb_of_storms",
             "(color:aqua)GENERAL",
             "get smithing_tools for the salvage bench",
-            "kill executioner; pull the lever while loot drops; talk to the npc",
+            "kill executioner; Take loot drops; talk to the npc",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
@@ -3747,6 +3922,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
+            "click the corpse and move away; save the lvl-1 (img:support)",
             "(color:yellow)LEVEL: reach lvl 13+",
             "(img:in-out2) enter areaidg1_15 ;; ogham manor"
         ],
@@ -3764,6 +3940,7 @@ window.POE2_GUIDES = {
             "(img:craft) begin checking every vendor for +1 all_minion_skills on sceptre and helmet",
             "(hint)_ +minion levels become the largest damage upgrade immediately after ascendancy",
             "(color:aqua)GENERAL",
+            "(img:skill) act 1 done !",
             "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
         ]
     ],
