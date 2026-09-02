@@ -163,6 +163,8 @@
     [
         [
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -289,32 +291,31 @@
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
             "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
             "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
         [
@@ -332,8 +333,19 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -348,7 +360,6 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],

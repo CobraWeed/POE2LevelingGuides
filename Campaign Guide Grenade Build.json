@@ -202,9 +202,10 @@
     [
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) raided camp: take tier-2 support; multishot_II on explosive_grenade",
-            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Put multishot_II on explosive_grenade",
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+             "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -273,8 +274,6 @@
             "(img:in-out2) travel to areaidg2_4_1 ;; keth"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) league: save (img:gcp) for cluster_grenades lvl 52",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill kabala for 2 passives; loot guaranteed amulet",
             "kill snakes until +1 charm relic drops",
@@ -287,7 +286,6 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-            "get guaranteed lesser (img:jeweller) from league",
             "(img:craft) elemental offering: choose needed resistance ring + rune",
                             "collect essence_of_water; portal to town for the support",
             "(img:skill) add magnified_area to explosive_grenade",
@@ -344,7 +342,6 @@
     [
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) league: get tier-3 support and engrave deliberation",
             "azak-fire chest: lesser (img:jeweller)",
             "(img:skill) explosive: deliberation; move magnified_area to gas",
             "(color:aqua)GENERAL",
@@ -360,44 +357,36 @@
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",            
             "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) (color:yellow)LEVEL: at lvl 31 upgrade gems to lvl 9 and add oil_grenade for bosses",
             "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:ffcc00)GRENADE BUILD",
-                            "(hint)_ the checkpoint resets grenade cooldowns; aim for lvl 33.5",
-            "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-                            "(img:skill) open each boss with oil_grenade and reapply it",
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
-        [
+         [
             "(color:ffcc00)GRENADE BUILD",
             "(img:skill) detour only for cores or blackjaw; pounce through blockages",
-            "(img:skill) enable herald_of_ash when spirit permits",
             "(color:aqua)GENERAL",
             "collect soul core; follow main corridor",
             "(img:quest_2) kill blackjaw for +10% fire resistance",
@@ -412,8 +401,19 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],    
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -423,14 +423,13 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "if bombard is weak, use an abrasion/flames/electricity/ice essence",
+            "if bombard is weak, use an abrasion/flames/electricity/ice essence",
             "(color:aqua)GENERAL",
             "activate waypoint for later",
             "(img:in-out2) enter areaidg3_9 ;; molten vault"
         ],
         [
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -447,7 +446,7 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(img:skill) floor 2: follow the ground crack to the blocked wall; pounce across",
+            "(img:skill) floor 2: follow the ground crack to the blocked wall; pounce across",
             "(color:aqua)GENERAL",
             "upgrade/gamble gloves if needed; flat elemental damage is valuable",
             "floor 1: check far corner past central sun first",
@@ -498,7 +497,7 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "search the outer walls for the fossilised formation: lesser (img:jeweller)",
+            "search the outer walls for the fossilised formation: lesser (img:jeweller)",
             "optional: (img:craft) blind_beast for greater rune",
             "(color:aqua)GENERAL",
             "(img:in-out2) enter areaidg4_1_2 ;; volcanic warrens"
@@ -522,16 +521,16 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(img:craft) open the gate; choose life recovery from flasks",
+            "(img:craft) open the gate; choose life recovery from flasks",
             "(color:aqua)GENERAL",
             "kill necromancers until chapel_key drops",
             "(img:in-out2) enter areaidg4_5_2 ;; solitary confinement"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(img:skill) hug the ocean wall; pounce through barred walls",
-                            "(img:skill) boss: stand by the ballista, spam grenades, and activate it when prompted",
-                            "(img:craft) portal to town; collect the pearl amulet + greater storm rune",
+            "(img:skill) hug the ocean wall; pounce through barred walls",
+            "(img:skill) boss: stand by the ballista, spam grenades, and activate it when prompted",
+            "(img:craft) portal to town; collect the pearl amulet + greater storm rune",
             "(color:aqua)GENERAL",
             "instill back_in_action with red/pink/yellow delirium currency",
             "(img:in-out2) sail to areaidg4_7 ;; shrike island"
@@ -580,8 +579,6 @@
             "(img:in-out2) sail to areaidg4_11_1a ;; ngakanu"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) league: get greater (img:jeweller); save for cluster_grenades lvl 52",
             "(color:aqua)GENERAL",
             "hug the right wall to find the heart of the tribe",
             "(img:in-out2) enter areaidg4_11_1b ;; ngakanu hostile"

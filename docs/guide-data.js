@@ -164,6 +164,8 @@ window.POE2_GUIDES = {
     [
         [
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -290,32 +292,31 @@ window.POE2_GUIDES = {
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
             "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
             "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
         [
@@ -333,8 +334,19 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -349,7 +361,6 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -846,9 +857,10 @@ window.POE2_GUIDES = {
     [
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) raided camp: take tier-2 support; multishot_II on explosive_grenade",
-            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Put multishot_II on explosive_grenade",
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+             "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -917,8 +929,6 @@ window.POE2_GUIDES = {
             "(img:in-out2) travel to areaidg2_4_1 ;; keth"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) league: save (img:gcp) for cluster_grenades lvl 52",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill kabala for 2 passives; loot guaranteed amulet",
             "kill snakes until +1 charm relic drops",
@@ -931,7 +941,6 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-            "get guaranteed lesser (img:jeweller) from league",
             "(img:craft) elemental offering: choose needed resistance ring + rune",
                             "collect essence_of_water; portal to town for the support",
             "(img:skill) add magnified_area to explosive_grenade",
@@ -988,7 +997,6 @@ window.POE2_GUIDES = {
     [
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) league: get tier-3 support and engrave deliberation",
             "azak-fire chest: lesser (img:jeweller)",
             "(img:skill) explosive: deliberation; move magnified_area to gas",
             "(color:aqua)GENERAL",
@@ -1004,44 +1012,36 @@ window.POE2_GUIDES = {
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
             "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) (color:yellow)LEVEL: at lvl 31 upgrade gems to lvl 9 and add oil_grenade for bosses",
             "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:ffcc00)GRENADE BUILD",
-                            "(hint)_ the checkpoint resets grenade cooldowns; aim for lvl 33.5",
-            "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-                            "(img:skill) open each boss with oil_grenade and reapply it",
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
-        [
+         [
             "(color:ffcc00)GRENADE BUILD",
             "(img:skill) detour only for cores or blackjaw; pounce through blockages",
-            "(img:skill) enable herald_of_ash when spirit permits",
             "(color:aqua)GENERAL",
             "collect soul core; follow main corridor",
             "(img:quest_2) kill blackjaw for +10% fire resistance",
@@ -1056,8 +1056,19 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -1067,14 +1078,13 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "if bombard is weak, use an abrasion/flames/electricity/ice essence",
+            "if bombard is weak, use an abrasion/flames/electricity/ice essence",
             "(color:aqua)GENERAL",
             "activate waypoint for later",
             "(img:in-out2) enter areaidg3_9 ;; molten vault"
         ],
         [
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -1091,7 +1101,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(img:skill) floor 2: follow the ground crack to the blocked wall; pounce across",
+            "(img:skill) floor 2: follow the ground crack to the blocked wall; pounce across",
             "(color:aqua)GENERAL",
             "upgrade/gamble gloves if needed; flat elemental damage is valuable",
             "floor 1: check far corner past central sun first",
@@ -1142,7 +1152,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "search the outer walls for the fossilised formation: lesser (img:jeweller)",
+            "search the outer walls for the fossilised formation: lesser (img:jeweller)",
             "optional: (img:craft) blind_beast for greater rune",
             "(color:aqua)GENERAL",
             "(img:in-out2) enter areaidg4_1_2 ;; volcanic warrens"
@@ -1166,16 +1176,16 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(img:craft) open the gate; choose life recovery from flasks",
+            "(img:craft) open the gate; choose life recovery from flasks",
             "(color:aqua)GENERAL",
             "kill necromancers until chapel_key drops",
             "(img:in-out2) enter areaidg4_5_2 ;; solitary confinement"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(img:skill) hug the ocean wall; pounce through barred walls",
-                            "(img:skill) boss: stand by the ballista, spam grenades, and activate it when prompted",
-                            "(img:craft) portal to town; collect the pearl amulet + greater storm rune",
+            "(img:skill) hug the ocean wall; pounce through barred walls",
+            "(img:skill) boss: stand by the ballista, spam grenades, and activate it when prompted",
+            "(img:craft) portal to town; collect the pearl amulet + greater storm rune",
             "(color:aqua)GENERAL",
             "instill back_in_action with red/pink/yellow delirium currency",
             "(img:in-out2) sail to areaidg4_7 ;; shrike island"
@@ -1224,8 +1234,6 @@ window.POE2_GUIDES = {
             "(img:in-out2) sail to areaidg4_11_1a ;; ngakanu"
         ],
         [
-            "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) league: get greater (img:jeweller); save for cluster_grenades lvl 52",
             "(color:aqua)GENERAL",
             "hug the right wall to find the heart of the tribe",
             "(img:in-out2) enter areaidg4_11_1b ;; ngakanu hostile"
@@ -1427,7 +1435,7 @@ window.POE2_GUIDES = {
         [
             "(color:99ddff)ICE SHOT BUILD",
             "(img:support) hut rare: take elemental_armament_I for lightning_arrow",
-                            "(hint)_ if you have one copy, move elemental armament to lightning rod for bosses",
+            "(hint)_ if you have one copy, move elemental armament to lightning rod for bosses",
             "(color:aqua)GENERAL",
             "Run around, activate all (img:checkpoint)",
             "(hint)_ Levelup, keep Lvl-DIFF:-2 max",
@@ -1436,7 +1444,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)ICE SHOT BUILD",
-                            "(img:craft) refined arms: farm a shortbow; reset at the nearby checkpoint if needed",
+            "(img:craft) refined arms: farm a shortbow; reset at the nearby checkpoint if needed",
             "(img:craft) reach lvl 5, transmute + augment bow and quiver; seek flat damage",
             "(img:support) support order next: concentrated_area for lightning_rod",
             "(color:aqua)GENERAL",
@@ -1549,7 +1557,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)ICE SHOT BUILD",
-                            "(img:skill) at lvl 14, add barrage + ice_tipped_arrows",
+            "(img:skill) at lvl 14, add barrage + ice_tipped_arrows",
             "(hint)_ use both on cooldown; barrage rapidly triggers lightning rods",
             "(color:aqua)GENERAL",
             "(img:skill) upgrade skills",
@@ -1604,6 +1612,8 @@ window.POE2_GUIDES = {
             "(img:craft) check every vendor reset for a recurve_bow; best prefix is increased physical damage",
             "(img:skill) frost_bomb lvl 3 works through monster lvl 25; drop it afterward",
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -1751,7 +1761,7 @@ window.POE2_GUIDES = {
     [
         [
             "(color:99ddff)ICE SHOT BUILD",
-                            "(img:skill) lvl-31 swap: replace lightning_arrow with ice_shot",
+            "(img:skill) lvl-31 swap: replace lightning_arrow with ice_shot",
             "(img:skill) replace herald_of_thunder with herald_of_ice",
             "(color:aqua)GENERAL",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
@@ -1768,41 +1778,37 @@ window.POE2_GUIDES = {
             "(hint)_ set 2: all mark-effect/duration/cast-speed nodes; set 1: damage nodes",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
+            "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
         ],
         [
             "(color:99ddff)ICE SHOT BUILD",
             "(img:skill) skill assignment: ice_shot + snipe set 1; freezing_mark set 2",
             "(hint)_ herald_of_ice and combat_frenzy stay enabled on both sets",
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
-            "(hint)_ route recommends stun threshold",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
             "(color:99ddff)ICE SHOT BUILD",
-            "(img:skill) lock the same bow and quiver to all weapon sets before assigning skills",
-            "(hint)_ freezing mark set 2 gains effect, freeze buildup, duration and lower mana cost",
-            "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:99ddff)ICE SHOT BUILD",
             "(img:craft) lvl-33 major bow: item-level 33 cultist_bow or dualstring_bow",
-                            "(hint)_ seek high % physical or flat damage; add full quality, sockets, and runes",
+            "(hint)_ seek high % physical or flat damage; add full quality, sockets, and runes",
             "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
         [
@@ -1822,9 +1828,23 @@ window.POE2_GUIDES = {
             "(img:in-out2) enter areaidg3_2_2 ;; matlan waterways"
         ],
         [
+            "(color:99ddff)ICE SHOT BUILD",
+            "(img:skill) lock the same bow and quiver to all weapon sets before assigning skills",
+            "(hint)_ freezing mark set 2 gains effect, freeze buildup, duration and lower mana cost",
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -1841,7 +1861,6 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -2145,7 +2164,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)ICE SHOT BUILD",
-                            "(img:skill) freezing_mark on set 2 should last about 20 seconds with duration nodes/support",
+            "(img:skill) freezing_mark on set 2 should last about 20 seconds with duration nodes/support",
             "(color:aqua)GENERAL",
             "kill lythara: stun around 50% and burst",
             "take gemcrust_skull for +40 spirit and a tier-14 spirit gem",
@@ -2177,7 +2196,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)ICE SHOT BUILD",
-                            "(img:skill) campaign handoff: use FubGun's endgame Ice Shot guide after entering maps",
+            "(img:skill) campaign handoff: use FubGun\u0027s endgame Ice Shot guide after entering maps",
             "(hint)_ keep snipe until gear is strong enough for one-button ice-shot bossing",
             "(color:aqua)GENERAL",
             "finish the encounter; return to town and talk to the hooded one",
@@ -2193,7 +2212,7 @@ window.POE2_GUIDES = {
             "(color:99ddff)MERCENARY TWISTERS",
             "(img:skill) setup first: create huntress; kill miller; stash hardwood_spear + leather_buckler + whirling_slash",
             "(img:skill) cut twister from renly gem, stash it, then create mercenary",
-                            "(hint)_ huntress miller: spear throw + whirling slash; parry, then throw through the whirlwind",
+            "(hint)_ huntress miller: spear throw + whirling slash; parry, then throw through the whirlwind",
             "(color:aqua)GENERAL",
             "fight the_bloated_miller across from the entrance",
             "(img:in-out2) enter areaidg1_town ;; clearfell encampment"
@@ -2211,7 +2230,7 @@ window.POE2_GUIDES = {
         [
             "(color:99ddff)MERCENARY TWISTERS",
             "(img:skill) clearfell gem: take frost_bomb; use for exposure (increases damage) and chilled ground on bosses",
-                            "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
+            "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
             "(color:aqua)GENERAL",
             "(hint)_ Use wolf form using dodge spam for fast movement",
             "(img:quest_2) kill (img:checkpoint) beira",
@@ -2323,7 +2342,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)MERCENARY TWISTERS",
-                            "(img:skill) king in the mists spirit gem: take war_banner",
+            "(img:skill) king in the mists spirit gem: take war_banner",
             "(hint)_ use war banner on rares/bosses for more attack damage and attack speed",
             "(color:aqua)GENERAL",
             "complete all 3 rituals; follow the purple trails to find them",
@@ -2400,6 +2419,8 @@ window.POE2_GUIDES = {
             "(img:skill) lvl 15-28 setup: slash 2-3x -\u003e ice_tipped_arrows -\u003e barrage as needed -\u003e twister",
             "(hint)_ ice-tipped arrows must share weapon set 2 with twister or conversion will fail",
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -2439,7 +2460,7 @@ window.POE2_GUIDES = {
         [
             "(color:99ddff)MERCENARY TWISTERS",
             "(img:skill) halani reward: take freezing_mark; set it to weapon set 2",
-                            "(hint)_ mark bosses before freezing for buildup and 30% damage gained as cold after activation",
+            "(hint)_ mark bosses before freezing for buildup and 30% damage gained as cold after activation",
             "(color:aqua)GENERAL",
             "wait for asala at the bridges; do not outrun her at the first bridge",
             "(hint)_ if stuck, respawn at checkpoint before bridge 2",
@@ -2554,29 +2575,24 @@ window.POE2_GUIDES = {
             "(hint)_ specialize attack-speed nodes into set 1; ctrl+shift+right-click converts allocated nodes",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
             "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
-            "(color:99ddff)MERCENARY TWISTERS",
-            "(img:skill) assign tame_beast to set 2 only; elemental ground empowers every passing twister",
             "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
@@ -2584,13 +2600,15 @@ window.POE2_GUIDES = {
             "(img:skill) ascendancy: skip the first 2-point allocation",
             "(hint)_ take advanced_thaumaturgy when the second trial gives 4 total ascendancy points",
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
         [
             "(color:99ddff)MERCENARY TWISTERS",
             "(img:skill) after dance_with_death, keep sceptre/offhand on set 2 only",
-                            "(hint)_ set 1 needs no offhand so dance with death speeds up whirling slash and barrage",
+            "(hint)_ set 1 needs no offhand so dance with death speeds up whirling slash and barrage",
             "(color:aqua)GENERAL",
             "collect soul core; follow main corridor",
             "(img:quest_2) kill blackjaw for +10% fire resistance",
@@ -2604,9 +2622,22 @@ window.POE2_GUIDES = {
             "(img:in-out2) enter areaidg3_2_2 ;; matlan waterways"
         ],
         [
+            "(color:99ddff)MERCENARY TWISTERS",
+            "(img:skill) assign tame_beast to set 2 only; elemental ground empowers every passing twister",
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -2625,7 +2656,6 @@ window.POE2_GUIDES = {
             "(color:99ddff)MERCENARY TWISTERS",
             "(img:craft) spear priority remains % increased physical / flat damage, then +projectile skill levels",
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -2955,7 +2985,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)MERCENARY TWISTERS",
-                            "(img:skill) maps handoff: continue GuyThatDies' twister mercenary setup; keep whirling_slash lvl 1",
+            "(img:skill) maps handoff: continue GuyThatDies\u0027 twister mercenary setup; keep whirling_slash lvl 1",
             "(hint)_ final checklist: damage spear set 2, fast spear-only set 1, correct skill-set assignments",
             "(color:aqua)GENERAL",
             "finish the encounter; return to town and talk to the hooded one",
@@ -2987,8 +3017,8 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-                            "(img:skill) clearfell gem: take frost_bomb; use it for exposure and chilled ground on bosses",
-                            "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
+            "(img:skill) clearfell gem: take frost_bomb; use it for exposure and chilled ground on bosses",
+            "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
             "(color:aqua)GENERAL",
             "(hint)_ Use wolf form using dodge spam for fast movement",
             "(img:quest_2) kill (img:checkpoint) beira",
@@ -3100,7 +3130,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-                            "(img:skill) king in the mists spirit gem: take war_banner",
+            "(img:skill) king in the mists spirit gem: take war_banner",
             "(hint)_ use war banner on rares/bosses for more attack damage and attack speed",
             "(color:aqua)GENERAL",
             "complete all 3 rituals; follow the purple trails to find them",
@@ -3118,7 +3148,7 @@ window.POE2_GUIDES = {
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) lvl 14: take ice_tipped_arrows + barrage; remove fangs_of_frost",
-                            "(img:support) put frost_nexus on twister; chilled ground grants twisters extra cold damage",
+            "(img:support) put frost_nexus on twister; chilled ground grants twisters extra cold damage",
             "(color:aqua)GENERAL",
             "(img:skill) upgrade skills",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
@@ -3177,6 +3207,8 @@ window.POE2_GUIDES = {
             "(img:skill) lvl 15-28 setup: slash 2-3x -\u003e ice_tipped_arrows -\u003e barrage as needed -\u003e twister",
             "(hint)_ ice-tipped arrows must share weapon set 2 with twister or conversion will fail",
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -3216,7 +3248,7 @@ window.POE2_GUIDES = {
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) halani reward: take freezing_mark; set it to weapon set 2",
-                            "(hint)_ mark bosses before freezing for buildup and 30% damage gained as cold after activation",
+            "(hint)_ mark bosses before freezing for buildup and 30% damage gained as cold after activation",
             "(color:aqua)GENERAL",
             "wait for asala at the bridges; do not outrun her at the first bridge",
             "(hint)_ if stuck, respawn at checkpoint before bridge 2",
@@ -3331,44 +3363,40 @@ window.POE2_GUIDES = {
             "(hint)_ specialize attack-speed nodes into set 1; ctrl+shift+right-click converts allocated nodes",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
             "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
-            "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) use combat_frenzy to generate charges for barrage after freezing enemies",
-            "(hint)_ barrage spends frenzy charges to multiply the next twister burst",
             "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-                            "(img:skill) ascendancy: amazon takes predatory_instinct; spirit_walker takes vivid_stampede",
+            "(img:skill) ascendancy: amazon takes predatory_instinct; spirit_walker takes vivid_stampede",
             "(hint)_ the guide supports either; spirit walker is the league-start alternative",
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) after dance_with_death, keep sceptre/offhand on set 2 only",
-                            "(hint)_ set 1 needs no offhand so dance with death speeds up whirling slash and barrage",
+            "(hint)_ set 1 needs no offhand so dance with death speeds up whirling slash and barrage",
             "(color:aqua)GENERAL",
             "collect soul core; follow main corridor",
             "(img:quest_2) kill blackjaw for +10% fire resistance",
@@ -3382,9 +3410,23 @@ window.POE2_GUIDES = {
             "(img:in-out2) enter areaidg3_2_2 ;; matlan waterways"
         ],
         [
+            "(color:99ddff)HUNTRESS TWISTERS",
+            "(img:skill) use combat_frenzy to generate charges for barrage after freezing enemies",
+            "(hint)_ barrage spends frenzy charges to multiply the next twister burst",
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -3403,7 +3445,6 @@ window.POE2_GUIDES = {
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:craft) spear priority remains % increased physical / flat damage, then +projectile skill levels",
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -3733,7 +3774,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-                            "(img:skill) maps handoff: continue GuyThatDies' twister huntress setup; keep whirling_slash lvl 1",
+            "(img:skill) maps handoff: continue GuyThatDies\u0027 twister huntress setup; keep whirling_slash lvl 1",
             "(hint)_ final checklist: damage spear set 2, fast spear-only set 1, correct skill-set assignments",
             "(color:aqua)GENERAL",
             "finish the encounter; return to town and talk to the hooded one",
@@ -3747,7 +3788,7 @@ window.POE2_GUIDES = {
     [
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) start sorceress: use firebolt or spark for single-target damage; frost_bomb on bosses",
+            "(img:skill) start sorceress: use firebolt or spark for single-target damage; frost_bomb on bosses",
             "(hint)_ spark performs best when the boss is trapped near a wall",
             "(color:aqua)GENERAL",
             "fight the_bloated_miller across from the entrance",
@@ -3784,7 +3825,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:craft) after rust king, buy a withered_wand if no +level weapon dropped",
+            "(img:craft) after rust king, buy a withered_wand if no +level weapon dropped",
             "(hint)_ chaos_bolt weapon level matters and supports the upcoming essence-drain setup",
             "(color:aqua)GENERAL",
             "if bag is full, go back to town, sell \u0026 check vendors",
@@ -3797,7 +3838,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:craft) before ascending: prioritize +spell skills/damage/cast speed; then +minion skills",
+            "(img:craft) before ascending: prioritize +spell skills/damage/cast speed; then +minion skills",
             "(color:aqua)GENERAL",
             "(img:quest_2) renly: take runed_spikes",
             "if bag is full, go back to town, sell \u0026 check vendors",
@@ -3820,7 +3861,7 @@ window.POE2_GUIDES = {
         [
             "(color:99ddff)VARASHTA BUILD",
             "(img:skill) at lvl 6 take essence_drain; clear with contagion -\u003e essence drain",
-                            "(hint)_ cast contagion first so death spreads both effects through the pack",
+            "(hint)_ cast contagion first so death spreads both effects through the pack",
             "(color:aqua)GENERAL",
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
@@ -3949,6 +3990,8 @@ window.POE2_GUIDES = {
             "(color:99ddff)VARASHTA BUILD",
             "(img:skill) until lvl 19 keep ED/contagion for clear and orb + ember_fusillade for bosses",
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -3971,8 +4014,8 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:quest_2) kill balbala and take the trial barya; this build needs its first ascendancy",
-                            "(img:portal) portal to the caravan; talk to zarka to unlock trial_of_the_sekhemas",
+            "(img:quest_2) kill balbala and take the trial barya; this build needs its first ascendancy",
+            "(img:portal) portal to the caravan; talk to zarka to unlock trial_of_the_sekhemas",
             "(img:craft) augment the relic; dodge-roll distance is an excellent modifier",
             "(color:aqua)GENERAL",
             "talk to risu and asala; quick vendor check",
@@ -4010,8 +4053,8 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:craft) after ascending, prioritize +1 minion skills on sceptre/helmet over spell damage",
-                            "(hint)_ if +1 is missing, a lvl-5 alt can gamble cheaper sceptres and helmets from finn",
+            "(img:craft) after ascending, prioritize +1 minion skills on sceptre/helmet over spell damage",
+            "(hint)_ if +1 is missing, a lvl-5 alt can gamble cheaper sceptres and helmets from finn",
             "(color:aqua)GENERAL",
             "kill hyenas until the relic drops; do not reset the checkpoint",
             "follow the entrance direction to the boss; stop using lvl-1 frost bomb",
@@ -4106,36 +4149,33 @@ window.POE2_GUIDES = {
             "(img:skill) silverfist weapon-set points: follow minion/command-skill damage path from the build tree",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
             "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
-            "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) clear ahead with kelari_deception; do not stand still waiting for packs to die",
             "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) the first ascendancy is the main power spike; later points continue the kelari branch",
+            "(img:skill) the first ascendancy is the main power spike; later points continue the kelari branch",
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
         [
@@ -4154,9 +4194,22 @@ window.POE2_GUIDES = {
             "(img:in-out2) enter areaidg3_2_2 ;; matlan waterways"
         ],
         [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) clear ahead with kelari_deception; do not stand still waiting for packs to die",
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -4175,7 +4228,6 @@ window.POE2_GUIDES = {
             "(color:99ddff)VARASHTA BUILD",
             "(img:craft) weapon/focus priority: +skills \u003e damage gained as \u003e increased damage \u003e cast speed \u003e crit",
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -4409,7 +4461,7 @@ window.POE2_GUIDES = {
     [
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) dangerous interlude: cast deception ahead; use brutality during cooldowns",
+            "(img:skill) dangerous interlude: cast deception ahead; use brutality during cooldowns",
             "(color:aqua)GENERAL",
             "recommended first: the lower zone level makes this hard interlude easier",
             "(img:in-out2) enter areaidp2_1 ;; khari crossing"
@@ -4429,7 +4481,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) later ascendancy points follow GuyThatDies' kelari path",
+            "(img:skill) later ascendancy points follow GuyThatDies\u0027 kelari path",
             "(color:aqua)GENERAL",
             "find 2 baryas; place in outer-wall pedestals",
             "choose an amulet and ring; kill azarian for lvl-60 barya",
@@ -4503,7 +4555,7 @@ window.POE2_GUIDES = {
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) maps handoff: continue GuyThatDies' varashta setup; deception clear + full boss rotation",
+            "(img:skill) maps handoff: continue GuyThatDies\u0027 varashta setup; deception clear + full boss rotation",
             "(hint)_ final checklist: +minion skills, kelari branch, capped resists and current command skills",
             "(color:aqua)GENERAL",
             "finish the encounter; return to town and talk to the hooded one",

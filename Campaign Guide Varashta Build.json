@@ -2,7 +2,7 @@
     [
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) start sorceress: use firebolt or spark for single-target damage; frost_bomb on bosses",
+            "(img:skill) start sorceress: use firebolt or spark for single-target damage; frost_bomb on bosses",
             "(hint)_ spark performs best when the boss is trapped near a wall",
             "(color:aqua)GENERAL",
             "fight the_bloated_miller across from the entrance",
@@ -39,7 +39,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:craft) after rust king, buy a withered_wand if no +level weapon dropped",
+            "(img:craft) after rust king, buy a withered_wand if no +level weapon dropped",
             "(hint)_ chaos_bolt weapon level matters and supports the upcoming essence-drain setup",
             "(color:aqua)GENERAL",
             "if bag is full, go back to town, sell \u0026 check vendors",
@@ -52,7 +52,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:craft) before ascending: prioritize +spell skills/damage/cast speed; then +minion skills",
+            "(img:craft) before ascending: prioritize +spell skills/damage/cast speed; then +minion skills",
             "(color:aqua)GENERAL",
             "(img:quest_2) renly: take runed_spikes",
             "if bag is full, go back to town, sell \u0026 check vendors",
@@ -75,7 +75,7 @@
         [
             "(color:99ddff)VARASHTA BUILD",
             "(img:skill) at lvl 6 take essence_drain; clear with contagion -\u003e essence drain",
-                            "(hint)_ cast contagion first so death spreads both effects through the pack",
+            "(hint)_ cast contagion first so death spreads both effects through the pack",
             "(color:aqua)GENERAL",
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
@@ -204,6 +204,8 @@
             "(color:99ddff)VARASHTA BUILD",
             "(img:skill) until lvl 19 keep ED/contagion for clear and orb + ember_fusillade for bosses",
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -226,8 +228,8 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:quest_2) kill balbala and take the trial barya; this build needs its first ascendancy",
-                            "(img:portal) portal to the caravan; talk to zarka to unlock trial_of_the_sekhemas",
+            "(img:quest_2) kill balbala and take the trial barya; this build needs its first ascendancy",
+            "(img:portal) portal to the caravan; talk to zarka to unlock trial_of_the_sekhemas",
             "(img:craft) augment the relic; dodge-roll distance is an excellent modifier",
             "(color:aqua)GENERAL",
             "talk to risu and asala; quick vendor check",
@@ -265,8 +267,8 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:craft) after ascending, prioritize +1 minion skills on sceptre/helmet over spell damage",
-                            "(hint)_ if +1 is missing, a lvl-5 alt can gamble cheaper sceptres and helmets from finn",
+            "(img:craft) after ascending, prioritize +1 minion skills on sceptre/helmet over spell damage",
+            "(hint)_ if +1 is missing, a lvl-5 alt can gamble cheaper sceptres and helmets from finn",
             "(color:aqua)GENERAL",
             "kill hyenas until the relic drops; do not reset the checkpoint",
             "follow the entrance direction to the boss; stop using lvl-1 frost bomb",
@@ -361,36 +363,33 @@
             "(img:skill) silverfist weapon-set points: follow minion/command-skill damage path from the build tree",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
             "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
-            "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) clear ahead with kelari_deception; do not stand still waiting for packs to die",
             "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) the first ascendancy is the main power spike; later points continue the kelari branch",
+            "(img:skill) the first ascendancy is the main power spike; later points continue the kelari branch",
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
         [
@@ -409,9 +408,22 @@
             "(img:in-out2) enter areaidg3_2_2 ;; matlan waterways"
         ],
         [
+            "(color:99ddff)VARASHTA BUILD",
+            "(img:skill) clear ahead with kelari_deception; do not stand still waiting for packs to die",
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -430,7 +442,6 @@
             "(color:99ddff)VARASHTA BUILD",
             "(img:craft) weapon/focus priority: +skills \u003e damage gained as \u003e increased damage \u003e cast speed \u003e crit",
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -664,7 +675,7 @@
     [
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) dangerous interlude: cast deception ahead; use brutality during cooldowns",
+            "(img:skill) dangerous interlude: cast deception ahead; use brutality during cooldowns",
             "(color:aqua)GENERAL",
             "recommended first: the lower zone level makes this hard interlude easier",
             "(img:in-out2) enter areaidp2_1 ;; khari crossing"
@@ -684,7 +695,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) later ascendancy points follow GuyThatDies' kelari path",
+            "(img:skill) later ascendancy points follow GuyThatDies\u0027 kelari path",
             "(color:aqua)GENERAL",
             "find 2 baryas; place in outer-wall pedestals",
             "choose an amulet and ring; kill azarian for lvl-60 barya",
@@ -758,7 +769,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-                            "(img:skill) maps handoff: continue GuyThatDies' varashta setup; deception clear + full boss rotation",
+            "(img:skill) maps handoff: continue GuyThatDies\u0027 varashta setup; deception clear + full boss rotation",
             "(hint)_ final checklist: +minion skills, kelari branch, capped resists and current command skills",
             "(color:aqua)GENERAL",
             "finish the encounter; return to town and talk to the hooded one",

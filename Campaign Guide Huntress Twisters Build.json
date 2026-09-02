@@ -20,8 +20,8 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-                            "(img:skill) clearfell gem: take frost_bomb; use it for exposure and chilled ground on bosses",
-                            "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
+            "(img:skill) clearfell gem: take frost_bomb; use it for exposure and chilled ground on bosses",
+            "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
             "(color:aqua)GENERAL",
             "(hint)_ Use wolf form using dodge spam for fast movement",
             "(img:quest_2) kill (img:checkpoint) beira",
@@ -133,7 +133,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-                            "(img:skill) king in the mists spirit gem: take war_banner",
+            "(img:skill) king in the mists spirit gem: take war_banner",
             "(hint)_ use war banner on rares/bosses for more attack damage and attack speed",
             "(color:aqua)GENERAL",
             "complete all 3 rituals; follow the purple trails to find them",
@@ -151,7 +151,7 @@
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) lvl 14: take ice_tipped_arrows + barrage; remove fangs_of_frost",
-                            "(img:support) put frost_nexus on twister; chilled ground grants twisters extra cold damage",
+            "(img:support) put frost_nexus on twister; chilled ground grants twisters extra cold damage",
             "(color:aqua)GENERAL",
             "(img:skill) upgrade skills",
             "(img:quest_2) find una\u0027s_lute for 2 passives",
@@ -210,6 +210,8 @@
             "(img:skill) lvl 15-28 setup: slash 2-3x -\u003e ice_tipped_arrows -\u003e barrage as needed -\u003e twister",
             "(hint)_ ice-tipped arrows must share weapon set 2 with twister or conversion will fail",
             "(color:aqua)GENERAL",
+            "(img:skill) pounce across the cliff by targeting a mob near the boss",
+            "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -249,7 +251,7 @@
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) halani reward: take freezing_mark; set it to weapon set 2",
-                            "(hint)_ mark bosses before freezing for buildup and 30% damage gained as cold after activation",
+            "(hint)_ mark bosses before freezing for buildup and 30% damage gained as cold after activation",
             "(color:aqua)GENERAL",
             "wait for asala at the bridges; do not outrun her at the first bridge",
             "(hint)_ if stuck, respawn at checkpoint before bridge 2",
@@ -364,44 +366,40 @@
             "(hint)_ specialize attack-speed nodes into set 1; ctrl+shift+right-click converts allocated nodes",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "loot guaranteed rare gloves; optional league alchemy",
             "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) collect corpse-snake_venom; return to servi for passive reward",
+            "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
             "(hint)_ route recommends stun threshold",
+            "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "(tip)_ Find Camp where rare is, talk to gwen, she will lead to next area",
             "(img:in-out2) enter areaidg3_2_1 ;; infested barrens"
         ],
         [
-            "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) use combat_frenzy to generate charges for barrage after freezing enemies",
-            "(hint)_ barrage spends frenzy charges to multiply the next twister burst",
             "(color:aqua)GENERAL",
-            "activate waypoint; optional side cave for xp",
-            "loot guaranteed rare boots",
-            "(img:in-out2) enter areaidg3_7 ;; azak bog"
-        ],
-        [
-            "(color:aqua)GENERAL",
-            "optional: xp farm: clear flameskin ritual, respawn, repeat",
-            "kill boss for ghastly_spear + gemrot_skull",
-            "trade spear to servi for thawing or staunching charm",
+            "Find Camp with 2 Rares, immediately unlock next area position",
             "(img:in-out2) enter areaidg3_5 ;; chimeral wetlands"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-                            "(img:skill) ascendancy: amazon takes predatory_instinct; spirit_walker takes vivid_stampede",
+            "(img:skill) ascendancy: amazon takes predatory_instinct; spirit_walker takes vivid_stampede",
             "(hint)_ the guide supports either; spirit walker is the league-start alternative",
             "(color:aqua)GENERAL",
-            "(img:skip) skip trial_of_chaos and off-route rare rewards",
+            "Unlock Chaos trial (img:waypoint) and go back",
+            "(img:skip) skip trial_of_chaos",
+            "Kill the boss get the chaos item",
             "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) after dance_with_death, keep sceptre/offhand on set 2 only",
-                            "(hint)_ set 1 needs no offhand so dance with death speeds up whirling slash and barrage",
+            "(hint)_ set 1 needs no offhand so dance with death speeds up whirling slash and barrage",
             "(color:aqua)GENERAL",
             "collect soul core; follow main corridor",
             "(img:quest_2) kill blackjaw for +10% fire resistance",
@@ -415,9 +413,23 @@
             "(img:in-out2) enter areaidg3_2_2 ;; matlan waterways"
         ],
         [
+            "(color:99ddff)HUNTRESS TWISTERS",
+            "(img:skill) use combat_frenzy to generate charges for barrage after freezing enemies",
+            "(hint)_ barrage spends frenzy charges to multiply the next twister burst",
             "(color:aqua)GENERAL",
-            "pull the levers and cross the zone",
-            "place a portal before the final lever; click it as the interaction ends",
+            "Keep going until you find Servi, go left to the next area",
+            "(img:in-out2) enter areaidg3_7 ;; azak bog"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "optional: xp farm: clear flameskin ritual, respawn, repeat",
+            "kill boss for ghastly_spear + gemrot_skull",
+            "trade spear to servi for thawing or staunching charm",
+            "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
+        ],
+        [
+            "(color:aqua)GENERAL",
+            "Find and pull the lever",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
         [
@@ -436,7 +448,6 @@
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:craft) spear priority remains % increased physical / flat damage, then +projectile skill levels",
             "(color:aqua)GENERAL",
-            "follow the linear route and kill the boss; optional league unique",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
         ],
@@ -766,7 +777,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-                            "(img:skill) maps handoff: continue GuyThatDies' twister huntress setup; keep whirling_slash lvl 1",
+            "(img:skill) maps handoff: continue GuyThatDies\u0027 twister huntress setup; keep whirling_slash lvl 1",
             "(hint)_ final checklist: damage spear set 2, fast spear-only set 1, correct skill-set assignments",
             "(color:aqua)GENERAL",
             "finish the encounter; return to town and talk to the hooded one",
