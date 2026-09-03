@@ -114,6 +114,35 @@
 
     .status.error { color: #f0a0a0; }
 
+    .build-resource {
+      display: flex;
+      align-items: center;
+      margin: 8px 0 0;
+    }
+
+    .build-resource[hidden] { display: none; }
+
+    .build-resource-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 9px 14px;
+      border: 1px solid #7562c9;
+      border-radius: 3px;
+      background: #211b3a;
+      color: #ddd5ff;
+      text-decoration: none;
+      font: 600 12px Arial, sans-serif;
+      letter-spacing: .035em;
+      text-transform: uppercase;
+    }
+
+    .build-resource-link:hover {
+      border-color: #a998ff;
+      background: #2b234b;
+      color: #fff;
+    }
+
     .guide-selection-title {
       margin: 18px 0 0;
       color: var(--gold);
@@ -369,6 +398,12 @@
     :root[data-theme="light"] .guide-button:hover,
     :root[data-theme="light"] .act-card:hover { border-color: var(--gold); }
     :root[data-theme="light"] .guide-button.active { background: #d2edf1; }
+    :root[data-theme="light"] .build-resource-link {
+      border-color: #6b58bd;
+      background: #eeeaff;
+      color: #392b77;
+    }
+    :root[data-theme="light"] .build-resource-link:hover { background: #e0d9ff; }
     :root[data-theme="light"] .act-card {
       background: linear-gradient(145deg, #f9fdfe, #d8e7ea);
     }
@@ -427,6 +462,9 @@
     <h2 class="guide-selection-title">Choose your build guide:</h2>
     <nav id="guideGrid" class="guide-grid" aria-label="Available build guides"></nav>
     <p id="status" class="status">Loading campaign guide…</p>
+    <div id="buildResource" class="build-resource" hidden>
+      <a id="buildResourceLink" class="build-resource-link" href="#" target="_blank" rel="noopener noreferrer">View full build on Mobalytics ↗</a>
+    </div>
     <nav id="actGrid" class="act-grid" aria-label="Campaign sections"></nav>
 
     <section class="guide-panel">
@@ -447,12 +485,36 @@
     const sectionNames = ["Act 1", "Act 2", "Act 3", "Act 4", "Interlude 1", "Interlude 2", "Interlude 3"];
     const guideOptions = [
       { key: "generic", label: "Generic" },
-      { key: "grenade", label: "Grenade" },
-      { key: "iceShot", label: "Ice Shot" },
-      { key: "monk", label: "Glacial Cascade Monk" },
-      { key: "mercenaryTwisters", label: "Mercenary Twisters" },
-      { key: "huntressTwisters", label: "Huntress Twisters" },
-      { key: "varashta", label: "Varashta" }
+      {
+        key: "grenade",
+        label: "Grenade",
+        buildUrl: "https://mobalytics.gg/poe-2/builds/mercenary-grenades-leaguestarter"
+      },
+      {
+        key: "iceShot",
+        label: "Ice Shot",
+        buildUrl: "https://mobalytics.gg/poe-2/builds/ice-shot-snipe-ranger-leveling"
+      },
+      {
+        key: "monk",
+        label: "Glacial Cascade Monk",
+        buildUrl: "https://mobalytics.gg/poe-2/builds/hollow-palm-levelling"
+      },
+      {
+        key: "mercenaryTwisters",
+        label: "Mercenary Twisters",
+        buildUrl: "https://mobalytics.gg/poe-2/builds/twister-mercenary-levelling"
+      },
+      {
+        key: "huntressTwisters",
+        label: "Huntress Twisters",
+        buildUrl: "https://mobalytics.gg/poe-2/builds/twister-huntress-levelling"
+      },
+      {
+        key: "varashta",
+        label: "Varashta",
+        buildUrl: "https://mobalytics.gg/poe-2/builds/varashta-levelling"
+      }
     ];
     const bossNames = [
       "the bloated miller", "the rust king", "sisters of garukhan", "king in the mists",
@@ -476,6 +538,8 @@
 
     const statusEl = document.querySelector("#status");
     const guideGrid = document.querySelector("#guideGrid");
+    const buildResourceEl = document.querySelector("#buildResource");
+    const buildResourceLinkEl = document.querySelector("#buildResourceLink");
     const actGrid = document.querySelector("#actGrid");
     const pagesEl = document.querySelector("#pages");
     const titleEl = document.querySelector("#sectionTitle");
@@ -627,6 +691,19 @@
       });
     }
 
+    function renderBuildResource() {
+      const option = guideOptions.find(candidate => candidate.key === activeGuideKey);
+      const hasBuildUrl = Boolean(option?.buildUrl);
+      buildResourceEl.hidden = !hasBuildUrl;
+      if (hasBuildUrl) {
+        buildResourceLinkEl.href = option.buildUrl;
+        buildResourceLinkEl.setAttribute("aria-label", `View ${option.label} full build on Mobalytics (opens in a new tab)`);
+      } else {
+        buildResourceLinkEl.removeAttribute("href");
+        buildResourceLinkEl.removeAttribute("aria-label");
+      }
+    }
+
     function renderSections() {
       actGrid.innerHTML = "";
       guide.forEach((section, index) => {
@@ -702,6 +779,7 @@
 
     function render() {
       renderGuideButtons();
+      renderBuildResource();
       renderSections();
       renderPages();
     }
