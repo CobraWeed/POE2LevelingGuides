@@ -2,8 +2,8 @@
     [
         [
             "(color:ffcc00)GRENADE BUILD",
-			"(hint)_ Get your items, rush to the boss, skip mobs",
-            "(hint)_ you can tank slam if you stay above 35/50 life",
+            "(hint)_ equip your items and rush past normal enemies",
+            "(hint)_ the slam is safe above 35 of 50 life",
             "(color:aqua)GENERAL",
             "fight the_bloated_miller across from the entrance",
             "(img:in-out2) enter areaidg1_town ;; clearfell encampment"
@@ -12,52 +12,52 @@
             "(color:ffcc00)GRENADE BUILD",
             "(img:quest_2) renly: take explosive_grenade",
             "(color:aqua)GENERAL",
-			"(img:quest_2) renly:sell enough to buy talisman 33 gold",
-			"(hint)_ we use wolf form for fast movement",
+            "(img:quest_2) renly:sell enough to buy talisman 33 gold",
+            "(hint)_ we use wolf form for fast movement",
             "(img:in-out2) enter areaidg1_2 ;; clearfell"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-			"get (img:skill) frost_bomb at the campsite",
-			"(hint)_ rotation: frost bomb(exposure), then 1-2 grenades",
+            "(img:skill) take frost_bomb at the campsite",
+            "(hint)_ boss: frost_bomb for exposure, then throw 1-2 grenades",
             "(color:aqua)GENERAL",
-			"(hint)_ Use wolf form using dodge spam for fast movement",
+            "(hint)_ Use wolf form using dodge spam for fast movement",
             "(img:quest_2) kill (img:checkpoint) beira",
-			"(img:quest_2) Use permanent +10% cold resistance buff",
+            "(img:quest_2) Use permanent +10% cold resistance buff",
             "(img:skip) skip areaidg1_3 ;; mud burrow",
-			"(img:skip) Use (img:checkpoint)",
+            "(img:skip) Use (img:checkpoint)",
             "enter (img:checkpoint) areaidg1_4 ;; the grelwood"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-			"Use (img:support) multishot_I on explosive_grenade",
-			"(hint)_ respawn at the checkpoint; pre-place frost bomb + 2 grenades",
+            "(img:support) explosive_grenade: multishot_I",
+            "(hint)_ pre-place frost_bomb and 2 grenades before the boss",
             "(color:aqua)GENERAL",
-			"Run around, activate all (img:checkpoint)",
-			"(hint)_ Levelup, keep Lvl-DIFF:-2 max",
-			"(img:skill) kill areagne for (img:support)",
+            "Run around, activate all (img:checkpoint)",
+            "(hint)_ Levelup, keep Lvl-DIFF:-2 max",
+            "(img:skill) kill areagne for (img:support)",
             "find areaidg1_5 ;; red vale entrance"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:craft) click every refined_arm for Tense Crossbow base",
-            "(img:craft) (color:yellow)LEVEL: at lvl 4, transmute and a tense_crossbow",
+            "(img:craft) check every refined_arm for a tense_crossbow",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4, transmute a tense_crossbow",
             "(color:aqua)GENERAL",
-			"if bag is full, go back to town, sell & check vendors",
-			"(hint)_ vendor check: flat-damage gloves and movement-speed boots",
-			"(hint)_ Buy more scrolls of wisdoms if needed",
-            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "if bag is full, go back to town, sell & check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne's flasks;",
             "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
             "(color:aqua)GENERAL",
-			"(img:quest_2) renly: take runed_spikes",
-			"if bag is full, go back to town, sell & check vendors",
+            "(img:quest_2) renly: take runed_spikes",
+            "if bag is full, go back to town, sell & check vendors",
             "identify rares, sell items, and clear inventory",
-			"(hint)_ Buy more scrolls of wisdoms if needed",
-			"(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "(hint)_ Buy more scrolls of wisdoms if needed",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
             "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(img:waypoint) to areaidg1_4 ;; the grelwood"
         ],
@@ -73,59 +73,59 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) use shots, wait for its teleport, Ice Bomb then unload",
-			"(img:skill) take flash_grenade",
-            "Use (img:support) multishot_I on flash_grenade",
+            "(img:skill) take flash_grenade",
+            "(img:support) flash_grenade: multishot_I",
             "(color:aqua)GENERAL",
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
             "(color:yellow)LEVEL: reach lvl 5+",
-			"(img:skill) kill rotten_druid: for (img:support)",
+            "(img:skill) kill rotten_druid: for (img:support)",
             "enter (img:checkpoint) areaidg1_7 ;; cemetery of eternals"
         ],
         [
-			"(color:aqua)GENERAL",
-			"Run around, activate all (img:checkpoint)",
-			"(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
+            "(color:aqua)GENERAL",
+            "Run around, activate all (img:checkpoint)",
+            "(img:craft) transmute a lazuli/iron ring; look for a damage prefix",
             "enter (img:checkpoint) areaidg1_9 ;; tomb of consort"
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:craft) Use multishot_I to crossbow_shot;",
+            "(img:support) crossbow_shot: multishot_I",
+            "(img:skill) against Asinia: wait for her teleport, cast frost_bomb, then unload",
             "(color:aqua)GENERAL",
-			"kill the rare for (img:support); stay close while its shield is raised",
-			"(color:yellow)LEVEL: reach lvl 7",
+            "kill the rare for (img:support); stay close while its shield is raised",
+            "(color:yellow)LEVEL: reach lvl 7",
             "kill asinia after her teleport",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
             "(color:aqua)GENERAL",
-			"if bag is full, go back to town, sell & check vendors",
-			"(hint)_ vendor check: flat-damage gloves and movement-speed boots",
+            "if bag is full, go back to town, sell & check vendors",
+            "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
             "(hint)_ check vendors for life, +skills, and stronger weapons",
-			"(color:yellow)LEVEL: reach lvl 7 before draven",
+            "(color:yellow)LEVEL: reach lvl 7 before draven",
             "enter (img:checkpoint) areaidg1_8 ;; mausoleum of praetor"
         ],
         [
-			"(color:aqua)GENERAL",
+            "(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
-			"(img:skill) kill draven: land grenades during ground-stab wave",
+            "(img:skill) kill draven: land grenades during ground-stab wave",
             "(img:in-out2) enter areaidg1_7 ;; cemetery of eternals"
         ],
         [
-			"(color:ffcc00)GRENADE BUILD",
-			"Look for Sturdy Crossbow - very strong Crossbow",
+            "(color:ffcc00)GRENADE BUILD",
+            "(img:craft) look for a sturdy_crossbow",
             "(color:aqua)GENERAL",
             "open the gates; ",
-			"(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
+            "(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
             "kill lachlann",
             "(img:in-out2) enter areaidg1_11 ;; hunting grounds"
         ],
         [
-			"(color:ffcc00)GRENADE BUILD",
-			"Equip Sturdy Crossbow - very strong Crossbow",
+            "(color:ffcc00)GRENADE BUILD",
+            "(img:craft) equip a sturdy_crossbow",
             "(color:aqua)GENERAL",
-			"(img:skill) engrave pounce",
+            "(img:skill) engrave pounce",
             "kill crowbell for (quest:(book));",
             "(color:yellow)LEVEL: reach lvl 10",
             "(img:in-out2) enter areaidg1_12 ;; freythorn"
@@ -141,7 +141,7 @@
         [
             "(color:ffcc00)GRENADE BUILD",
             "(img:craft) finn: charm; una: greater flasks; renly: upgrades",
-            "(img:craft) look for sturdy_crossbow if you dont have",
+            "(img:craft) buy a sturdy_crossbow if you still need one",
             "(color:aqua)GENERAL",
             "(img:waypoint) to areaidg1_11 ;; hunting grounds"
         ],
@@ -152,7 +152,7 @@
         [
             "(color:aqua)GENERAL",
             "(img:skill) upgrade skills",
-            "(img:quest_2) find una\u0027s_lute for 2 passives",
+            "(img:quest_2) find una's_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
         [
@@ -168,7 +168,7 @@
             "(img:craft) renly: exchange blank rune for lesser_storm_rune; save it",
             "(img:craft) buy a greater life flask; check crossbows; take a lvl-5 gem",
             "(color:aqua)GENERAL",
-            "(img:quest_2) turn in una\u0027s_lute for 2 passives",
+            "(img:quest_2) turn in una's_lute for 2 passives",
             "(img:quest_2) give renly the smithing_tools to unlock the bench",
             "(img:waypoint) to areaidg1_13_2 ;; ogham village"
         ],
@@ -186,8 +186,8 @@
             "(color:ffcc00)GRENADE BUILD",
             "(img:skill) (color:yellow)LEVEL: reach lvl 14; engrave gas_grenade",
             "(img:skill) link gas_grenade: multishot_I + elemental_armament_I",
-			"(img:skill) equip (img:support) elemental_armament_I on everything else",
-			"(hint)_ before boss, explosive + gas grenades, flash, pounce, frost bomb, attrition",
+            "(img:support) use elemental_armament_I on the other attacks",
+            "(hint)_ boss setup: explosive + gas grenades, flash, pounce, frost_bomb, attrition",
             "(color:aqua)GENERAL",
             "kill candlemass for +20 max life",
             "kill count_geonor; dodge and wait during the half-life transition",
@@ -202,10 +202,10 @@
     [
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:skill) Put multishot_II on explosive_grenade",
+            "(img:support) explosive_grenade: replace multishot_I with multishot_II",
             "(color:aqua)GENERAL",
             "(img:skill) pounce across the cliff by targeting a mob near the boss",
-             "(img:skill) Get tier-2 support from raided camp;",
+            "(img:skill) Get tier-2 support from raided camp;",
             "kill rathbreaker: stay close and behind him",
             "(img:portal) to areaidg2_town ;; ardura caravan"
         ],
@@ -218,9 +218,9 @@
         [
             "(color:ffcc00)GRENADE BUILD",
             "(img:craft) look for lvl-16 crossbow, damage gloves, 15% movement boots",
-            "optional: (img:craft) wall-side (img:artificer); collect scraps and whetstones",
+            "optional: (img:craft) collect the wall-side (img:artificer), scraps, and whetstones",
             "(img:craft) (color:yellow)LEVEL: at lvl 16 craft varnished_crossbow from best magic base",
-            "(hint)_ regal/exalt only good prefixes; add storm + damage runes and quality",
+            "(hint)_ only regal/exalt good prefixes; add quality and damage runes",
             "(color:aqua)GENERAL",
             "(img:in-out2) enter areaidg2_10_2 ;; mawdun mine"
         ],
@@ -234,15 +234,15 @@
         [
             "(color:aqua)GENERAL",
             "talk to risu and asala; quick vendor check",
-            "(img:in-out2) travel to areaidg2_2 ;; traitor\u0027s passage"
+            "(img:in-out2) travel to areaidg2_2 ;; traitor's passage"
         ],
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) kill balbala and take her trial relic",
             "(img:portal) portal to the caravan; talk to zarka to unlock trial_of_the_sekhemas",
             "(img:craft) augment the relic; dodge-roll distance is an excellent modifier",
-            "(img:quest_2) complete the trial; choose your build\u0027s ascendancy and spend the first 2 points",
-            "loot the lvl-6 skill chest before leaving traitor\u0027s passage",
+            "(img:quest_2) complete the trial; choose your build's ascendancy and spend the first 2 points",
+            "loot the lvl-6 skill chest before leaving traitor's passage",
             "(img:in-out2) enter areaidg2_3 ;; halani gates"
         ],
         [
@@ -257,7 +257,7 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-            "(img:skip) skip abyss and lightless passage; upgrade outdated armour bases",
+            "(img:craft) upgrade outdated armour; skip abyss and lightless passage",
             "(color:aqua)GENERAL",
             "(img:in-out2) enter areaidg2_5_2 ;; bone pits"
         ],
@@ -287,7 +287,7 @@
         [
             "(color:ffcc00)GRENADE BUILD",
             "(img:craft) elemental offering: choose needed resistance ring + rune",
-                            "collect essence_of_water; portal to town for the support",
+            "(img:craft) collect essence_of_water; portal to town for the support",
             "(img:skill) add magnified_area to explosive_grenade",
             "(color:aqua)GENERAL",
             "kill azarian; start water animation before collecting loot",
@@ -302,8 +302,8 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-                            "(img:craft) after the seals, return by checkpoint; ignore off-route runes",
-                            "(img:skill) kill titan: aim grenades close so they stay in the arena",
+            "(img:craft) after the seals, return by checkpoint; ignore off-route runes",
+            "(img:skill) kill titan: aim grenades close so they stay in the arena",
             "(color:aqua)GENERAL",
             "collect the support + horn; portal to town and sound the horn",
             "(img:in-out2) travel to areaidg2_8 ;; deshar"
@@ -342,8 +342,8 @@
     [
         [
             "(color:ffcc00)GRENADE BUILD",
-            "azak-fire chest: lesser (img:jeweller)",
-            "(img:skill) explosive: deliberation; move magnified_area to gas",
+            "(img:jeweller) open the azak-fire chest for a lesser jeweller",
+            "(img:support) explosive_grenade: deliberation; gas_grenade: magnified_area",
             "(color:aqua)GENERAL",
             "(img:in-out2) enter areaidg3_town ;; ziggurat encampment"
         ],
@@ -357,13 +357,13 @@
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
+            "jungle grave: click the ravaged corpse; take servi's rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) Search the corpse on the ground to pick up the Corpse-Snake Venom",
-            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",            
+            "(img:quest_2) Go back to Ziggurat to get passive reward from Servi",
             "(hint)_ route recommends stun threshold",
             "(img:in-out2) go back to areaidg3_3 ;; jungle ruins"
         ],
@@ -382,15 +382,15 @@
             "Unlock Chaos trial (img:waypoint) and go back",
             "(img:skip) skip trial_of_chaos",
             "Kill the boss get the chaos item",
-            "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
+            "(img:in-out2) enter areaidg3_6_1 ;; jiquani's machinarium"
         ],
-         [
+        [
             "(color:ffcc00)GRENADE BUILD",
             "(img:skill) detour only for cores or blackjaw; pounce through blockages",
             "(color:aqua)GENERAL",
             "collect soul core; follow main corridor",
             "(img:quest_2) kill blackjaw for +10% fire resistance",
-            "(img:in-out2) enter areaidg3_6_2 ;; jiquani\u0027s sanctum"
+            "(img:in-out2) enter areaidg3_6_2 ;; jiquani's sanctum"
         ],
         [
             "(color:aqua)GENERAL",
@@ -410,7 +410,7 @@
             "kill boss for ghastly_spear + gemrot_skull",
             "trade spear to servi for thawing or staunching charm",
             "(img:in-out2) Go Back to areaidg3_2_2 ;; matlan waterways"
-        ],    
+        ],
         [
             "(color:aqua)GENERAL",
             "Find and pull the lever",
@@ -423,7 +423,7 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-            "if bombard is weak, use an abrasion/flames/electricity/ice essence",
+            "(img:craft) use a damage essence if the bombard_crossbow is weak",
             "(color:aqua)GENERAL",
             "activate waypoint for later",
             "(img:in-out2) enter areaidg3_9 ;; molten vault"
@@ -485,7 +485,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "run directly to areaidg4_2_2 ;; journey\u0027s end"
+            "run directly to areaidg4_2_2 ;; journey's end"
         ],
         [
             "(color:aqua)GENERAL",
@@ -497,7 +497,7 @@
         ],
         [
             "(color:ffcc00)GRENADE BUILD",
-            "search the outer walls for the fossilised formation: lesser (img:jeweller)",
+            "(img:jeweller) search the outer wall for the fossilised formation",
             "optional: (img:craft) blind_beast for greater rune",
             "(color:aqua)GENERAL",
             "(img:in-out2) enter areaidg4_1_2 ;; volcanic warrens"
@@ -615,7 +615,7 @@
             "(color:ffcc00)GRENADE BUILD",
             "(img:skill) activate all 6 stones; kill siora with flash-grenade stuns",
             "(color:aqua)GENERAL",
-            "wait for una\u0027s dialogue and the quest update",
+            "wait for una's dialogue and the quest update",
             "(img:in-out2) enter areaidp1_1 ;; scorched farmlands"
         ],
         [

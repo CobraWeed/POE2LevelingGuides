@@ -2,8 +2,8 @@
     [
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) start huntress: spear throw + whirling_slash; parry miller, then throw through the whirlwind",
-            "(hint)_ simple option: spear-stab while circling; the full combo is faster but less forgiving",
+            "(img:skill) start with spear_throw + whirling_slash; parry Miller, then throw through the whirlwind",
+            "(hint)_ safer option: circle Miller and use spear stabs",
             "(color:aqua)GENERAL",
             "fight the_bloated_miller across from the entrance",
             "(img:in-out2) enter areaidg1_town ;; clearfell encampment"
@@ -11,7 +11,7 @@
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) renly gem: cut twister; equip twister + whirling_slash",
-            "(img:skill) clear/boss: whirling_slash 2-3 times, then fire twister through the whirlwind",
+            "(img:skill) use whirling_slash 2-3 times, then fire twister through the whirlwind",
             "(hint)_ aim twisters along walls and bridges for repeated bounces",
             "(color:aqua)GENERAL",
             "(img:quest_2) renly:sell enough to buy talisman 33 gold",
@@ -20,7 +20,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) clearfell gem: take frost_bomb; use it for exposure and chilled ground on bosses",
+            "(img:skill) take frost_bomb for boss exposure and chilled ground",
             "(img:craft) check vendors for movement boots, flat attack damage, and better spears",
             "(color:aqua)GENERAL",
             "(hint)_ Use wolf form using dodge spam for fast movement",
@@ -44,21 +44,21 @@
             "(img:skill) rust king gem: take fangs_of_frost",
             "(hint)_ early boss setup: parry + fangs of frost for chilled ground, then whirlwind + twister",
             "(color:aqua)GENERAL",
-            "if bag is full, go back to town, sell \u0026 check vendors",
+            "if bag is full, go back to town, sell & check vendors",
             "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
             "(hint)_ Buy more scrolls of wisdoms if needed",
-            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne's flasks;",
             "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:craft) gear: set-1 spear = highest attack speed; set-2 spear = %phys/flat damage, then +projectile skills",
-            "(img:craft) rings/gloves: flat damage; boots: movement speed; other armour: life/resists/evasion",
+            "(img:craft) set 1: fastest spear; set 2: physical damage, then +projectile skills",
+            "(img:craft) seek flat damage, movement speed, life, resistances, and evasion",
             "(color:aqua)GENERAL",
             "(img:quest_2) renly: take runed_spikes",
-            "if bag is full, go back to town, sell \u0026 check vendors",
+            "if bag is full, go back to town, sell & check vendors",
             "identify rares, sell items, and clear inventory",
             "(hint)_ Buy more scrolls of wisdoms if needed",
             "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
@@ -100,7 +100,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "if bag is full, go back to town, sell \u0026 check vendors",
+            "if bag is full, go back to town, sell & check vendors",
             "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
             "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
@@ -109,7 +109,7 @@
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) at lvl 6 upgrade twister; never level whirling_slash",
-            "(hint)_ levelling whirling slash raises mana cost; its job is making stage-3 whirlwinds",
+            "(hint)_ keep whirling_slash at lvl 1 to limit its mana cost",
             "(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
             "(img:skill) kill draven: land grenades during ground-stab wave",
@@ -117,7 +117,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) lachlann gem: upgrade twister again; twister is always first gem-upgrade priority",
+            "(img:skill) use Lachlann's gem on twister; always upgrade twister first",
             "(color:aqua)GENERAL",
             "open the gates; ",
             "(hint)_ On SC only: respawn at the checkpoint to skip dialogue",
@@ -134,7 +134,7 @@
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) king in the mists spirit gem: take war_banner",
-            "(hint)_ use war banner on rares/bosses for more attack damage and attack speed",
+            "(hint)_ place war_banner on rares and bosses",
             "(color:aqua)GENERAL",
             "complete all 3 rituals; follow the purple trails to find them",
             "kill king_in_the_mists for +30 spirit and spirit gem",
@@ -154,7 +154,7 @@
             "(img:support) put frost_nexus on twister; chilled ground grants twisters extra cold damage",
             "(color:aqua)GENERAL",
             "(img:skill) upgrade skills",
-            "(img:quest_2) find una\u0027s_lute for 2 passives",
+            "(img:quest_2) find una's_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
         [
@@ -170,7 +170,7 @@
             "(img:skill) weapon sets: whirling_slash set 1; twister + ice_tipped_arrows set 2",
             "(hint)_ lock the spear/buckler to both sets until a dedicated fast set-1 spear is equipped",
             "(color:aqua)GENERAL",
-            "(img:quest_2) turn in una\u0027s_lute for 2 passives",
+            "(img:quest_2) turn in una's_lute for 2 passives",
             "(img:quest_2) give renly the smithing_tools to unlock the bench",
             "(img:waypoint) to areaidg1_13_2 ;; ogham village"
         ],
@@ -188,7 +188,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) geonor burst: build rage/glory; 3 slashes -\u003e ice-tipped -\u003e barrage -\u003e banner -\u003e twister",
+            "(img:skill) geonor burst: build rage/glory; 3 slashes -> ice-tipped -> barrage -> banner -> twister",
             "(hint)_ freezing lets twisters repeatedly hit while the boss cannot move",
             "(color:aqua)GENERAL",
             "kill candlemass for +20 max life",
@@ -207,8 +207,8 @@
     [
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) lvl 15-28 setup: slash 2-3x -\u003e ice_tipped_arrows -\u003e barrage as needed -\u003e twister",
-            "(hint)_ ice-tipped arrows must share weapon set 2 with twister or conversion will fail",
+            "(img:skill) lvl 15-28 setup: slash 2-3x -> ice_tipped_arrows -> barrage as needed -> twister",
+            "(hint)_ keep ice_tipped_arrows and twister on weapon set 2",
             "(color:aqua)GENERAL",
             "(img:skill) pounce across the cliff by targeting a mob near the boss",
             "(img:skill) Get tier-2 support from raided camp;",
@@ -234,24 +234,24 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:craft) vendor-check every town: movement boots, flat-damage rings/gloves, physical spear upgrades",
+            "(img:craft) check vendors for movement boots, flat damage, and physical spears",
             "(color:aqua)GENERAL",
             "talk to risu and asala; quick vendor check",
-            "(img:in-out2) travel to areaidg2_2 ;; traitor\u0027s passage"
+            "(img:in-out2) travel to areaidg2_2 ;; traitor's passage"
         ],
         [
             "(color:aqua)GENERAL",
             "(img:quest_2) kill balbala and take her trial relic",
             "(img:portal) portal to the caravan; talk to zarka to unlock trial_of_the_sekhemas",
             "(img:craft) augment the relic; dodge-roll distance is an excellent modifier",
-            "(img:quest_2) complete the trial; choose your build\u0027s ascendancy and spend the first 2 points",
-            "loot the lvl-6 skill chest before leaving traitor\u0027s passage",
+            "(img:quest_2) complete the trial; choose your build's ascendancy and spend the first 2 points",
+            "loot the lvl-6 skill chest before leaving traitor's passage",
             "(img:in-out2) enter areaidg2_3 ;; halani gates"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
             "(img:skill) halani reward: take freezing_mark; set it to weapon set 2",
-            "(hint)_ mark bosses before freezing for buildup and 30% damage gained as cold after activation",
+            "(hint)_ mark bosses before freezing for faster buildup and more cold damage",
             "(color:aqua)GENERAL",
             "wait for asala at the bridges; do not outrun her at the first bridge",
             "(hint)_ if stuck, respawn at checkpoint before bridge 2",
@@ -276,15 +276,15 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:support) spare support: rapid_casting for barrage; barrage may use set 1 for faster skill speed later",
+            "(img:support) barrage: rapid_casting; move it to set 1 later for more speed",
             "(color:aqua)GENERAL",
             "take support reward",
             "(img:in-out2) travel to areaidg2_4_1 ;; keth"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) use a lvl-7 gem on freezing_mark; keep it current for faster boss freezes",
-            "(hint)_ freezing mark is optional for clear but a large single-target boost",
+            "(img:skill) upgrade freezing_mark with a lvl-7 gem",
+            "(hint)_ use freezing_mark for single-target damage",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill kabala for 2 passives; loot guaranteed amulet",
             "kill snakes until +1 charm relic drops",
@@ -299,7 +299,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) boss rotation: freezing_mark + war_banner -\u003e ice-tipped -\u003e barrage -\u003e 3 slashes -\u003e twister",
+            "(img:skill) boss rotation: freezing_mark + war_banner -> ice-tipped -> barrage -> 3 slashes -> twister",
             "(color:aqua)GENERAL",
             "kill azarian; start water animation before collecting loot",
             "(img:in-out2) travel to areaidg2_6 ;; valley of the titans"
@@ -362,11 +362,11 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) silverfist points: specialize projectile/duration nodes into weapon set 2",
-            "(hint)_ specialize attack-speed nodes into set 1; ctrl+shift+right-click converts allocated nodes",
+            "(img:skill) put projectile and duration nodes on weapon set 2",
+            "(hint)_ put attack-speed nodes on set 1; Ctrl+Shift+right-click to convert nodes",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
+            "jungle grave: click the ravaged corpse; take servi's rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
@@ -394,7 +394,7 @@
             "Unlock Chaos trial (img:waypoint) and go back",
             "(img:skip) skip trial_of_chaos",
             "Kill the boss get the chaos item",
-            "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
+            "(img:in-out2) enter areaidg3_6_1 ;; jiquani's machinarium"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
@@ -403,7 +403,7 @@
             "(color:aqua)GENERAL",
             "collect soul core; follow main corridor",
             "(img:quest_2) kill blackjaw for +10% fire resistance",
-            "(img:in-out2) enter areaidg3_6_2 ;; jiquani\u0027s sanctum"
+            "(img:in-out2) enter areaidg3_6_2 ;; jiquani's sanctum"
         ],
         [
             "(color:aqua)GENERAL",
@@ -446,7 +446,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:craft) spear priority remains % increased physical / flat damage, then +projectile skill levels",
+            "(img:craft) spear priority: physical damage, then +projectile skill levels",
             "(color:aqua)GENERAL",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
@@ -464,7 +464,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:craft) keep attributes high enough to level twister; this build needs strength, dexterity and intelligence",
+            "(img:craft) maintain enough strength, dexterity, and intelligence to level twister",
             "(color:aqua)GENERAL",
             "upgrade/gamble gloves if needed; flat elemental damage is valuable",
             "floor 1: check far corner past central sun first",
@@ -505,7 +505,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "run directly to areaidg4_2_2 ;; journey\u0027s end"
+            "run directly to areaidg4_2_2 ;; journey's end"
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
@@ -610,7 +610,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) tavakai: freezing_mark -\u003e banner -\u003e 3 slashes -\u003e ice-tipped + barrage -\u003e twister burst",
+            "(img:skill) tavakai: freezing_mark -> banner -> 3 slashes -> ice-tipped + barrage -> twister burst",
             "(color:aqua)GENERAL",
             "kill tavakai: oil, gas, explosive timed for spawn; flash stun",
             "phase 2: hold corner; roll out/back during airborne spikes",
@@ -618,7 +618,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(hint)_ build is very squishy: keep moving and let long-duration twisters kill behind you",
+            "(hint)_ keep moving and let long-duration twisters kill behind you",
             "(color:aqua)GENERAL",
             "do interlude 2 first; it is the hardest",
             "use the act-tracker controls to select an interlude",
@@ -640,7 +640,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "wait for una\u0027s dialogue and the quest update",
+            "wait for una's dialogue and the quest update",
             "(img:in-out2) enter areaidp1_1 ;; scorched farmlands"
         ],
         [
@@ -682,7 +682,7 @@
     [
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) dangerous interlude: cast twisters ahead, keep moving, and avoid standing inside packs",
+            "(img:skill) cast twisters ahead and keep moving through dangerous packs",
             "(color:aqua)GENERAL",
             "recommended first: the lower zone level makes this hard interlude easier",
             "(img:in-out2) enter areaidp2_1 ;; khari crossing"
@@ -723,7 +723,8 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:support) tier-5 priorities: projectile_acceleration_III twister; rapid_attacks_III slash; charged_mark freezing_mark",
+            "(img:support) twister: projectile_acceleration_III; slash: rapid_attacks_III",
+            "(img:support) freezing_mark: charged_mark",
             "(color:aqua)GENERAL",
             "optional: vials in wells for high-tier currency",
             "kill asmadi",
@@ -758,7 +759,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) late boss loop stays the same: mark/banner -\u003e stage-3 whirlwind -\u003e ice-tipped/barrage -\u003e twister",
+            "(img:skill) late boss loop stays the same: mark/banner -> stage-3 whirlwind -> ice-tipped/barrage -> twister",
             "(color:aqua)GENERAL",
             "kill abominable_yeti; take tusks",
             "(img:quest_2) return tusks to hilda for 2 passives",
@@ -777,7 +778,7 @@
         ],
         [
             "(color:99ddff)HUNTRESS TWISTERS",
-            "(img:skill) maps handoff: continue GuyThatDies\u0027 twister huntress setup; keep whirling_slash lvl 1",
+            "(img:skill) maps handoff: continue the twister setup; keep whirling_slash at lvl 1",
             "(hint)_ final checklist: damage spear set 2, fast spear-only set 1, correct skill-set assignments",
             "(color:aqua)GENERAL",
             "finish the encounter; return to town and talk to the hooded one",

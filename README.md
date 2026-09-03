@@ -9,6 +9,7 @@ These JSON files are custom POE2 campaign guides Update **0.5** used for **Act-T
 | `Campaign Guide Generic.json`                  | Class-neutral campaign route           |
 | `Campaign Guide Grenade Build.json`            | Mercenary Grenade — **GuyThatDies**    |
 | `Campaign Guide Ice Shot Build.json`           | Ice Shot Deadeye — **FubGun**          |
+| `Campaign Guide Monk Build.json`               | Glacial Cascade Monk — **GuyThatDies** |
 | `Campaign Guide Mercenary Twisters Build.json` | Mercenary Twisters — **GuyThatDies**   |
 | `Campaign Guide Huntress Twisters Build.json`  | Huntress Twisters — **GuyThatDies**    |
 | `Campaign Guide Varashta Build.json`           | Disciple of Varashta — **GuyThatDies** |

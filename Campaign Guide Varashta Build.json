@@ -2,7 +2,7 @@
     [
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) start sorceress: use firebolt or spark for single-target damage; frost_bomb on bosses",
+            "(img:skill) start with firebolt or spark; use frost_bomb on bosses",
             "(hint)_ spark performs best when the boss is trapped near a wall",
             "(color:aqua)GENERAL",
             "fight the_bloated_miller across from the entrance",
@@ -11,7 +11,7 @@
         [
             "(color:99ddff)VARASHTA BUILD",
             "(img:skill) renly gem: take frost_bomb; clearfell gem: take contagion",
-            "(img:skill) early clear: contagion a pack, then kill the infected target with spark",
+            "(img:skill) clear: cast contagion, then kill the infected target with spark",
             "(color:aqua)GENERAL",
             "(img:quest_2) renly:sell enough to buy talisman 33 gold",
             "(hint)_ we use wolf form for fast movement",
@@ -42,20 +42,20 @@
             "(img:craft) after rust king, buy a withered_wand if no +level weapon dropped",
             "(hint)_ chaos_bolt weapon level matters and supports the upcoming essence-drain setup",
             "(color:aqua)GENERAL",
-            "if bag is full, go back to town, sell \u0026 check vendors",
+            "if bag is full, go back to town, sell & check vendors",
             "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
             "(hint)_ Buy more scrolls of wisdoms if needed",
-            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne\u0027s flasks;",
+            "(img:craft) (color:yellow)LEVEL: at lvl 4 equip areagne's flasks;",
             "(img:craft) clear (quest:3_obelisks) and collect (quest:3_runes)",
             "kill the_rust_king",
             "(img:portal) to areaidg1_town ;; clearfell encampment"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:craft) before ascending: prioritize +spell skills/damage/cast speed; then +minion skills",
+            "(img:craft) before ascending, prioritize +spell skills, damage, and cast speed",
             "(color:aqua)GENERAL",
             "(img:quest_2) renly: take runed_spikes",
-            "if bag is full, go back to town, sell \u0026 check vendors",
+            "if bag is full, go back to town, sell & check vendors",
             "identify rares, sell items, and clear inventory",
             "(hint)_ Buy more scrolls of wisdoms if needed",
             "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
@@ -74,8 +74,8 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) at lvl 6 take essence_drain; clear with contagion -\u003e essence drain",
-            "(hint)_ cast contagion first so death spreads both effects through the pack",
+            "(img:skill) at lvl 6 take essence_drain; clear with contagion -> essence drain",
+            "(hint)_ cast contagion first to spread both effects on death",
             "(color:aqua)GENERAL",
             "talk to una again; stand by the checkpoint to clear the blockage",
             "avoid exploding fungal-zombie corpses",
@@ -100,7 +100,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "if bag is full, go back to town, sell \u0026 check vendors",
+            "if bag is full, go back to town, sell & check vendors",
             "(hint)_ vendor check: flat-damage gloves and movement-speed boots",
             "(hint)_ check vendors for life, +skills, and stronger weapons",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
@@ -108,7 +108,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) lvl 6-13 boss: essence_drain -\u003e chaos_bolt 2-3 times until ED expires -\u003e repeat",
+            "(img:skill) lvl 6-13 boss: essence_drain -> chaos_bolt 2-3 times until ED expires -> repeat",
             "(color:aqua)GENERAL",
             "(color:yellow)LEVEL: reach lvl 7 before draven",
             "(img:skill) kill draven: land grenades during ground-stab wave",
@@ -125,7 +125,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "optional: (img:support) hunting-grounds dryadic ritual gives chain_I for essence_drain",
+            "optional: the dryadic ritual gives (img:support) chain_I for essence_drain",
             "(color:aqua)GENERAL",
             "(img:skill) engrave pounce",
             "kill crowbell for (quest:(book));",
@@ -149,10 +149,10 @@
         [
             "(color:99ddff)VARASHTA BUILD",
             "(img:skill) lvl 14: take orb_of_storms + ember_fusillade",
-            "(hint)_ orb of storms supplies infusions that greatly improve ember fusillade boss damage",
+            "(hint)_ orb_of_storms grants infusions for ember_fusillade",
             "(color:aqua)GENERAL",
             "(img:skill) upgrade skills",
-            "(img:quest_2) find una\u0027s_lute for 2 passives",
+            "(img:quest_2) find una's_lute for 2 passives",
             "enter (img:checkpoint) areaidg1_13_2 ;; ogham village"
         ],
         [
@@ -165,7 +165,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "(img:quest_2) turn in una\u0027s_lute for 2 passives",
+            "(img:quest_2) turn in una's_lute for 2 passives",
             "(img:quest_2) give renly the smithing_tools to unlock the bench",
             "(img:waypoint) to areaidg1_13_2 ;; ogham village"
         ],
@@ -183,7 +183,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) geonor: frost_bomb -\u003e orb_of_storms -\u003e ember_fusillade x7 -\u003e frost_bomb -\u003e repeat",
+            "(img:skill) geonor: frost_bomb -> orb_of_storms -> ember_fusillade x7 -> frost_bomb -> repeat",
             "(hint)_ enter act 2 with enough cold resistance and current life/mana flasks",
             "(color:aqua)GENERAL",
             "kill candlemass for +20 max life",
@@ -192,8 +192,8 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:craft) begin checking every vendor for +1 all_minion_skills on sceptre and helmet",
-            "(hint)_ +minion levels become the largest damage upgrade immediately after ascendancy",
+            "(img:craft) check every vendor for +1 minion skills on sceptres and helmets",
+            "(hint)_ +minion levels are the best upgrade after ascending",
             "(color:aqua)GENERAL",
             "(img:skill) act 1 done !",
             "(img:in-out2) enter areaidg2_1 ;; vastiri outskirts"
@@ -233,23 +233,23 @@
             "(img:craft) augment the relic; dodge-roll distance is an excellent modifier",
             "(color:aqua)GENERAL",
             "talk to risu and asala; quick vendor check",
-            "(img:in-out2) travel to areaidg2_2 ;; traitor\u0027s passage"
+            "(img:in-out2) travel to areaidg2_2 ;; traitor's passage"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) around lvl 19 complete trial_of_the_sekhemas and choose disciple_of_varashta",
+            "(img:skill) around lvl 19, complete the trial and choose disciple_of_varashta",
             "(img:skill) first ascendancy target: kelari_deception",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill balbala and take her trial relic",
             "(img:portal) portal to the caravan; talk to zarka to unlock trial_of_the_sekhemas",
             "(img:craft) augment the relic; dodge-roll distance is an excellent modifier",
-            "(img:quest_2) complete the trial; choose your build\u0027s ascendancy and spend the first 2 points",
-            "loot the lvl-6 skill chest before leaving traitor\u0027s passage",
+            "(img:quest_2) complete the trial; choose your build's ascendancy and spend the first 2 points",
+            "loot the lvl-6 skill chest before leaving traitor's passage",
             "(img:in-out2) enter areaidg2_3 ;; halani gates"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) pre-swap boss loop remains frost bomb -\u003e orb -\u003e 7 ember fusillades -\u003e repeat",
+            "(img:skill) pre-swap boss loop remains frost bomb -> orb -> 7 ember fusillades -> repeat",
             "(color:aqua)GENERAL",
             "wait for asala at the bridges; do not outrun her at the first bridge",
             "(hint)_ if stuck, respawn at checkpoint before bridge 2",
@@ -261,14 +261,14 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) varashta swap: clear with kelari_deception; use kelari_brutality while deception cools down",
+            "(img:skill) clear with kelari_deception; use kelari_brutality during cooldowns",
             "(color:aqua)GENERAL",
             "(img:in-out2) enter areaidg2_5_2 ;; bone pits"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
             "(img:craft) after ascending, prioritize +1 minion skills on sceptre/helmet over spell damage",
-            "(hint)_ if +1 is missing, a lvl-5 alt can gamble cheaper sceptres and helmets from finn",
+            "(hint)_ a lvl-5 alt can gamble cheaper sceptres and helmets from Finn",
             "(color:aqua)GENERAL",
             "kill hyenas until the relic drops; do not reset the checkpoint",
             "follow the entrance direction to the boss; stop using lvl-1 frost bomb",
@@ -297,7 +297,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) full boss loop: pounce -\u003e thunderstorm -\u003e brutality x2 -\u003e deception x3 -\u003e repeat",
+            "(img:skill) full boss loop: pounce -> thunderstorm -> brutality x2 -> deception x3 -> repeat",
             "(color:aqua)GENERAL",
             "kill azarian; start water animation before collecting loot",
             "(img:in-out2) travel to areaidg2_6 ;; valley of the titans"
@@ -318,7 +318,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) play around cooldowns: deception one-shots packs; brutality fills every gap",
+            "(img:skill) use deception on packs and brutality during its cooldown",
             "(color:aqua)GENERAL",
             "(img:quest_2) (color:yellow)LEVEL: reach lvl 24.5; take letter for 2 passives later",
             "(img:in-out2) enter areaidg2_9_2 ;; spires of deshar"
@@ -336,8 +336,8 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) jamanra: pounce mark -\u003e thunderstorm minions -\u003e brutality x2 -\u003e deception x3",
-            "(hint)_ keep moving during cooldowns; command again only when the safe opening returns",
+            "(img:skill) jamanra: pounce mark -> thunderstorm minions -> brutality x2 -> deception x3",
+            "(hint)_ keep moving during cooldowns; command again in a safe opening",
             "(color:aqua)GENERAL",
             "take both dreadnought zones carefully",
             "(color:yellow)LEVEL: reach lvl 28.5 before jamanra; farm if needed",
@@ -363,7 +363,7 @@
             "(img:skill) silverfist weapon-set points: follow minion/command-skill damage path from the build tree",
             "(color:aqua)GENERAL",
             "(img:quest_2) kill mighty_silverfist for 2 passives",
-            "jungle grave: click the ravaged corpse; take servi\u0027s rare belt",
+            "jungle grave: click the ravaged corpse; take servi's rare belt",
             "(img:in-out2) enter areaidg3_4 ;; venom crypts"
         ],
         [
@@ -385,12 +385,12 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) the first ascendancy is the main power spike; later points continue the kelari branch",
+            "(img:skill) continue the kelari branch with later ascendancy points",
             "(color:aqua)GENERAL",
             "Unlock Chaos trial (img:waypoint) and go back",
             "(img:skip) skip trial_of_chaos",
             "Kill the boss get the chaos item",
-            "(img:in-out2) enter areaidg3_6_1 ;; jiquani\u0027s machinarium"
+            "(img:in-out2) enter areaidg3_6_1 ;; jiquani's machinarium"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
@@ -398,7 +398,7 @@
             "(color:aqua)GENERAL",
             "collect soul core; follow main corridor",
             "(img:quest_2) kill blackjaw for +10% fire resistance",
-            "(img:in-out2) enter areaidg3_6_2 ;; jiquani\u0027s sanctum"
+            "(img:in-out2) enter areaidg3_6_2 ;; jiquani's sanctum"
         ],
         [
             "(color:aqua)GENERAL",
@@ -409,7 +409,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) clear ahead with kelari_deception; do not stand still waiting for packs to die",
+            "(img:skill) cast kelari_deception ahead and keep moving",
             "(color:aqua)GENERAL",
             "Keep going until you find Servi, go left to the next area",
             "(img:in-out2) enter areaidg3_7 ;; azak bog"
@@ -440,7 +440,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:craft) weapon/focus priority: +skills \u003e damage gained as \u003e increased damage \u003e cast speed \u003e crit",
+            "(img:craft) weapon/focus: +skills > gained damage > increased damage > cast speed > crit",
             "(color:aqua)GENERAL",
             "(img:portal) portal town: oswald unlocks reforging bench",
             "return to areaidg3_8 ;; drowned city"
@@ -480,7 +480,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) doryani: pounce -\u003e thunderstorm -\u003e brutality x2 -\u003e deception x3; circle during cooldowns",
+            "(img:skill) doryani: pounce -> thunderstorm -> brutality x2 -> deception x3; circle during cooldowns",
             "(color:aqua)GENERAL",
             "doryani opener: oil, gas, explosive timed for spawn; flash stun",
             "push 50% before lasers or focus on avoiding them",
@@ -498,7 +498,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "run directly to areaidg4_2_2 ;; journey\u0027s end"
+            "run directly to areaidg4_2_2 ;; journey's end"
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
@@ -540,7 +540,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) cooldown discipline: command, reposition, then command again; avoid face-tanking",
+            "(img:skill) command, reposition, then command again",
             "(color:aqua)GENERAL",
             "instill back_in_action with red/pink/yellow delirium currency",
             "(img:in-out2) sail to areaidg4_7 ;; shrike island"
@@ -603,7 +603,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) tavakai: pounce -\u003e thunderstorm -\u003e brutality x2 -\u003e deception x3; move during airborne phase",
+            "(img:skill) tavakai: pounce -> thunderstorm -> brutality x2 -> deception x3; move during airborne phase",
             "(color:aqua)GENERAL",
             "kill tavakai: oil, gas, explosive timed for spawn; flash stun",
             "phase 2: hold corner; roll out/back during airborne spikes",
@@ -611,7 +611,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(hint)_ varashta is strong but cooldown-based; enter interludes with capped resists and defensive gear",
+            "(hint)_ enter interludes with capped resistances and strong defenses",
             "(color:aqua)GENERAL",
             "do interlude 2 first; it is the hardest",
             "use the act-tracker controls to select an interlude",
@@ -633,7 +633,7 @@
         ],
         [
             "(color:aqua)GENERAL",
-            "wait for una\u0027s dialogue and the quest update",
+            "wait for una's dialogue and the quest update",
             "(img:in-out2) enter areaidp1_1 ;; scorched farmlands"
         ],
         [
@@ -675,7 +675,7 @@
     [
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) dangerous interlude: cast deception ahead; use brutality during cooldowns",
+            "(img:skill) cast deception ahead; use brutality during cooldowns",
             "(color:aqua)GENERAL",
             "recommended first: the lower zone level makes this hard interlude easier",
             "(img:in-out2) enter areaidp2_1 ;; khari crossing"
@@ -695,7 +695,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) later ascendancy points follow GuyThatDies\u0027 kelari path",
+            "(img:skill) use later ascendancy points on the kelari path",
             "(color:aqua)GENERAL",
             "find 2 baryas; place in outer-wall pedestals",
             "choose an amulet and ring; kill azarian for lvl-60 barya",
@@ -725,7 +725,7 @@
     [
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) mount-kriar clear: deception deletes packs; do not waste the boss setup on trash",
+            "(img:skill) clear with deception; save the boss setup for tough enemies",
             "(color:aqua)GENERAL",
             "mount-kriar route",
             "(img:in-out2) enter areaidp3_1 ;; ashen forest"
@@ -737,7 +737,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) lythara: pounce mark -\u003e thunderstorm -\u003e brutality x2 -\u003e deception x3",
+            "(img:skill) lythara: pounce mark -> thunderstorm -> brutality x2 -> deception x3",
             "(color:aqua)GENERAL",
             "kill lythara: stun around 50% and burst",
             "take gemcrust_skull for +40 spirit and a tier-14 spirit gem",
@@ -769,7 +769,7 @@
         ],
         [
             "(color:99ddff)VARASHTA BUILD",
-            "(img:skill) maps handoff: continue GuyThatDies\u0027 varashta setup; deception clear + full boss rotation",
+            "(img:skill) maps handoff: use deception for clear and the full rotation for bosses",
             "(hint)_ final checklist: +minion skills, kelari branch, capped resists and current command skills",
             "(color:aqua)GENERAL",
             "finish the encounter; return to town and talk to the hooded one",
