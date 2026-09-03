@@ -105,6 +105,71 @@
     button.control:hover { border-color: var(--gold); }
     #search { width: min(260px, 55vw); }
 
+    .featured-video {
+      display: grid;
+      grid-template-columns: 160px 1fr auto;
+      align-items: center;
+      gap: 18px;
+      margin: 20px 0 0;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: linear-gradient(110deg, #15191c, #0b0d0f);
+      color: var(--text);
+      text-decoration: none;
+      transition: border-color .15s, transform .15s, background .15s;
+    }
+
+    .featured-video:hover {
+      border-color: #df3d3d;
+      background: linear-gradient(110deg, #1b2024, #101214);
+      transform: translateY(-1px);
+    }
+
+    .featured-video img {
+      display: block;
+      width: 160px;
+      aspect-ratio: 16 / 9;
+      border-radius: 3px;
+      object-fit: cover;
+    }
+
+    .featured-video-copy { min-width: 0; }
+
+    .featured-video-kicker {
+      display: block;
+      margin-bottom: 5px;
+      color: #ff6b6b;
+      font: 700 11px Arial, sans-serif;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .featured-video-title {
+      display: block;
+      color: var(--gold);
+      font: 600 18px/1.25 Georgia, serif;
+    }
+
+    .featured-video-description {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font: 13px/1.45 Arial, sans-serif;
+    }
+
+    .featured-video-action {
+      padding: 9px 13px;
+      border: 1px solid #9e3030;
+      border-radius: 3px;
+      background: #391414;
+      color: #ffdede;
+      font: 600 12px Arial, sans-serif;
+      letter-spacing: .035em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
     .status {
       min-height: 24px;
       margin: 13px 0 0;
@@ -392,6 +457,14 @@
     }
 
     :root[data-theme="light"] header { border-bottom-color: #abc2c7; }
+    :root[data-theme="light"] .featured-video {
+      background: linear-gradient(110deg, #f9fdfe, #e3eef0);
+    }
+    :root[data-theme="light"] .featured-video:hover { background: #fff; }
+    :root[data-theme="light"] .featured-video-action {
+      background: #fff0f0;
+      color: #7d2020;
+    }
     :root[data-theme="light"] .control,
     :root[data-theme="light"] .guide-button { background: #f8fcfd; }
     :root[data-theme="light"] .guide-button { color: #3f575d; }
@@ -438,6 +511,9 @@
       .shell { width: min(100% - 20px, 1500px); padding-top: 20px; }
       header { align-items: stretch; flex-direction: column; }
       .toolbar { justify-content: flex-start; }
+      .featured-video { grid-template-columns: 112px 1fr; gap: 12px; }
+      .featured-video img { width: 112px; }
+      .featured-video-action { display: none; }
       .guide-grid { grid-template-columns: repeat(2, 1fr); }
       .act-grid { grid-template-columns: repeat(2, 1fr); }
       .pages { grid-template-columns: 1fr; padding: 9px; }
@@ -458,6 +534,16 @@
         <button id="reset" class="control" type="button">Reset progress</button>
       </div>
     </header>
+
+    <a class="featured-video" href="https://www.youtube.com/watch?v=xWxvHUTvjLc" target="_blank" rel="noopener noreferrer" aria-label="Watch How to Reach Endgame in 5 Hours by WeedTheSculptor on YouTube (opens in a new tab)">
+      <img src="https://i.ytimg.com/vi/xWxvHUTvjLc/hqdefault.jpg" alt="How to Reach Endgame in 5 Hours video thumbnail" width="160" height="90">
+      <span class="featured-video-copy">
+        <span class="featured-video-kicker">Featured campaign video</span>
+        <span class="featured-video-title">How to Reach Endgame in 5 Hours</span>
+        <span class="featured-video-description">Watch WeedTheSculptor's fast PoE 2 campaign walkthrough, then choose a build guide below to follow along.</span>
+      </span>
+      <span class="featured-video-action" aria-hidden="true">Watch on YouTube ↗</span>
+    </a>
 
     <h2 class="guide-selection-title">Choose your build guide:</h2>
     <nav id="guideGrid" class="guide-grid" aria-label="Available build guides"></nav>
